@@ -16,3 +16,11 @@ wp-content/plugins/hello.php
 /sitemap.xml
 /sitemap.xml.gz
 
+.idea/
+
+/wp-content/updraft/
+/wp-content/wflogs/
+/wp-content/wfcache/
+/wp-content/wfcache/
+/wp-content/wfcache/
+

@@ -1,0 +1,169 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "931f56cb09266580e6ee25c07195beed",
+    "content-hash": "178e95a25ce4467f191024f0a677b2df",
+    "packages": [
+        {
+            "name": "ifsnop/mysqldump-php",
+            "version": "v2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ifsnop/mysqldump-php.git",
+                "reference": "701024dd160f15796bed8130c3bdeb26c634785a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ifsnop/mysqldump-php/zipball/701024dd160f15796bed8130c3bdeb26c634785a",
+                "reference": "701024dd160f15796bed8130c3bdeb26c634785a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*",
+                "squizlabs/php_codesniffer": "1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ifsnop\\": "src/Ifsnop/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Diego Torres",
+                    "homepage": "https://github.com/ifsnop",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This is a php version of linux's mysqldump in terminal \"$ mysqldump -u username -p...\"",
+            "homepage": "https://github.com/ifsnop/mysqldump-php",
+            "keywords": [
+                "backup",
+                "database",
+                "dump",
+                "export",
+                "mysql",
+                "mysqldump",
+                "pdo",
+                "sqlite"
+            ],
+            "time": "2015-10-19 15:58:11"
+        },
+        {
+            "name": "symfony/finder",
+            "version": "v2.8.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/finder.git",
+                "reference": "60804d88691e4a73bbbb3035eb1d9f075c5c2c10"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/60804d88691e4a73bbbb3035eb1d9f075c5c2c10",
+                "reference": "60804d88691e4a73bbbb3035eb1d9f075c5c2c10",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.8-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Finder\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Finder Component",
+            "homepage": "https://symfony.com",
+            "time": "2016-07-26 08:02:44"
+        },
+        {
+            "name": "symfony/process",
+            "version": "v2.8.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/process.git",
+                "reference": "d20332e43e8774ff8870b394f3dd6020cc7f8e0c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/process/zipball/d20332e43e8774ff8870b394f3dd6020cc7f8e0c",
+                "reference": "d20332e43e8774ff8870b394f3dd6020cc7f8e0c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.8-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Process\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Process Component",
+            "homepage": "https://symfony.com",
+            "time": "2016-07-28 11:13:19"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
