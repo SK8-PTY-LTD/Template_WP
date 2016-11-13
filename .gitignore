@@ -24,3 +24,5 @@ wp-content/plugins/hello.php
 /wp-content/wfcache/
 /wp-content/wfcache/
 
+.DS_Store
+
