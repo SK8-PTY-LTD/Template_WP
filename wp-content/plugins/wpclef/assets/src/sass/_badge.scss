@@ -1,0 +1,28 @@
+
+/******************************
+Styles
+*********************************/
+.clef-badge-prompt {
+    * {
+        box-sizing: border-box;
+    }
+
+    position: relative;
+    min-height: 170px;
+   .link-fade {
+        display: none;
+   } 
+
+   .dismiss {
+        position: absolute;
+        top: 5px;
+        right: 10px;
+        font-weight: bold;
+        color: #AAA;
+        font-size: 20px;
+        &:hover {
+            color: #888;
+        }
+   }
+}
+

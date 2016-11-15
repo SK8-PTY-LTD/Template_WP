@@ -1,0 +1,19 @@
+@mixin highlight($color, $trans:0.4) {
+    color: white;
+    font-weight: bold;
+    background: transparentize($color, $trans);
+    &:hover {
+        background: $color;
+    }
+}
+
+@mixin widget-border() {
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    border: 1px solid #e5e5e5;
+}
+
+@mixin widget() {
+    @include widget-border();
+    background: white;
+    padding: 20px 25px;
+}
