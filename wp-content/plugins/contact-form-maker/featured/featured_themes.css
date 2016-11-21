@@ -1,0 +1,178 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+	#main_featured_themes_page #featured-themes-list {
+			position:relative;
+			margin:0px auto;
+			height:auto;
+			display:table;
+			list-style:none;
+			text-align: center;
+			width: 100%;
+	}
+	#main_featured_themes_page #featured-themes-list li {
+			display: inline-table;
+			width: 300px;
+			margin: 20px 10px 0px 10px;
+			background: #FFFFFF;
+			border-right: 3px solid #E5E5E5;
+			border-bottom: 3px solid #E5E5E5;
+			position: relative;
+	}
+	@media screen and (min-width: 1600px) {
+		#main_featured_themes_page #featured-themes-list li {
+			width:400px;
+		}
+
+	}
+	#main_featured_themes_page .theme_img img {
+			max-width: 100%;
+	}
+	#main_featured_themes_page .theme_img {
+			display: inline-block;
+			overflow: hidden;
+			outline: 1px solid #D6D1D1;
+			position:relative;
+			/*height: 168px;	*/
+	}
+	#main_featured_themes_page #featured-themes-list li  .title {
+			width: 91%;
+			text-align: center;
+			margin: 0 auto;
+	}
+	#main_featured_themes_page {
+			font-family: Oswald;
+	}
+	#main_featured_themes_page #featured-themes-list li  .title  .heading {
+			display: block;
+			position: relative;
+			font-size: 17px;
+			color: #666666;
+			margin: 13px 0px 13px 0px;
+			text-transform: uppercase;
+	}
+	#main_featured_themes_page #featured-themes-list li  .title  p {
+			font-size:14px;
+			color:#444;
+			margin-left:20px;
+	}
+	#main_featured_themes_page #featured-themes-list li  .description {
+			height:130px;
+			width: 90%;
+			margin: 0 auto;
+	}
+	#main_featured_themes_page #featured-themes-list li  .description  p {
+			text-align: center;
+			width: 100%;
+			color: #666666;
+			font-family: "Open Sans",sans-serif;
+			font-size: 14px;
+	}
+	#main_featured_themes_page #featured-themes-list li .links {
+			border-top: 1px solid #d8d8d8;
+			width: 90%;
+			margin: 0 auto;
+			font-size: 14px;
+			line-height: 40px;
+			font-weight: bolder;
+			text-align: center;
+			padding-top: 9px;
+			padding-bottom: 12px;
+	}
+	#main_featured_themes_page .page_header h1 {
+			margin: 0px;
+			font-family: Segoe UI;
+			padding-bottom: 15px;
+			color: rgb(111, 111, 111);
+			font-size: 24px;
+			text-align:center;
+	}
+	#main_featured_themes_page .page_header {
+			height: 40px;
+			padding: 22px 0px 0px 0px;
+			margin-bottom: 15px;
+			/*border-bottom: rgb(111, 111, 111) solid 1px;*/
+	}
+	#main_featured_themes_page #featured-themes-list li a {
+			outline: none;
+			line-height: 29px;
+			text-decoration: none;
+			color: #134d68;
+			font-family: "Open Sans",sans-serif;
+			text-shadow: 1px 0;
+			display: inline-block;
+			font-size: 15px;
+	}
+	#main_featured_themes_page #featured-themes-list li a.demo {
+			color: #ffffff;
+			background: #F47629;
+			border-radius: 3px;
+			width: 76px;
+			text-align:center;
+		margin-right: 12px;
+	}
+	#main_featured_themes_page .featured_header{
+    background: #11465F;
+    border-right: 3px solid #E5E5E5;
+    border-bottom: 3px solid #E5E5E5;
+    position: relative;
+    padding: 20px 0;
+	}
+	#main_featured_themes_page .featured_header .try-now {
+    text-align: center;
+  }
+	#main_featured_themes_page .featured_header .try-now span {
+    display: inline-block;
+    padding: 7px 16px;
+    background: #F47629;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 23px;
+  }
+	#main_featured_themes_page .featured_container {
+			position: relative;
+			width: 90%;
+			margin: 15px auto 0px auto;
+	}
+	#main_featured_themes_page .featured_container .old_price{
+			color: rgba(180, 180, 180, 0.3);
+			text-decoration: line-through;
+			font-family: Oswald;
+	}
+	#main_featured_themes_page .featured_container .get_themes{
+			color: #FFFFFF;
+			height: 85px;
+			margin: 0;
+			background-size: 95% 100%;
+			background-position: center;
+			line-height: 60px;
+			font-size: 45px;
+			text-align: center;
+			letter-spacing: 3px;
+	}
+	#main_featured_themes_page .featured_header h1{
+			font-size: 45px;
+			text-align: center;
+			color: #ffffff;
+			letter-spacing: 3px;
+			line-height: 10px;
+	}
+	#main_featured_themes_page .featured_header a{
+			text-decoration: none;
+	}
+	@media screen and (max-width: 1035px) {
+			#main_featured_themes_page .featured_header h1{
+					font-size: 37px;
+					line-height: 0;
+			}
+	}
+	@media screen and (max-width: 835px) {
+			#main_featured_themes_page .get_themes span{
+					display: none;
+			}
+	}
+	@media screen and (max-width: 435px) {	
+			#main_featured_themes_page .featured_header h1 {
+					font-size: 20px;
+					line-height: 17px;
+			}
+	}

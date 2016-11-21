@@ -1,0 +1,3 @@
+<?php
+
+# Silence of gold.

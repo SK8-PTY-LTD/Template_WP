@@ -1,0 +1,105 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-10-03 09:01+0100\n"
+"PO-Revision-Date: 2014-10-03 09:02+0100\n"
+"Last-Translator: Antonio Muñoz <mail@eezirent.net>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../car-rental-booking-engine-hispacar.php:74
+msgid "Widget Title"
+msgstr "Título del widget"
+
+#: ../car-rental-booking-engine-hispacar.php:138
+msgid "Settings"
+msgstr "Ajustes"
+
+#: ../car-rental-booking-engine-hispacar.php:167
+msgid "Car Rental Booking Engine by Hispacar Settings"
+msgstr "Ajustes de Car Rental Booking Engine by Hispacar"
+
+#: ../car-rental-booking-engine-hispacar.php:175
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#: ../car-rental-booking-engine-hispacar.php:191
+msgid "Title"
+msgstr "Titulo"
+
+#: ../car-rental-booking-engine-hispacar.php:192
+msgid "Affiliate ID"
+msgstr "Affiliate ID"
+
+#: ../car-rental-booking-engine-hispacar.php:193
+msgid "Search box language"
+msgstr "Idioma del buscador"
+
+#: ../car-rental-booking-engine-hispacar.php:194
+msgid "Default location id (optional)"
+msgstr "Id de localidad por defecto"
+
+#: ../car-rental-booking-engine-hispacar.php:195
+msgid "Width"
+msgstr "Ancho"
+
+#: ../car-rental-booking-engine-hispacar.php:196
+msgid "Foreground color"
+msgstr "Color principal"
+
+#: ../car-rental-booking-engine-hispacar.php:197
+msgid "Background color"
+msgstr "Color de fondo"
+
+#: ../car-rental-booking-engine-hispacar.php:198
+msgid "Button color"
+msgstr "Color del botón"
+
+#: ../car-rental-booking-engine-hispacar.php:199
+msgid "Button text color"
+msgstr "Color de texto del botón"
+
+#: ../car-rental-booking-engine-hispacar.php:200
+msgid "Border width"
+msgstr "Ancho del borde"
+
+#: ../car-rental-booking-engine-hispacar.php:201
+msgid "Border radius"
+msgstr "Radio del borde"
+
+#: ../car-rental-booking-engine-hispacar.php:223
+msgid "How do I get one?"
+msgstr "¿Cómo conseguir uno?"
+
+#: ../car-rental-booking-engine-hispacar.php:243
+msgid "Help me find the id"
+msgstr "Ayúdame a encontrar el id"
+
+#: ../car-rental-booking-engine-hispacar.php:255
+#: ../car-rental-booking-engine-hispacar.php:261
+#: ../car-rental-booking-engine-hispacar.php:267
+#: ../car-rental-booking-engine-hispacar.php:272
+msgid "Help me find the color code"
+msgstr "Ayúdame a encontrar el código de color"
+
+#~ msgid "Text:"
+#~ msgstr "Texto:"
+
+#~ msgid "Textarea:"
+#~ msgstr "Textarea:"
+
+#~ msgid "Options relating to the Custom Plugin"
+#~ msgstr "Opciones del plugin"
+
+#~ msgid "Main Settings"
+#~ msgstr "Ajustes principales"
+
+#~ msgid "Main description of this section here"
+#~ msgstr "Descripción principal aquí"

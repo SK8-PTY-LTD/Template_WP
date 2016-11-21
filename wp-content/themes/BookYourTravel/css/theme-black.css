@@ -1,0 +1,111 @@
+a,
+.details .description a,
+.widget a:hover,
+.widget a:focus,
+.details .description a,
+.entry-meta span a:hover,
+.entry-meta span a:focus,
+.entry-header h2 a:hover,
+.entry-header h2 a:focus,
+.widget .product-categories .children a:hover,
+.widget .product-categories .children a:focus,
+.widget .product-categories .children .current-cat a,
+.current-cat.cat-parent a,.current-cat-parent a,
+.widget ul.product_list_widget .product-title,
+.widget_shopping_cart_content .wc-forward,
+.tab-content h4,
+.tab-content h2 a:hover,
+.tab-content h2 a:focus,
+.tab-content h3 a:hover,
+.tab-content h3 a:focus,
+.home-footer-sidebar .widget > div h4,
+.byt_address_widget em,
+.tab-content .room-types .meta h3	{color:#222;}
+
+ul > li:before,
+.ico:before {color:#333;}
+
+.social li a:hover,
+.social li a:focus,
+.contact:before,
+.header .ribbon,
+.header #lang_sel li,
+.header #lang_sel_click li,
+.location_item .ribbon:focus,
+.location_item .ribbon:hover,
+.view-type .active,
+.inner-nav li:hover,
+.inner-nav li.active,
+.inner-nav li.active:hover,
+.inner-nav li.current-menu-item,
+.inner-nav li.current-menu-item:hover,
+.chart dd span,
+.infoBox,
+.lb-wrap,
+.ui-slider-horizontal .ui-slider-handle,
+.pager .current,
+.pager a:hover     		{background:#333;}
+
+.header .ribbon:before,
+.descending:hover:before,
+.descending:focus:before,
+.infoBox:after 		{border-color:#333 transparent transparent transparent;}
+
+.header .ribbon:after 				{border-color: transparent #333 transparent transparent;}
+
+.ascending:hover:before,
+.ascending:focus:before			{border-color: transparent transparent #333 transparent;}
+
+.inner-nav li.active a:after,
+.inner-nav li.current-menu-item a:after		{border-color: transparent transparent transparent #333;}
+
+.ball,
+.ball1 {border: 10px solid #333;}
+
+.gradient-button,.wpcf7-submit,.form-submit #submit,
+button, input[type="button"], input[type="reset"], input[type="submit"],.scroll-to-top,.testimonials,
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button,
+.ui-datepicker .ui-state-hover, 							
+.ui-datepicker .dp-highlight a,						
+.ui-datepicker .dp-highlight span
+{
+	background: #333;
+	background: -moz-linear-gradient(top, #333 0%, #222 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#333), color-stop(100%,#222));
+	background: -webkit-linear-gradient(top, #333 0%,#222 100%);
+	background: -o-linear-gradient(top, #333 0%,#222 100%);
+	background: -ms-linear-gradient(top, #333 0%,#222 100%);
+	background: linear-gradient(to bottom, #333 0%,#222 100%);
+}
+
+.gradient-button:hover,.wpcf7-submit:hover,.form-submit #submit:hover,
+button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover,.scroll-to-top:hover,.scroll-to-top:focus,
+.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover,
+.woocommerce #respond input#submit:focus, .woocommerce a.button:focus, .woocommerce button.button:focus, .woocommerce input.button:focus
+ 
+{
+	background: #222;
+	background: -moz-linear-gradient(top, #222 0%, #333 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#222), color-stop(100%,#333));
+	background: -webkit-linear-gradient(top, #222 0%,#333 100%);
+	background: -o-linear-gradient(top, #222 0%,#333 100%);
+	background: -ms-linear-gradient(top, #222 0%,#333 100%);
+	background: linear-gradient(to bottom, #222 0%,#333 100%);
+}
+
+.scroll-to-top:before 			{border-color: transparent transparent #333 transparent;}
+.scroll-to-top:hover:before	{border-color: transparent transparent #222 transparent;}
+
+.image-overlay:before {background:rgba(34, 34, 34, 0.9);}
+
+body {background-image:url(../images/backgrounds/wild_oliva.png);}
+
+h1,.s-title h2,.breadcrumbs li,.breadcrumbs li a {color:#fff;}
+
+.breadcrumbs ul 		{border-bottom:1px solid rgba(0, 0, 0, 0.9);-webkit-box-shadow:0 1px 0 rgba(255, 255, 255, 0.15);-moz-box-shadow:0 1px 0 rgba(255, 255, 255, 0.15);box-shadow:0 1px 0 rgba(255, 255, 255, 0.15);}
+.breadcrumbs li a 	{border-right:1px solid rgba(0, 0, 0, 0.9);-webkit-box-shadow:1px 0 0 rgba(255, 255, 255, 0.15);-moz-box-shadow:2px 0 0 rgba(255, 255, 255, 0.15);box-shadow:2px 0 0 rgba(255, 255, 255, 0.15);}
+
+.s-title h2,
+.home-footer-sidebar,
+.above-footer-sidebar,
+.bottom-nav {border-top:1px solid rgba(255, 255, 255, 0.15);-webkit-box-shadow:0 -1px 0 rgba(0, 0, 0, 0.9);-moz-box-shadow:0 -1px 0 rgba(0, 0, 0, 0.9);box-shadow:0 -1px 0 rgba(0, 0, 0, 0.9);}

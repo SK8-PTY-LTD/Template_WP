@@ -1,0 +1,239 @@
+/*************************************************************************************************
+								NEWLY ADDED OR OVERRIDING
+**************************************************************************************************/
+
+.home-photo-section
+{
+    margin-top: -45px;
+}
+
+.adventure-select h1,
+.adventure-select p
+{
+    color: #fff;
+}
+.about-video-bg{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 85%;
+    height: 125%;
+    overflow: hidden;
+}
+
+.text-uppercase .tab-bg .mission{
+    background: url('http://freshjourney.com.au/wp-content/uploads/2016/11/cafe.jpg') no-repeat;
+
+}
+
+.about-video-bg:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 80%;
+    background-size: cover;
+    background: url('http://freshjourney.com.au/wp-content/uploads/2016/11/cafe.jpg') no-repeat;
+    opacity: 1;
+    visibility: visible;
+    transition: all .2s ease-in-out;
+}
+.adventure-list.experience img
+{
+    border-radius: 4px;
+}
+.adventure-list .overlay-lnk{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    background: rgba(51, 51, 51, 0.3);
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    border-radius: 4px;
+}
+.adventure-list .overlay-lnk h3{
+    font-size: 33px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-family: "Montserrat", Microsoft JhengHei, sans-serif;
+}
+.author-quote h3:first-of-type{
+    padding: 52px 53px;
+    line-height: 36px;
+    margin: 0;
+    background: #000;
+    color: #fff;
+    letter-spacing: 4px;
+    font-weight: 900;
+}
+.author-quote hr {
+    margin-top: 10px;
+    margin-bottom: 45px;
+    border-top: 10px solid #000;
+}
+.author-quote:after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    border: 10px solid #000;
+}
+/*
+.adventure-list li a {
+    position: relative;
+    background: #fff;
+    padding: 10px;
+    display: block;
+    transition: all 0.3s ease-in-out;
+}
+.adventure-list li{
+    width: 270px;
+    height: 270px;
+    margin-right: 15.5px;
+    margin-bottom: -14.4px;
+}
+*/
+.adventure-list a:hover .overlay-lnk {
+    background: #fff;
+    color: #000;
+}
+.adventure-list .overlay-lnk:before{
+    border-top: 10px solid #000;
+    border-bottom: 10px solid #000;
+}
+.adventure-list .overlay-lnk:after {
+    border-right: 10px solid #000;
+    border-left: 10px solid #000;
+}
+section.about
+{
+    background: #fff;
+    height: 645px;
+}
+
+
+.about-description
+{
+    height: auto;
+    padding: 50px 0 50px 0;
+    margin-top: 60px;
+}
+.about-description h1 {
+    display: inline-block;
+    margin: 23px 0 5px 0;
+    letter-spacing: 0px;
+    padding: 0 50px 8px 50px;
+    border-bottom: 0px solid #d24858;
+}
+.about-description span {
+    margin-bottom: 15px;
+    color: #d24858;
+    font-style: italic;
+}
+.about-description .play-btn {
+    position: relative;
+    width: 250px;
+    height: auto;
+    background: #d24858;
+    border-radius: 2px;
+    border: 2px solid #d24858;
+    color: #fff;
+    font-size: 10px;
+    letter-spacing: 2px;
+    font-weight: 900;
+    line-height: 30px;
+    z-index: 9;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.about-red-bg {
+    background-color: #d24858;
+    height: inherit;
+    width: 33%;
+    position: absolute;
+    margin-left: 67%;
+    overflow: hidden;
+}
+.home-recent-blog h2
+{
+    margin-top: 2px;
+    font-size: 14px;
+}
+.home-recent-blog
+{
+    color: #fff;
+    background: #d24858;
+}
+.home-blog-description h2 {
+    display: inline-block;
+    margin-left: 15px;
+    vertical-align: bottom;
+}
+.home-blog-description span {
+    margin-top: 8px;
+    color: #d24858;
+}
+.home-blog-description h5 {
+    margin-top: 15px;
+}
+
+.team-member {
+    position: relative;
+    background: transparent;
+    transition: all 0.2s ease-in-out;
+    color: #555;
+    overflow: hidden;
+    height: auto;
+}
+.member-socials {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0px;
+    padding: 70px 0;
+    background: #444;
+    margin: 0;
+    opacity: 0;
+    margin-left: -100%;
+    transition: opacity 0.1s ease-in-out, margin-left 0.2s ease-in-out;
+}
+
+/*************************************************************************************************
+								OVERRIDING js composer override
+**************************************************************************************************/
+
+.author-quote i.icon-override-vc {
+    font-size: 60px !important;
+    color: #d24858 !important;
+    display: inline-block !important;
+    float: left !important;
+    margin-right: 30px !important;
+    line-height: 72px !important;
+}
+.adventure-list .overlay-lnk i.icon-override-vc{
+    font-size: 35px !important;
+    display: inline-block !important;
+    margin-top: 20px !important;
+}
+.about-description i.icon-override-vc{
+    font-size: 60px !important;
+    color: #d24858 !important;
+    display: block !important;
+}
+.home-blog-description i.icon-override-vc{
+    font-size: 50px !important;
+    color: #d24858 !important;
+    display: inline !important;
+}
+.adventure-list.experience .overlay-lnk i.icon-override-vc{margin-top: 0 !important;}
+.section-intro i.icon-override-vc{
+    position: relative !important;
+    font-size: 60px !important;
+    color: #d24858 !important;
+    z-index: 1 !important;
+}

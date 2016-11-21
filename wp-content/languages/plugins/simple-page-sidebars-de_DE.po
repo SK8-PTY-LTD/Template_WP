@@ -1,0 +1,142 @@
+# Translation of Development (trunk) in German
+# This file is distributed under the same license as the Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-09-28 21:17:48+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Project-Id-Version: Development (trunk)\n"
+
+#: admin/admin.php:71 admin/admin.php:247 admin/admin.php:328
+#: admin/views/meta-box-page-sidebar.php:11
+msgid "Default Sidebar"
+msgstr "Standard Sidebar"
+
+#: admin/admin.php:103
+msgid "The sidebar that should be replaced by custom sidebars."
+msgstr "Die Sidebar, die durch eine  Benutzerdefinierte ersetzt werden soll."
+
+#: admin/admin.php:114 admin/admin.php:182 admin/admin.php:245
+#: admin/admin.php:325
+msgid "Sidebar"
+msgstr "Seitenleiste"
+
+#: admin/admin.php:327
+msgid "&mdash; No Change &mdash;"
+msgstr "&mdash; Keine Änderung &mdash;"
+
+#: admin/admin.php:395 admin/views/edit-sidebar-screen.php:3
+msgid "Edit Sidebar"
+msgstr "Sidebar bearbeiten"
+
+#: admin/admin.php:534
+msgid "The sidebar you were editing is no longer assigned to any pages and has been removed. Any widgets it contained should be in an \"Inactive Widgets\" area below."
+msgstr "Die Seitenleiste, die berabeitet werden soll, ist keiner Seite zugeordnet und wurde entfernt. Widgets, die enthalten waren, sollten sich unter \"Inaktive Widgets\" befinden."
+
+#: admin/admin.php:621
+msgid "For Simple Page Sidebars to work, a default sidebar needs to be selected on the %s"
+msgstr "Damit Simple Page Sidebars funktioniert, muss zuerst in %s eine Standard-Sidebar festgelegt werden."
+
+#: admin/admin.php:622
+msgid "Reading settings screen"
+msgstr "Leseeinstellungs-Bildschirm"
+
+#: admin/views/edit-sidebar-screen.php:13
+msgid "Whoops, that doesn't appear to be a sidebar that can be edited."
+msgstr "Hoppla, dies scheint keine editierbare Sidebar zu sein."
+
+#: admin/views/edit-sidebar-screen.php:26
+msgid "Sidebar settings updated."
+msgstr "Sidebar-Einstellungen aktualisiert."
+
+#: admin/views/edit-sidebar-screen.php:27
+#: admin/views/meta-box-page-sidebar.php:4
+msgid "Update widgets now."
+msgstr "Widgets jetzt aktualisieren."
+
+#: admin/views/edit-sidebar-screen.php:49
+msgid "Sidebar Name:"
+msgstr "Sidebar Name:"
+
+#: admin/views/edit-sidebar-screen.php:50
+msgid "Enter sidebar name here"
+msgstr "Namen der Sidebar hier eingeben"
+
+#: admin/views/edit-sidebar-screen.php:62
+msgid "Update Sidebar"
+msgstr "Sidebar aktualisieren"
+
+#: admin/views/meta-box-page-sidebar.php:3
+msgid "Sidebar saved."
+msgstr "Sidebar gespeichert."
+
+#: admin/views/meta-box-page-sidebar.php:9
+msgid "Current sidebar:"
+msgstr "Aktuelle Sidebar:"
+
+#: admin/views/meta-box-page-sidebar.php:23
+msgid "Or create a new sidebar:"
+msgstr "Oder eine neue Sidebar erstellen:"
+
+#: admin/views/meta-box-page-sidebar.php:26
+msgid "Enter New"
+msgstr "Neu eingeben"
+
+#: admin/views/meta-box-page-sidebar.php:27
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: admin/views/meta-box-page-sidebar.php:32
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: admin/views/meta-box-sidebar-pages.php:4
+msgid "The above sidebar will replace the \"<strong>%s</strong>\" sidebar for all pages selected below."
+msgstr "Die obige Sidebar wird die \"<strong>%s</strong>\" Sidebar für alle unten ausgewählte Seiten ersetzen."
+
+#: admin/views/meta-box-sidebar-pages.php:6
+msgid "Any currently assigned custom sidebars will also be overridden for the selected pages."
+msgstr "Alle aktuell zugewiesenen benutzerdefinierten Sidebars werden auch für die ausgewählten Seiten überschrieben."
+
+#: admin/views/meta-box-sidebar-pages.php:33
+msgid "To delete this sidebar, simply uncheck all pages and click the \"Update Sidebar\" button."
+msgstr "Um diese Sidbar zu löschen, einfach alle Seiten deaktivieren und auf die Schaltfläche \"Sidebar aktualisieren\" klicken."
+
+#: includes/widget-area.php:18
+msgid "Include all widgets from another widget area"
+msgstr "Alle Widgets einer anderen Sidebar einbetten"
+
+#: includes/widget-area.php:22
+msgid "Widget Area"
+msgstr "Widget-Bereich"
+
+#: includes/widget-area.php:62
+msgid "Title:"
+msgstr "Titel:"
+
+#: includes/widget-area.php:66
+msgid "Area Name:"
+msgstr "Bereichsname:"
+
+#. Plugin Name of the plugin/theme
+msgid "Simple Page Sidebars"
+msgstr "Simple Page Sidebars"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/simple-page-sidebars/"
+msgstr "https://wordpress.org/plugins/simple-page-sidebars/"
+
+#. Description of the plugin/theme
+msgid "Assign custom, widget-enabled sidebars to any page with ease."
+msgstr "Mit Leichtigkeit benutzerdefinierte, widgetfähige Sidebars zu einer beliebigen Seite hinzufügen."
+
+#. Author of the plugin/theme
+msgid "Cedaro"
+msgstr "Cedaro"
+
+#. Author URI of the plugin/theme
+msgid "http://www.cedaro.com/?utm_source=wordpress-plugin&utm_medium=link&utm_content=simple-page-sidebars-author-uri&utm_campaign=plugins"
+msgstr "http://www.cedaro.com/?utm_source=wordpress-plugin&utm_medium=link&utm_content=simple-page-sidebars-author-uri&utm_campaign=plugins"

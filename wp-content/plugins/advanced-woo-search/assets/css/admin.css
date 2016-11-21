@@ -1,0 +1,83 @@
+.sortable-container {
+    width: 200px;
+    padding: 0;
+    float: left;
+    margin-right: 10px;
+}
+
+.sortable-title {
+    padding: 10px 0;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.sti-sortable {
+    border: 1px solid #C7C4C4;
+    background: #DEDEDE;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    margin-right: 10px;
+    min-height: 180px;
+}
+
+.sti-sortable li.sti-btn,
+.sti-sortable li.highlight,
+.sti-sortable li#excerpt {
+    display: inline-block;
+    /*float: left;*/
+    width: 100%;
+    height: auto;
+    margin: 0 3px 3px 0;
+    cursor: pointer;
+    background: #F1F1F1;
+    border: 1px solid #C7C4C4;
+    text-align: center;
+    padding: 8px 0;
+}
+
+.sti-sortable li.highlight {
+    background: #fff;
+    width: 100%;
+    height: 36px;
+    padding: 0;
+    border: 1px dotted #ccc;
+}
+
+.nav-tab.premium-tab {
+    background: #FFF7C7;
+}
+
+.nav-tab.premium-tab:hover {
+    background: #fff;
+}
+
+/* Reindex button */
+#aws-reindex {
+    display: inline-block;
+}
+
+#aws-reindex .loader {
+    display: none;
+    width: 20px;
+    height: 20px;
+    background: url('../img/loader-1.GIF') no-repeat 50% 50%;
+    margin-left: 15px;
+    margin-top: 4px;
+}
+
+#aws-reindex.loading .loader {
+    display: inline-block;
+}
+
+/* Premium tab */
+#aws_form .b-compare .column {
+    width: 50%;
+    float: left;
+}
+
+#aws_form .b-compare .column p {
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 4px;
+}

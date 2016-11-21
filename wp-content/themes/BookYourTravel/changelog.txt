@@ -1,0 +1,2601 @@
+﻿v7.16
+
+- frontend submit check if 0 converted to '' in ajax and fix.
+- checkout fix for non-bookyourtravel product purchases (WooCommerce).
+- fix car rental booking bug.
+- display car rental extra fields in same manner as other car rental fields on single car rental.
+- fixed room list responsive css
+- fixed footer menu responsive css
+- fixed WPML css
+- allow shortcodes to be used in extra item descriptions
+- added wp_mail debug ability
+- when dynamic menu is used for sidebar inner-nav element, fixed active class so that first item in menu is not always marked as active.
+- fixed frontend submit checkbox once checked not being saved as unchecked.
+- user content list bookings pages (partner) now show customer name, email, date of creation as well.
+- tags in sidebars of car rentals, tours, cruises and accommodations are now linked to tag archives.
+
+Files changed:
+
+css/style-rtl.css
+css/style.css
+functions.php
+includes/parts/car_rental-item.php
+includes/plugins/frontend-submit/frontend-submit.php
+includes/post_types/abstracts/class-entity.php
+includes/post_types/class-car-rental-helper.php
+includes/post_types/class-accommodation-helper.php
+includes/post_types/class-cruise-helper.php
+includes/post_types/class-tour-helper.php
+includes/theme_ajax.php
+includes/theme_utils.php
+includes/theme_woocommerce.php
+js/scripts.js
+single-car_rental.php
+single-accommodation.php
+single-cruise.php
+single-tour.php
+page-contact.php
+page-user-account.php
+page-user-content-list.php
+page-user-login.php
+page-user-register.php
+sidebar-right-accommodation.php
+sidebar-right-car_rental.php
+sidebar-right-cruise.php
+sidebar-right-tour.php
+style.css
+
+v7.15
+
+- Fixed missing tour type helper code.
+
+Files changed
+
+includes/post_types/class-tour-helper.php
+functions.php
+style.css
+
+v7.14
+
+- Multiple login and register pages fix.
+- Fix for contact page google maps api key.
+- Fixed cruises review totals sync issue.
+- WPML compatibility fixes.
+
+includes/post_types/class-accommodation-helper.php
+includes/post_types/class-cabin-type-helper.php
+includes/post_types/class-car-rental-helper.php
+includes/post_types/class-cruise-helper.php
+includes/post_types/class-extra-item-helper.php
+includes/post_types/class-facility-helper.php
+includes/post_types/class-location-helper.php
+includes/post_types/class-review-helper.php
+includes/post_types/class-room-type-helper.php
+includes/post_types/class-tour-helper.php
+includes/theme_actions.php
+includes/theme_ajax.php
+includes/theme_utils.php
+languages/sl_SI.mo
+languages/sl_SI.po
+page-contact.php
+page-user-login.php
+page-user-register.php
+
+v7.13
+
+- send new Order emails to partners emails as well as admin if WooCommerce is enabled and contact email set for individual property.
+- improved use of wp_mail function to avoid problems certain server configurations were having.
+- ignore form fields if their id is null.
+- Enabled new google map api key feature. You are now required by google to go to https://developers.google.com/maps/documentation/javascript/get-api-key and get an api key before using their google maps on your site. After you get a key, please go to Theme options -> Configuration settings and enter your key into the field labeled "Google maps api key" in order to continue using Google maps on the site.
+- Updated Slider Revolution
+
+Files changed:
+
+functions.php
+includes/plugins/revslider/revslider.zip
+includes/post_types/class-accommodation-helper.php
+includes/post_types/class-car-rental-helper.php
+includes/post_types/class-cruise-helper.php
+includes/post_types/class-tour-helper.php
+includes/post_types/abstracts/class-entity.php
+includes/theme_actions.php
+includes/theme_ajax.php
+includes/theme_globals.php
+includes/theme_utils.php
+includes/theme_woocommerce.php
+js/accommodations.js
+js/car_rentals.js
+js/cruises.js
+js/inquiry.js
+js/tours.js
+options.php
+page-contact.php
+page-contact-form-7.php
+single-accommodation.php
+style.css
+
+v7.12
+
+- location tour, cruise, car rental, accommodation count fix.
+- version upgrade fix.
+- fixed url issue with login/register/reset page on certain servers.
+- upgraded tgm plugin activation plugin to 2.6.1
+
+Files changed:
+
+includes/plugins/class-tgm-plugin-activation.php
+includes/post_types/class-cruise-helper.php
+includes/post_types/class-location-helper.php
+includes/post_types/class-tour-helper.php
+includes/theme_post_types.php
+functions.php
+options.php
+page-user-forgot-pass.php
+page-user-login.php
+page-user-register.php
+
+v7.11
+
+- taxonomy.php archive page now also handles facilities.
+- location search for tours and cruises meta serialization bug fix.
+
+Files changed:
+
+taxonomy.php
+includes/post_types/class-cruise-helper.php
+includes/post_types/class-tour-helper.php
+
+v7.10
+
+- fixed WooCommerce Multilingual cart total 0 incompatibility.
+- allow content to be displayed above current content of user account page (including shortcodes like the [woocommerce_my_account] shortcode.
+- fixed car rental booking bug where booked dates were ignored in certain scenarios.
+- fixed wrong use of tour_list_show_featured_only variable in page tour list template.
+- fixed wrong spelling of "Do you want to now show..." to "Do you want to not show..." in custom post type list templates.
+- fixed tour search results sort by price issue.
+- allow h1,h2,h3,h4 in extra fields.
+- search results now keep search location query string parameter when sorting search results.
+- improved query performance across theme by using postmeta fields.
+- added taxonomy archive template for custom types and tags so now pages like ?acc_tag=beachfront can be accessed from tag cloud.
+- fixed frontend tour schedule list that wasn't showing when only tours were enabled.
+- filter by rating fixed for tours, cruises and accommodations.
+- allowed target attribute for anchor tags in metabox fields.
+- localized keywords "Back up" in comments.php
+- fixed sort by price for cruises and tours.
+- resolved issues with dashboard access and ssl
+- fields marked as required in Theme options -> Booking forms are now required in WooCommerce checkout as well.
+- enabled tags taxonomy for locations, location lists and location widgets.
+- accommodations, tours, car rentals, cruises marked as "Is reservation only" are no longer subject to checks against woo status. Instead, their bookings are considered as booked immediately.
+- admin can now specify where to redirect a login page via login page meta boxes. This way admin can create one login page for partners and another for regular customers and redirect each to a different page.
+- allow for creation of compulsory/required extra items so that admin can specify an extra item like tourist tax. 
+- fixed tour and cruise end of month not selectable bug.
+- admins now have control over what is shown in the user and partner user pages left menu via two new menus that are available to be created in Appearance -> Menus. They are User Account Menu and Partner Account Menu.
+- partners can now view lists of bookings made against their properties in the front end.
+- partners can now delete vacancies and schedules of their properties in the front end.
+- slider Revolution upgrade
+
+Files changed:
+
+css/style-rtl.css
+css/style.css
+comments.php
+custom-search-results.php
+includes/admin/theme_accommodation_booking_admin.php
+includes/admin/theme_car_rental_booking_admin.php
+includes/admin/theme_cruise_schedule_booking_admin.php
+includes/admin/theme_tour_schedule_booking_admin.php
+includes/admin/theme_tour_schedule_admin.php
+includes/parts/location-item.php
+includes/parts/accommodation-item.php
+includes/parts/user-account-menu.php
+includes/plugins/frontend-submit/frontend-submit.php
+includes/plugins/frontend-submit/frontend-submit.js
+includes/plugins/metaboxes/meta_box.php
+includes/plugins/revslider/revslider.zip
+includes/plugins/widgets/widget-search.php
+includes/plugins/widgets/widget-location-list.php
+includes/post_types/abstracts/class-entity.php
+includes/post_types/class-accommodation-helper.php
+includes/post_types/class-car-rental-helper.php
+includes/post_types/class-cruise-helper.php
+includes/post_types/class-location.php
+includes/post_types/class-location-helper.php
+includes/post_types/class-tour-helper.php
+includes/post_types/class-extra-item-helper.php
+includes/theme_actions.php
+includes/theme_globals.php
+includes/theme_meta_boxes.php
+includes/theme_post_types.php
+includes/theme_utils.php
+includes/theme_woocommerce.php
+includes/theme_of_default_fields.php
+js/accommodations.js
+js/car_rentals.js
+js/cruises.js
+js/tours.js
+js/search_widget.js
+languages/default.mo
+languages/default.pot
+options.php
+page-car_rental-list.php
+page-location-list.php
+page-user-account.php
+page-user-login.php
+page-user-content-list.php
+page-user-submit-content.php
+page-tour-list.php
+taxonomy.php
+single-accommodation.php
+single-car_rental.php
+single-cruise.php
+single-tour.php
+
+v7.06
+
+- Added Show featured only? filter to all post type list templates.
+- Fixed "no reviews for item" translation.
+- Fixed authentication issue when you click on Manage facilities from editing a single accommodation.
+- Fixed wrong price being shown in location items when no vacancies in accommodation.
+- Fixed booking emails behaviour for when WooCommerce is not used, if contact email address set, send emails to contact and not to admin.
+- Fixed fourth month last day not clickable in accommodations calendar bug.
+- Fixed car rental select different date totals not reset bug.
+- Fixed accommodations reset dropdowns not respecting min and max counts bug.
+- Fixed issue of wrong calculation where when last day of last visible month is selected as from date, and month is changed, and any day of new visible month is selected as to date.
+- Fixed browser caching bug that occurred on some servers where latest version of javascript files was not loaded all the time.
+- Improved headers of contact, booking and inquiry emails sent to improve performance of wp_mail function and better render new lines.
+- Improved active plugins check to work for WordPress multiuser as well.
+- Review form field labels were not translated by WPML. Fixed.
+- Slider Revolution upgrade to 5.2.4 StarPath (01st April 2016)
+- Show thank you message in right sidebar of tour, cruise, car rental.
+
+Files changed:
+
+css/style-rtl.css
+css/style.css
+includes/parts/accommodation-item.php
+includes/parts/review-form.php
+includes/parts/review-item.php
+includes/plugins/metaboxes/meta_box.php
+includes/plugins/frontend-submit/frontend-submit.php
+includes/plugins/revslider/revslider.zip
+includes/post_types/class-accommodation-helper.php
+includes/post_types/class-car-rental-helper.php
+includes/post_types/class-cruise-helper.php
+includes/post_types/class-location-helper.php
+includes/post_types/class-tour-helper.php
+includes/theme_ajax.php
+includes/theme_actions.php
+includes/theme_utils.php
+includes/theme_woocommerce.php
+js/accommodations.js
+js/car_rentals.js
+languages/default.mo
+languages/default.pot
+page-accommodation-list.php
+page-car_rental-list.php
+page-contact.php
+page-cruise-list.php
+page-location-list.php
+page-tour-list.php
+sidebar-right-car_rental.php
+sidebar-right-cruise.php
+sidebar-right-tour.php
+
+v7.05
+
+- Allowed for translation of dynamically created fields (from theme options) for booking forms, inquiry forms and review items via WPML string translation.
+- Sidebar selection for pages was hidden (bug) when WooCommerce was disabled. Fixed.
+- Fixed search sort issues in other languages when WPML is used.
+- Fixed timezone issue with accommodation dates.
+- Fixed dropdown selection and people count reset when reset button is clicked on accommodation booking screen.
+- Search widget no longer allows search for past dates.
+- using date_i18n instead of date when outputting dates to screen for better internationalization.
+- Fixed rtl setting for lightSlider gallery for accommodations, cruises, car rentals, tours and locations.
+- Fixed various minor styling issues
+- Added default BookYourTravel Mega menu theme.
+- Updated slider Revolution
+
+Files changed:
+
+css/style-rtl.css
+css/style.css
+custom-search-results.php
+header.php
+functions.php
+includes/theme_actions.php
+includes/theme_filters.php
+includes/theme_globals.php
+includes/theme_meta_boxes.php
+includes/theme_of_default_fields.php
+includes/admin/theme_accommodation_booking_admin.php
+includes/admin/theme_car_rental_booking_admin.php
+includes/admin/theme_cruise_schedule_booking_admin.php
+includes/admin/theme_tour_schedule_booking_admin.php
+includes/parts/accommodation-booking-form.php
+includes/parts/accommodation-confirmation-form.php
+includes/parts/car_rental-booking-form.php
+includes/parts/car_rental-confirmation-form.php
+includes/parts/cruise-booking-form.php
+includes/parts/cruise-confirmation-form.php
+includes/parts/inquiry-form.php
+includes/parts/review-item.php
+includes/parts/tour-booking-form.php
+includes/parts/tour-confirmation-form.php
+includes/post_types/class-accommodation-helper.php
+includes/post_types/class-car-rental-helper.php
+includes/post_types/class-cruise-helper.php
+includes/post_types/class-location-helper.php
+includes/post_types/class-tour-helper.php
+js/accommodations.js
+js/car_rentals.js
+js/cruises.js
+js/locations.js
+js/tours.js
+js/search_widget.js
+page-user-account.php
+page-user-content-list.php
+single-accommodation.php
+style.css
+
+v7.04
+
+- Fixed permissions oversight in frontend submit
+- Show correct locations in tour item and tour sidebar
+- Readded missing keywords to language file
+- Fixed date format issue for vacancy editing in frontend for non-english languages
+- Fixed changing of labels of default fields and tabs without affecting ids of the same
+- Checked for is_wp_error when taxonomy terms are used as filters in list pages
+- Fixed issue of wrong price on overlap days when accommodations overlap
+
+Files changed
+
+functions.php
+includes/admin/optionsframework_custom.js
+includes/admin/theme_accommodation_booking_admin.php
+includes/admin/theme_car_rental_booking_admin.php
+includes/admin/theme_cruise_schedule_booking_admin.php
+includes/admin/theme_tour_schedule_booking_admin.php
+includes/plugins/frontend-submit/frontend-submit.js
+includes/plugins/frontend-submit/frontend-submit.php
+includes/parts/tour-item.php
+includes/post_types/class-accommodation-helper.php
+includes/theme_of_custom.php
+languages/default.pot
+languages/default.mo
+page-accommodation-list.php
+page-car_rental-list.php
+page-cruise-list.php
+page-tour-list.php
+sidebar-right-tour.php
+single-accommodation.php
+single-car_rental.php
+single-cruise.php
+single-tour.php
+style.css
+
+v7.03
+
+- Fixed vacancy fields not showing datepicker in frontend submit vacancy editor.
+- Fixed issue where woo statuses set in Theme options -> WooCommerce integration were not properly being taken in account when checking whether bookings are available.
+To make sure only the right bookings are considered "completed" go to Theme options -> WooCommerce integration and selected the statuses you want to use.
+
+Files changed:
+
+functions.php
+includes/plugins/frontend-submit/frontend-submit.js
+includes/post_types/class-accommodation-helper.php
+includes/post_types/class-accommodation-helper.php
+includes/post_types/class-car-rental-helper.php
+includes/post_types/class-cruise-helper.php
+includes/post_types/class-tour-helper.php
+includes/theme_globals.php
+languages/default.pot
+languages/default.mo
+options.php
+style.css
+
+v7.02
+
+- Upgraded RevSlider plugin to version 5.2
+- Removed condition that excerpt be set for locations to show in single tour and cruise Locations tab.
+- Enabled rich text editor for tour, location and car rental extra fields in admin
+- Resolved WPML incompatibility issue in vacancy admin
+- Fixed issue with daily vs weekly accommodations
+
+Files changed:
+js/accommodations.js
+functions.php
+includes/admin/theme_accommodation_vacancy_admin.php
+includes/post_types/class-accommodation-helper.php
+includes/post_types/class-car-rental-helper.php
+includes/post_types/class-cruise-helper.php
+includes/post_types/class-location-helper.php
+includes/post_types/class-tour-helper.php
+includes/framework/options-framework.php
+includes/plugins/revslider/revslider.zip
+single-cruise.php
+single-tour.php
+
+v7.01
+
+- Allowed extra items to be assigned to tags as well as types (for all custom post types)
+- Fixed frontend submit content escaping of ' " etc with backslashes using wp_unslash
+- Fixed vacancy and schedule filtering in admin by dropdown filter
+- Fixed weekly rent type functionality
+- Fixed tour count display in location items
+
+Files changed:
+
+functions.php
+js/accommodations.js
+includes/admin/accommodation_vacancies.js
+includes/admin/admin.js
+includes/admin/theme_accommodation_vacancy_admin.php
+includes/post_types/class-accommodation.php
+includes/post_types/class-cabin-type.php
+includes/post_types/class-car-rental.php
+includes/post_types/class-cruise.php
+includes/post_types/class-cruise-helper.php
+includes/post_types/class-extra-item-helper.php
+includes/post_types/class-room-type.php
+includes/post_types/class-tour.php
+includes/post_types/class-tour-helper.php
+includes/theme_meta_boxes.php
+page-user-content-list.php
+page-user-submit-content.php
+single-accommodation.php
+single-car_rental.php
+single-cruise.php
+single-tour.php
+style.css
+
+v7.00
+
+- Moved error message above calendar in accommodations and car rentals.
+- Fixed theme activation so that when post types are enabled, their custom tables are properly created.
+
+Files changed:
+
+functions.php
+includes/framework/options-framework.php
+includes/post_types/class-accommodation-helper.php
+includes/post_types/class-cabin-type-helper.php
+includes/post_types/class-car-rental-helper.php
+includes/post_types/class-cruise-helper.php
+includes/post_types/class-extra-item-helper.php
+includes/post_types/class-review-helper.php
+includes/post_types/class-room-type-helper.php
+includes/post_types/class-tour-helper.php
+includes/theme_actions.php
+includes/theme_globals.php
+includes/theme_post_types.php
+js/car_rentals.js
+options.php
+single-accommodation.php
+single-car_rental.php
+
+v7.00
+
+Major features added
+
+- Added new Extra items custom post type that is usable by all custom post types. Admin can now configure extra items to be bookable together with cruises, tours, car rentals and accommodations (e.g. cleaning costs, child seat, full catering etc).
+- Added frontend management for tours and tour schedules
+- Added frontend management for cruises, cabin types and cruise schedules
+- Added frontend management for car rentals
+- Added dropzone.js support to frontend submit so that multiple files can be uploaded and properly edited/changed
+- Added rent type property for accommodations so that accommodations can be rented on a daily, weekly or monthly basis
+- Added multiple location support to tours
+- Improved frontend booking interface for all custom post types
+- Improved WooCommerce integration - one WooCommerce product for each custom post type
+- Improved WooCommerce integration - user is immediately directed to WooCommerce cart after selecting dates etc - no need to fill in booking form twice
+- Added dynamic editing of booking forms via Theme options - reflected in WooCommerce as well
+- Added dynamic editing of inquiry forms via Theme options
+- Improved backend schedule, vacancy, booking management
+- Bookings added via backend now immediately also create WooCommerce orders
+- Added multiple days of week repeating tour type support
+- Added gallery support for each room type. Gallery loaded using prettyphoto plugin in single accommodation view when user clicks on room type image.
+
+Other features added
+
+- Changed self-catered to disabled room types field to better clarify the distinction between accommodations with room types and without
+- Added Hide inquiry form field to all custom post types to completely hide inquiry form feature in right sidebar regardless of whether contact email is set or not
+- Added "price from" to right sidebar of accommodations, tours, cruises
+- Added allowed checkin and checkout day fields to accommodations so that you can restrict bookings to specific days of the week - say saturday to saturday.
+- Added maximum days stay restriction to accommodations
+- Added minimum adult and child count restriction to accommodations
+- Fixed tour child and adult dropdown issues in front end
+- Single post type slider speed can now be controlled from Theme options
+- Fixed lockout from admin issue when pages not properly configured in Theme options
+- Allow disabling of sections of ribbon like My account from theme options
+- Simple search no longer shows accommodations, car rentals, cruises or tours
+- Added full WooCommerce style support
+- Replaced self-hosted fonts with google fonts
+- Replaced most imagery with css and vectors
+- Updated SliderRevolution
+- Added MegaMenu support
+- Added native WordPress favicon support
+- Improved code quality overall
+
+Files changed:
+
+The entire code base has been modified. Please read upgrade.txt for instructions on how to upgrade.
+
+v6.19
+
+- If image extra field source is empty, don't display the image tag.
+- Enabled translations of custom post meta fields via poedit.
+- Fixed Author dropdown override to include all admin and all byt frontend users.
+
+Files changed
+
+includes/theme_utils.php
+includes/theme_filters.php
+includes/post_types/accommodations.php
+includes/post_types/cabin_types.php
+includes/post_types/car_rentals.php
+includes/post_types/cruises.php
+includes/post_types/facilities.php
+includes/post_types/locations.php
+includes/post_types/reviews.php
+includes/post_types/room_types.php
+includes/post_types/tours.php
+
+v6.18
+
+- Fixed date formatting issues for multilanguage frontend submit
+
+Files changed
+includes/plugins/frontend-submit/frontend-submit.php
+includes/plugins/frontend-submit/frontend-submit.js
+
+v6.17
+
+- Fixed extra items layout problems
+- Send booking emails if a property is marked as "reservation only".
+
+Files changed
+includes/theme_utils.php
+includes/theme_ajax.php
+
+v6.16
+
+- Added import/export feature for Theme options.
+
+Files changed:
+includes/framework/includes/class-options-importer.php
+includes/framework/options-framework.php
+includes/theme_utils.php
+
+v6.15
+
+- Implemented booking listing for all missing custom post types in front end dashboard (tours, car rentals, cruises).
+- Allow execution of shortcodes in extra fields.
+- Upgrade of revslider to 5.0.8 to fix WPML incompatibility that was breaking widget translation.
+- Fixed mailto link in address widget.
+- Fixed i18n date display in search widget
+
+Files changed
+
+page-user-account.php
+includes/theme_utils.php
+includes/plugins/revslider/revslider.zip
+includes/plugins/widgets/widget-address.php
+includes/plugins/widgets/widget-search.php
+
+v6.14
+
+- Fixed translation of admin metabox labels
+- Upgraded RevSlider to version 5.0.4.1.
+
+Files changed:
+
+- includes/plugins/revslider/revslider.zip
+- includes/theme_meta_boxes.php
+
+v6.13
+- Fixed issue with one-off tours max people dropdowns not reflecting correct state of availability.
+- Resolved issues with some tours not being added to WPML cart properly.
+- Resolved issues with certain scenarios where dynamic fields and tabs were not translated by WPML.
+- Upgraded widget constructors with __construct to comply with php 5 and WP 4.3 requirement.
+- Upgraded RevSlider to version 5.0.4. Please follow instructions on this page to upgrade your RevSlider to the latest version:
+http://www.themepunch.com/faq/update-to-5-0-via-ftp/
+- Upgraded WooCommerce templates to latest
+- Implemented translation of datepicker for multiple other languages
+
+Files changed:
+js/tours.js
+js/i18n
+js/i18n/datepicker-af.js
+js/i18n/datepicker-ar-DZ.js
+js/i18n/datepicker-ar.js
+js/i18n/datepicker-az.js
+js/i18n/datepicker-be.js
+js/i18n/datepicker-bg.js
+js/i18n/datepicker-bs.js
+js/i18n/datepicker-ca.js
+js/i18n/datepicker-cs.js
+js/i18n/datepicker-cy-GB.js
+js/i18n/datepicker-da.js
+js/i18n/datepicker-de.js
+js/i18n/datepicker-el.js
+js/i18n/datepicker-en-AU.js
+js/i18n/datepicker-en-GB.js
+js/i18n/datepicker-en-NZ.js
+js/i18n/datepicker-eo.js
+js/i18n/datepicker-es.js
+js/i18n/datepicker-et.js
+js/i18n/datepicker-eu.js
+js/i18n/datepicker-fa.js
+js/i18n/datepicker-fi.js
+js/i18n/datepicker-fo.js
+js/i18n/datepicker-fr-CA.js
+js/i18n/datepicker-fr-CH.js
+js/i18n/datepicker-fr.js
+js/i18n/datepicker-gl.js
+js/i18n/datepicker-he.js
+js/i18n/datepicker-hi.js
+js/i18n/datepicker-hr.js
+js/i18n/datepicker-hu.js
+js/i18n/datepicker-hy.js
+js/i18n/datepicker-id.js
+js/i18n/datepicker-is.js
+js/i18n/datepicker-it-CH.js
+js/i18n/datepicker-it.js
+js/i18n/datepicker-ja.js
+js/i18n/datepicker-ka.js
+js/i18n/datepicker-kk.js
+js/i18n/datepicker-km.js
+js/i18n/datepicker-ko.js
+js/i18n/datepicker-ky.js
+js/i18n/datepicker-lb.js
+js/i18n/datepicker-lt.js
+js/i18n/datepicker-lv.js
+js/i18n/datepicker-mk.js
+js/i18n/datepicker-ml.js
+js/i18n/datepicker-ms.js
+js/i18n/datepicker-nb.js
+js/i18n/datepicker-nl-BE.js
+js/i18n/datepicker-nl.js
+js/i18n/datepicker-nn.js
+js/i18n/datepicker-no.js
+js/i18n/datepicker-pl.js
+js/i18n/datepicker-pt-BR.js
+js/i18n/datepicker-pt.js
+js/i18n/datepicker-rm.js
+js/i18n/datepicker-ro.js
+js/i18n/datepicker-ru.js
+js/i18n/datepicker-sk.js
+js/i18n/datepicker-sl.js
+js/i18n/datepicker-sq.js
+js/i18n/datepicker-sr-SR.js
+js/i18n/datepicker-sr.js
+js/i18n/datepicker-sv.js
+js/i18n/datepicker-ta.js
+js/i18n/datepicker-th.js
+js/i18n/datepicker-tj.js
+js/i18n/datepicker-tr.js
+js/i18n/datepicker-uk.js
+js/i18n/datepicker-vi.js
+js/i18n/datepicker-zh-CN.js
+js/i18n/datepicker-zh-HK.js
+js/i18n/datepicker-zh-TW.js
+single-accommodation.php
+includes/classes/accommodation.class.php
+includes/classes/car_rental.class.php
+includes/classes/cruise.class.php
+includes/classes/tour.class.php
+includes/plugins/widgets/widget-accommodation-list.php
+includes/plugins/widgets/widget-address.php
+includes/plugins/widgets/widget-car_rental-list.php
+includes/plugins/widgets/widget-cruise-list.php
+includes/plugins/widgets/widget-home-feature.php
+includes/plugins/widgets/widget-location-list.php
+includes/plugins/widgets/widget-post-list.php
+includes/plugins/widgets/widget-social.php
+includes/plugins/widgets/widget-search.php
+includes/plugins/widgets/widget-tour-list.php
+includes/post_types/accommodations.php
+includes/post_types/car_rentals.php
+includes/post_types/cruises.php
+includes/post_types/tours.php
+includes/theme_ajax.php
+includes/theme_actions.php
+includes/theme_globals.php
+includes/theme_of_custom.php
+includes/theme_utils.php
+woocommerce/order/order-details.php
+woocommerce/cart/cart-item-data.php
+
+v6.12
+
+26.6.2015
+
+- Security update for the prettyPhoto plugin
+
+Files changed:
+js/jquery.prettyPhoto.js
+
+
+7.6.2015
+
+- Fixed important UTC date issue (for certain timezones dates were off by a day)
+
+Files changed
+
+functions.php
+style.css
+js/accommodations.js
+js/car_rentals.js
+js/cruises.js
+js/tours.js
+
+v6.11
+
+3.6.2015
+
+- Fixed comment date time issue.
+- Fixed date validation issue for certain date formats in frontend submit.
+- Removed duplicate social widget title.
+- Fixed non-repeating tour and cruise search issue.
+- Fixed tour, cruise and car rental booking list methods to include user_id check.
+- Added responsive table support for booking tables.
+- Removed duplicate woocommerce cart totals on cart page.
+
+Files changed:
+
+functions.php
+single-accommodation.php
+single-cruise.php
+single-tour.php
+style.css
+css/responsive-tables.css
+includes/plugins/frontend-submit/frontend-submit.php
+includes/plugins/widgets/widget-social.php
+includes/post_types/tours.php
+includes/post_types/cruises.php
+includes/post_types/car_rentals.php
+includes/theme_actions.php
+includes/theme_utils.php
+js/extras.jquery.validate.js
+js/responsive-tables.js
+js/accommodations.js
+js/cruises.js
+js/tours.js
+woocommerce/cart/cart.php
+
+v6.10
+
+- Fixed custom tab and field translation issue for WPML.
+- Fixed "more info/less info" translation fix for accommodations and cruises.
+- Fixed "General info" tab not showing on single locations.
+- Fixed non-repeating tours schedule issue.
+- Fixed non-repeating cruises schedule issue.
+
+Files changed:
+
+functions.php
+page-user-content-list.php
+single-accommodation.php
+single-cruise.php
+single-location.php
+style.css
+includes/theme_of_custom.php
+includes/post_types/cruises.php
+includes/post_types/tours.php
+js/cruises.js
+js/scripts.js
+languages/default.pot
+languages/default.mo
+
+v6.09 
+
+6.05.2015
+
+- Upgraded RevSlider to Version 4.6.92
+- Fixed post not defined warning in theme utils
+- Show facilities tab if not hidden
+- Fixed tour max count issue.
+
+Files changed:
+
+style.css
+functions.php
+single-accommodation.php
+includes/theme_utils.php
+includes/admin/theme_tour_schedule_booking_admin.php
+includes/plugins/revslider/revslider.zip
+includes/post_types/tours.php
+
+v6.08
+
+28.04.
+- Fixed undefined entry_id in FrontEnd submit
+- Fixed a tour issue
+
+Files changed:
+includes/plugins/frontend-submit/frontend-submit.php
+js/tours.js
+style.css
+
+23.04.
+
+- Redirect to after login and logout fixes.
+- Upgraded WooCommerce cart template to latest.
+The following two fixes are in relation to the following post:
+http://themeforest.net/forums/thread/security-vulnerability-affecting-wordpress-plugins-and-themes/173011
+- Properly escaped add_query_arg calls with esc_url and esc_url_raw (fixes possible vulnerability)
+- Upgraded TGM-Plugin-Activation to 2.4.1 to properly escape add_query_arg (fixes possible vulnerability)
+- Improved tour booking mechanism to better take into account max people when showing what's booked and what's not booked.
+
+Files changed:
+
+page-user-login.php
+page-user-forgot-pass.php
+page-user-register.php
+includes/plugins/class-tgm-plugin-activation.php
+includes/plugins/frontend-submit/frontend-submit.php
+includes/post_types/tours.php
+includes/theme_ajax.php
+includes/theme_filters.php
+includes/theme_utils.php
+includes/theme_actions.php
+includes/theme_woocommerce.php
+js/cruises.js
+js/tours.js
+woocommerce/cart/cart.php
+functions.php
+style.css
+
+v6.07
+
+18.04.
+
+- Removed not needed echo that was causing cart is empty with woocommerce.
+- Removed php version incompatibility in includes/theme_utils.php
+- 'Gallery images' and other keywords now translateable that were previously not.
+- fixed checkbox layout for frontend submit.
+
+Files changed:
+
+includes/plugins/frontend-submit/frontend-submit.php
+includes/post_types/car_rentals.php
+includes/post_types/cruises.php
+includes/post_types/accommodations.php
+includes/theme_utils.php
+languages/default.pot
+
+v6.06 
+
+08.04.
+
+- fixed wpml translation issue for location custom fields on single accommodations.
+- set default min days stay to 0 for accommodations.
+- allowed extra tabs showing on single car rental.
+- extra tabs no longer shown if no fields are present or if fields are empty on custom tabs.
+- fixed issue with search when "What" field is set to be hidden.
+- fixed issue for tour prices appearing as 0 in firefox and opera.
+- fixed issue where when WPML is used, different languages had different number of search results.
+
+Files changed:
+
+style.css
+functions.php
+includes/theme_utils.php
+includes/theme_ajax.php
+includes/post_types/accommodations.php
+includes/post_types/cruises.php
+includes/post_types/tours.php
+includes/plugins/widgets/widget-search.php
+single-accommodation.php
+single-car_rental.php
+single-cruise.php
+single-location.php
+single-tour.php
+js/tours.js
+
+v6.05
+
+30.03.
+
+- mailto link was broken in contact page template. fixed.
+- fixed js error in widget search.
+- fixed issue with date format and tour schedule in tour booking form.
+- added filter for breadcrumbs
+- blog pager bug fix.
+- fixed dateformat issue for other language settings (e.g. portuguese default date format was causing issues).
+- fixed tour max people 1 for some php configurations error.
+- fixed extra fields issue for car rentals and cruises
+- fixed first display tab content when first tab is hidden in theme options.
+- fixed listing in admin to only list vacancies/schedules for properties owned by user if user is not admin.
+- fixed issue with widget small mode causing list items to display in small mode.
+- added "Add vacancy", "Add schedule", "Add booking" buttons to top of admin pages.
+- resolved timezone date issue with booking forms.
+
+Files changed
+
+style.css
+single-accommodation.php
+single-car_rental.php
+single-cruise.php
+single-tour.php
+header.php
+blog.php
+page-contact.php
+functions.php
+css/style-rtl.css
+includes/plugins/widgets/widget-accommodation-list.php
+includes/plugins/widgets/widget-car_rental-list.php
+includes/plugins/widgets/widget-cruise-list.php
+includes/plugins/widgets/widget-location-list.php
+includes/plugins/widgets/widget-post-list.php
+includes/plugins/widgets/widget-tour-list.php
+includes/plugins/widgets/widget-search.php
+includes/post_types/tours.php
+includes/post_types/car_rentals.php
+includes/post_types/cruises.php
+includes/post_types/accommodations.php
+includes/theme_utils.php
+includes/theme_ajax.php
+includes/admin/theme_accommodation_booking_admin.php
+includes/admin/theme_accommodation_vacancy_admin.php
+includes/admin/theme_car_rental_booking_admin.php
+includes/admin/theme_cruise_schedule_admin.php
+includes/admin/theme_cruise_schedule_booking_admin.php
+includes/admin/theme_tour_schedule_admin.php
+includes/admin/theme_tour_schedule_booking_admin.php
+js/tours.js
+js/accommodations.js
+js/car_rentals.js
+
+v6.04
+
+13.03.
+
+- "What" part of search widget is now hidden when only one What search option is enabled.
+- Bug where tour schedule was using same price for all schedule entries of same tour is now fixed.
+- Date format issue for search widget, admin and frontend submit that was causing problems for a lot of people is now fixed.
+- The ajax url wp-admin/admin-ajax.php didn't work in certain installations. This is fixed by making use of admin_url built in function call.
+- Language file has been updated with missing keywords.
+- Car rental form was not showing booked dates as booked after the last major upgrade. This is now fixed.
+- Frontend submit forms were having issues (not showing room types, accommodations etc) when admin had enabled content moderation. This is now resolved.
+- Fixed WMPL ribbon weird behavior
+- Fixed several css issues
+
+Files changed
+
+page-user-content-list.php
+functions.php
+style.css
+header.php
+includes/theme_ajax.php
+includes/theme_utils.php
+includes/theme_of_custom.php
+includes/admin/admin.js
+includes/admin/theme_accommodation_booking_admin.php
+includes/admin/theme_accommodation_vacancy_admin.php
+includes/admin/theme_car_rental_booking_admin.php
+includes/admin/theme_cruise_schedule_admin.php
+includes/admin/theme_cruise_schedule_booking_admin.php
+includes/admin/theme_tour_schedule_admin.php
+includes/admin/theme_tour_schedule_booking_admin.php
+includes/post_types/accommodations.php
+includes/post_types/tours.php
+includes/post_types/car_rentals.php
+includes/plugins/widgets/widget-search.php
+includes/plugins/frontend-submit/frontend-submit.js
+includes/plugins/frontend-submit/frontend-submit.php
+includes/plugins/metaboxes/meta_box.php
+css/style.css
+css/style-rtl.css
+css/theme-black.css
+css/theme-blue.css
+css/theme-navy.css
+css/theme-orange.css
+css/theme-pink.css
+css/theme-purple.css
+css/theme-strawberry.css
+css/theme-yellow.css
+js/search_widget.js
+js/scripts.js
+languages/default.pot
+languages/default.mo
+SampleData/bookyourtravel.sample.xml
+SampleData/bookyourtravel.sample.xml.gz
+
+
+v6.03
+
+07.03
+
+- fixed issue with language ribbon not working well for WPML due to recent WPML upgrade.
+- fixed captcha issue for different language booking when using WPML.
+- fixed empty cart issue for WPML when booking.
+- fixed issue with room types and frontend submit.
+- fixed tours max 1 bug.
+- fixed issue where location items in lists were not showing a price when location is associated with only 1 accommodation.
+- fixed WPML styling issues
+- fixed slider speed
+
+Files changed:
+
+functions.php
+js/scripts.js
+js/accommodations.js
+js/car_rentals.js
+js/cruises.js
+js/locations.js
+js/tours.js
+css/style.css
+css/theme-black.css
+css/theme-blue.css
+css/theme-navy.css
+css/theme-orange.css
+css/theme-pink.css
+css/theme-purple.css
+css/theme-strawberry.css
+css/theme-yellow.css
+style.css
+includes/theme_globals.php
+includes/plugins/frontend-submit/frontend-submit.php
+includes/post_types/accommodations.php
+includes/post_types/room_types.php
+includes/parts/location-item.php
+
+v6.02
+
+06.03
+
+- sidebar positioning was missing.
+- allow post type file override in child theme.
+- fixed hiding of gallery after booking form is open (was broken due to lightSlider upgrade).
+- another issue with partial date booking resolved.
+- fixed missing argument error in frontend submit.
+- proper labels are shown under Things to do on single accommodations (even if labels are changed under Location extra fields).
+- fixed slider responsiveness
+- fixed several css issues
+- frontend submit users can see their own accommodations (fixed bug)
+- search only available properties is set to true by default. if not set, then don't show the when filter.
+- fixed issue where cruise facilities were broken if accommodations were not enabled.
+
+Files changed:
+
+includes/admin/theme_cruise_schedule_admin.php
+includes/post_types/cruises.php
+includes/post_types/facilities.php
+includes/plugins/widgets/widget-search.php
+options.php
+includes/theme_utils.php
+includes/accommodations.php
+includes/theme_post_types.php
+includes/plugins/frontend-submit/frontend-submit.php
+js/tours.js
+js/accommodations.js
+js/car_rentals.js
+js/cruises.js
+js/locations.js
+css/style.css
+css/style-rtl.css
+css/theme-black.css
+css/theme-blue.css
+css/theme-navy.css
+css/theme-orange.css
+css/theme-pink.css
+css/theme-purple.css
+css/theme-strawberry.css
+css/theme-yellow.css
+single-accommodation.php
+custom-search-results.php
+page-car_rental-list.php
+page-cruise-list.php
+page-tour-list.php
+page-user-submit-content.php
+page-user-content-list.php
+functions.php
+style.css
+
+v6.01
+
+26.02
+
+- Refixed partial date issue
+- Fixed search widget datepicker format to follow WordPress option setting.
+- Added new settings to allow making each custom post type searchable from widget options.
+- Upgraded lightSlider plugin to v1.1.1
+
+Files changed:
+
+includes/post_types/tours.php
+includes/post_types/car_rentals.php
+includes/post_types/cruises.php
+includes/post_types/accommodations.php
+includes/parts/car_rental-booking-form.php
+includes/plugins/widgets\widget-search.php
+js/search_widget.js
+js/accommodations.js
+js/car_rentals.js
+js/cruises.js
+js/locations.js
+js/tours.js
+css/style.css
+header.php
+single-tour.php
+single-car_rental.php
+single-cruise.php
+single-accommodation.php
+includes/plugins/lightSlider/css/lightSlider.css
+includes/plugins/lightSlider/js/jquery.lightSlider.js
+includes/plugins/lightSlider/js/jquery.lightSlider.min.js
+bookyourtravel.sample.xml
+bookyourtravel.sample.xml.gz
+
+v6.00
+
+25.02
+
+- Resolved issue with "Warning: Cannot modify header information – headers already sent by" in /includes/plugins/metaboxes/meta_box.php
+- Fix for default widgets being loaded (wrongly) into header sidebar
+- Reintroduced separate sidebars for single accommodation, tour, car rental, cruise
+- Fixed several css layout issues
+- Fixed theming css issues
+
+includes/plugins/metaboxes/meta_box.php
+includes/plugins/widgets/widget-accommodation-list.php
+includes/plugins/widgets/widget-car_rental-list.php
+includes/plugins/widgets/widget-cruise-list.php
+includes/plugins/widgets/widget-tour-list.php
+includes/post_types/cabin_types.php
+includes/post_types/room_types.php
+includes/parts/accommodation-item.php
+includes/parts/car_rental-item.php
+includes/parts/cruise-item.php
+includes/parts/location-item.php
+includes/parts/post-item.php
+includes/parts/tour-item.php
+includes/theme_actions.php
+js/scripts.js
+css/style.css
+css/style-rtl.css
+css/theme-black.css
+css/theme-blue.css
+css/theme-navy.css
+css/theme-orange.css
+css/theme-pink.css
+css/theme-purple.css
+css/theme-strawberry.css
+css/theme-yellow.css
+changelog.txt
+sidebar-home-content.php
+sidebar-right-accommodation.php
+sidebar-right-tour.php
+sidebar-right-car_rental.php
+sidebar-right-cruise.php
+single-location.php
+
+24.02
+
+- fixed issue with database upgrade failing for some users.
+- fixed issues with get_default_language call undefined.
+- fixed issues with html validation in search.
+- fixed WPML list properties issues.
+
+Files changed:
+
+includes/theme_ajax.php
+includes/theme_actions.php
+includes/parts/accommodation-item.php
+includes/posts_types/accommodations.php
+includes/posts_types/cruises.php
+includes/posts_types/tours.php
+includes/posts_types/car_rentals.php
+includes/plugins/widgets/widget-search.php
+
+24.02
+
+- fixed issue with registration.
+- fixed style.css to have the correct version (v6.00).
+- removed hardcoded table names
+
+Files changed:
+
+includes/theme_actions.php
+includes/post_types/accommodations.php
+style.css
+
+23.02
+
+- added option for users to individually set sidebar position (left, right, both) for any page.
+- added central widget area to home page for list widgets to be addable.
+- added accommodation, tour, cruise, car rental, post list widgets that can be added to any sidebar in card or small mode.
+- added multiple options and filters to each of tour, accommodation, cruise and car rental list pages to make as useful as possible.
+- added locations for cruises.
+- added options to show tour, cruise, car rental, accommodation counts on location items (cards).
+- added car rentals, cruises tab to single location page.
+- added tag like taxonomy to accommodations, tours, cruises, car rentals (in admin and also appears in page list, as well as in right column of single view).
+- added thank you message after review form is submitted.
+- added thank you message after inquiry form is submitted.
+- added minimum days stay setting to accommodations to restrict bookings based on this parameter.
+- added theme option to set default currency symbol
+- added theme option to show currency symbol before or after price.
+- fixed dates so that WordPress option date format is used everywhere to show region-specific dates
+- fixed rewrite rules so that users can now have /locations list all locations, and /locations/germany show germany single location.
+- fixed search by price feature for tours, car rentals, cruises and accommodations.
+- fixed search by date feature for tours, car rentals, cruises and accommodations.
+- now listing all hotels, self-catered, tours, cruises, car rentals on single location under specific tab instead of listing only first 10 of each.
+- users can now have /locations/europe list all locations in europe (if europe is marked as "Display As Directory?") and /locations/europe/germany show the actual location Germany .
+- improved booking form so that dates are selected in availability tab instead of in form itself (for tours, accommodations, cruises).
+- provided reset button for booking form to allow clearing of selections (for tours, accommodations, cruises).
+- user roles for frontend submit have been configured correctly.
+- separated regular user dashboard menu from partner user dashboard menu
+- user activation process for user registration improved.
+- search widget was completely revamped and can now be used to hide/show filters, and change filter labels all from widget admin area.
+- search widget is now used on homepage as well as in sidebars. 
+
+- moved folder framework to includes/framework
+- moved folder plugins to includes/plugins
+- removed file page-user-room-list.php and replaced with page-user-content-list.php
+- removed file page-user-accommodation-list.php and replaced with page-user-content-list.php
+- removed file page-user-accommodation-vacancy-list.php and replaced with page-user-content-list.php
+- removed file page-sidebar-both.php. Instead, users can set positioning of sidebar using default page template via metaboxes (after page is published or saved).
+- removed file page-sidebar-left.php. Instead, users can set positioning of sidebar using default page template via metaboxes (after page is published or saved).
+- removed file page-sidebar-right.php. Instead, users can set positioning of sidebar using default page template via metaboxes (after page is published or saved).
+- removed file page-no-sidebar.php. Instead, users can set positioning of sidebar using default page template via metaboxes (after page is published or saved).
+- removed file page-hotel-list.php. Instead, users can select catering type in Accommodation list template.
+- removed file page-self_catered-list.php. Instead, users can select catering type in Accommodation list template.
+- removed file sidebar-left-search.php as it can be achieved by sidebar-left.php.
+- removed file sidebar-home-above-slider.php as it can be achieved by sidebar-under-header.php.
+- removed file sidebar-home-below-slider.php as content is already addable to sidebar-home-content.php
+
+Files changed:
+
+404.php
+blog.php
+byt_home.php
+changelog.txt
+comments.php
+comments.php
+custom-search-results.php
+footer.php
+footer.php
+functions.php
+header.php
+includes/admin/admin.js
+includes/admin/theme_accommodation_booking_admin.php
+includes/admin/theme_accommodation_vacancy_admin.php
+includes/admin/theme_car_rental_booking_admin.php
+includes/admin/theme_cruise_schedule_admin.php
+includes/admin/theme_cruise_schedule_booking_admin.php
+includes/admin/theme_tour_schedule_admin.php
+includes/admin/theme_tour_schedule_booking_admin.php
+includes/classes/abstracts/byt-entity.php
+includes/classes/accommodation.class.php
+includes/classes/cabin_type.class.php
+includes/classes/car_rental.class.php
+includes/classes/cruise.class.php
+includes/classes/post.class.php
+includes/classes/tour.class.php
+includes/parts/accommodation-booking-form.php
+includes/parts/accommodation-confirmation-form.php
+includes/parts/accommodation-item.php
+includes/parts/car_rental-booking-form.php
+includes/parts/car_rental-confirmation-form.php
+includes/parts/car_rental-item.php
+includes/parts/cruise-booking-form.php
+includes/parts/cruise-confirmation-form.php
+includes/parts/cruise-item.php
+includes/parts/cruise-item.php
+includes/parts/home-page-header.php
+includes/parts/inquiry-form.php
+includes/parts/location-item.php
+includes/parts/location-item.php
+includes/parts/post-item.php
+includes/parts/review-item.php
+includes/parts/tour-booking-form.php
+includes/parts/tour-confirmation-form.php
+includes/parts/tour-item.php
+includes/plugins/widgets/widget-accommodation-list.php
+includes/plugins/widgets/widget-car_rental-list.php
+includes/plugins/widgets/widget-cruise-list.php
+includes/plugins/widgets/widget-location-list.php
+includes/plugins/widgets/widget-post-list.php
+includes/plugins/widgets/widget-search.php
+includes/plugins/widgets/widget-search.php
+includes/plugins/widgets/widget-tour-list.php
+includes/post_types/accommodations.php
+includes/post_types/cabin_types.php
+includes/post_types/car_rentals.php
+includes/post_types/cruises.php
+includes/post_types/facilities.php
+includes/post_types/locations.php
+includes/post_types/posts.php
+includes/post_types/reviews.php
+includes/post_types/room_types.php
+includes/post_types/tours.php
+includes/theme_actions.php
+includes/theme_ajax.php
+includes/theme_filters.php
+includes/theme_globals.php
+includes/theme_meta_boxes.php
+includes/theme_of_custom.php
+includes/theme_of_default_fields.php
+includes/theme_post_types.php
+includes/theme_utils.php
+includes/theme_woocommerce.php
+index.php
+js/accommodations.js
+js/account.js
+js/car_rentals.js
+js/cruises.js
+js/inquiry.js
+js/jquery.uniform.min.js
+js/locations.js
+js/reviews.js
+js/scripts.js
+js/search_widget.js
+js/search.js
+js/tours.js
+css/style.css
+css/style-rtl.css
+languages/default.mo
+languages/default.pot
+options.php
+page-accommodation-list.php
+page-car_rental-list.php
+page-contact-form-7.php
+page-contact.php
+page-cruise-list.php
+page-location-list.php
+page-tour-list.php
+page-user-account.php
+page-user-content-list.php
+page-user-forgot-pass.php
+page-user-login.php
+page-user-register.php
+page-user-submit-content.php
+page.php
+plugins/frontend-submit/frontend-submit.php
+plugins/metaboxes/meta_box.php
+plugins/widgets/widget-accommodation-list.php
+plugins/widgets/widget-address.php
+plugins/widgets/widget-car_rental-list.php
+plugins/widgets/widget-cruise-list.php
+plugins/widgets/widget-home-feature.php
+plugins/widgets/widget-location-list.php
+plugins/widgets/widget-search.php
+plugins/widgets/widget-social.php
+plugins/widgets/widget-tour-list.php
+sidebar-above-footer.php
+sidebar-footer.php
+sidebar-home-above-slider.php
+sidebar-home-below-slider.php
+sidebar-home-content.php
+sidebar-home-footer.php
+sidebar-left-search.php
+sidebar-left.php
+sidebar-right-accommodation.php
+sidebar-right-car_rental.php
+sidebar-right-cruise.php
+sidebar-right-tour.php
+sidebar-right.php
+sidebar-under-header.php
+sidebar.php
+single-accommodation.php
+single-car_rental.php
+single-cruise.php
+single-location.php
+single-tour.php
+single.php
+woocommerce/cart/
+woocommerce/cart/cart-empty.php
+woocommerce/cart/cart-item-data.php
+woocommerce/cart/cart-shipping.php
+woocommerce/cart/cart.php
+woocommerce/checkout/
+woocommerce/checkout/form-billing.php
+woocommerce/checkout/form-checkout.php
+woocommerce/checkout/form-shipping.php
+woocommerce/checkout/review-order.php
+woocommerce/checkout/thankyou.php
+woocommerce/order/
+woocommerce/order/order-details.php
+
+v5.32
+
+18.12.
+
+- Fixed issue with room prices all being the same
+- Upgraded to latest Rev Slider version (4.6.5).
+- Fixed tour schedule admin issue
+- Self-catered room count wasn't being set to 1 from frontend submit. Fixed.
+- Contact form 7 wasn't displaying map even when coordinates set. Fixed.
+- comment_form() support added.
+- Url-escaped all occurences of home_url() echo.
+- Removed plugins/urlify tests folder, .gitignore, .travis.yml, composer.json, INSTALL, phpunit.xml, README.md files as they are not needed.
+- Added wp_title filter support
+- Removed use of STYLESHEETPATH and TEMPLATEPATH. Using get_stylesheet_directory() and get_template_directory() instead.
+- Removed deprecated screen_icon() calls.
+
+Files changed:
+
+style.css
+css/style.css
+css/theme-black.css
+css/theme-blue.css
+css/theme-navy.css
+css/theme-orange.css
+css/theme-pink.css
+css/theme-purple.css
+css/theme-strawberry.css
+css/theme-yellow.css
+includes/admin/admin.js
+includes/post_types/accommodations.php
+includes/theme_filters.php
+includes/theme_of_custom.php
+includes/theme_utils.php
+plugins/class-tgm-plugin-activation.php
+plugins/frontend-submit/class-html-helper.php
+plugins/frontend-submit/frontend-submit.php
+plugins/metaboxes/meta_box.php
+plugins/revslider/revslider.zip
+comments.php
+footer.php
+header.php
+
+Files removed:
+
+plugins/urlify/.gitignore
+plugins/urlify/.travis.yml
+plugins/urlify/composer.json
+plugins/urlify/INSTALL
+plugins/urlify/phpunit.xml
+plugins/urlify/README.md
+plugins/urlify/tests/
+
+v5.31
+
+02.12.
+
+- Fixed bug of all accommodations appearing in My Accommodations in front end submissions menu.
+- Fixed bug of Location dropdown not being populated in front end submission accommodation edit.
+- Removed weird AAA echo in location search.
+- Fixed country dropdown in WooCommerce
+- Fixed rtl header css issue
+
+Files changed:
+
+plugins/frontend-submit/frontend-submit.php
+includes/theme_ajax.php
+page-user-accommodation-list.php
+page-user-accommodation-vacancy-list.php
+page-user-room-list.php
+css/style-rtl.css
+css/style.css
+includes/post_types/accommodations.php
+includes/post_types/car_rentals.php
+includes/post_types/tours.php
+includes/post_types/cruises.php
+includes/classes/abstracts/byt-entity.php
+
+v5.30
+
+23.11. 
+
+- Fixed bug of all hotels and tours appearing on each location.
+
+Files changed:
+
+includes/post_types/accommodations.php
+includes/post_types/car_rentals.php
+includes/post_types/tours.php
+
+21.11.
+
+- Add option to hide header ribbon via Theme options (General settings)
+- Added Location meta box to tour, hotel, self catered list page to filter by location.
+- Added max number of adults and children to self-catered accommodations (set from edit accommodation scree, used 5 if none set).
+- Fixed issue with tour map not loading on tab switch
+- Added captcha to inquiry and contact form
+- Fixed review field values not showing up in single tour, accommodation, cruise view
+- Fixed group tour price being calculated wrong in WooCommerce cart.
+- Reduced number of queries used across the board, especially in -item.php templates
+- Significantly improved search mechanism
+-- Search mechanism now uses WP_Query for querying (accommodations, tours, car rentals, cruises, locations)
+-- Search mechanism sorting now works
+-- Search mechanism "show only available" now works.
+-- Still to do: fix search mechanism parameters like guests, rooms, prices
+- Added support for html tables and lists in meta boxes
+- Fixed error of search form showing when all search options are disabled
+- Fixed null error in accommodation sidebar.
+
+Files changed:
+
+includes/admin/theme_accommodation_vacancy_admin.php
+css/style.css
+custom-search-results.php
+footer.php
+functions.php
+header.php
+includes/admin/admin.js
+includes/admin/theme_accommodation_booking_admin.php
+includes/admin/theme_accommodation_vacancy_admin.php
+includes/admin/theme_car_rental_booking_admin.php
+includes/admin/theme_cruise_schedule_admin.php
+includes/admin/theme_cruise_schedule_booking_admin.php
+includes/admin/theme_currency_admin.php
+includes/admin/theme_tour_schedule_admin.php
+includes/admin/theme_tour_schedule_booking_admin.php
+includes/classes/abstracts/byt-entity.php
+includes/classes/accommodation.class.php
+includes/classes/cruise.class.php
+includes/parts/accommodation-latest.php
+includes/parts/car_rental-latest.php
+includes/parts/cruise-latest.php
+includes/parts/home-search-box.php
+includes/parts/inquiry-form.php
+includes/parts/location-item.php
+includes/parts/login-lightbox.php
+includes/parts/register-lightbox.php
+includes/parts/review-item.php
+includes/parts/tour-latest.php
+includes/post_types/accommodations.php
+includes/post_types/car_rentals.php
+includes/post_types/cruises.php
+includes/post_types/locations.php
+includes/post_types/tours.php
+includes/theme_actions.php
+includes/theme_actions.php
+includes/theme_ajax.php
+includes/theme_meta_boxes.php
+includes/theme_utils.php
+js/accommodations.js
+js/car_rentals.js
+js/contact.js
+js/cruises.js
+js/inquiry.js
+js/locations.js
+js/metaboxes.js
+js/reviews.js
+js/scripts.js
+js/search_widget.js
+js/tours.js
+options.php
+page-accommodation-list.php
+page-contact.php
+page-hotel-list.php
+page-self_catered-list.php
+page-tour-list.php
+page-user-accommodation-list.php
+page-user-accommodation-vacancy-list.php
+plugins/frontend-submit/frontend-submit.php
+plugins/metaboxes/meta_box.php
+plugins/widgets/widget-search.php
+sidebar-right-accommodation.php
+single-accommodation.php
+single-location.php
+single-tour.php
+style.css
+
+v5.20
+
+31.10.
+
+- renamed is_woocommerce_active to byt_is_woocommerce_active to avoid conflicts with other plugins.
+- fixed error on tour and cruise issues caused by sql bug.
+- fixed issues with inquiry form when user is logged out.
+
+Files changed
+
+header.php
+includes/parts/inquiry-form.php
+includes/post_types/cruises.php
+includes/post_types/tours.php
+includes/theme_actions.php
+includes/theme_ajax.php
+includes/theme_woocommerce.php
+css/style.css
+options.php
+custom-search-results.php
+
+
+30.10.
+
+- search filter is now a widget - with translatable fields.
+- home page search widget fields are now editable from Theme options -> Search results.
+- search widget fields prepulated based on query string values.
+- autosuggest feature added to location search field.
+- resolved issues with cruise weekly type not working
+- partial date booking issue resolved - after upgrade, existing users must go to Theme options -> Upgrade tab and click the "Fix partial booking issue" to fix existing bookings.
+- dynamic tabs and fields are now translatable via WPML - after upgrade, existing users must go to Theme options and click Save for the dynamic strings to properly register with WPML.
+- booked date range issue resolved - if date between two dates was booked out, one could still book the date range and the already booked date appeared a price 0.
+- dynamic fields allow more HTML tags now.
+- issue with cruises and tours end date resolved.
+- direct include of jquery ui removed. Resorted to using built in jquery ui libraries instead.
+
+Files changed:
+
+custom-search-results.php
+css/style.css
+functions.php
+header.php
+includes/admin/theme_accommodation_booking_admin.php
+includes/admin/theme_accommodation_vacancy_admin.php
+includes/admin/theme_tour_schedule_admin.php
+includes/classes/abstracts/byt-entity.php
+includes/classes/accommodation.class.php
+includes/classes/cabin_type.class.php
+includes/classes/car_rental.class.php
+includes/classes/cruise.class.php
+includes/classes/room_type.class.php
+includes/classes/tour.class.php
+includes/parts/accommodation-booking-form.php
+includes/parts/home-page-header.php
+includes/parts/home-search-box.php
+includes/parts/home-search-box.php
+includes/post_types/accommodations.php
+includes/post_types/cruises.php
+includes/post_types/search.php
+includes/post_types/tours.php
+includes/theme_actions.php
+includes/theme_ajax.php
+includes/theme_filters.php
+includes/theme_of_custom.php
+includes/theme_post_types.php
+includes/theme_utils.php
+includes/theme_utils.php
+js/accommodations.js
+js/jquery-ui.min.js
+js/scripts.js
+js/scripts.js
+js/search_widget.js
+js/search.js
+js/custom-suggest.js
+options.php
+plugins/frontend-submit/frontend-submit.php
+plugins/metaboxes/meta_box.php
+plugins/widgets/widget-search.php
+sidebar-left-search.php
+single-accommodation.php
+single-car_rental.php
+single-cruise.php
+single-location.php
+single-tour.php
+wpml-config.xml
+
+v5.01
+
+01.10.2014
+
+- Resolved issues with registration/confirmation mails not being sent on register
+- Added ability to synchronize review counts/scores from Reviews tab in Theme options (bottom of Reviews tab)
+- Fixed issue with reviews not showing correct rating scores (admin must also run Sync reviews action mentioned above at least for this to then work).
+- Grid view / list view switch resize fluid items fix
+- Fixed reorder dynamic tabs and fields in options issue
+- Fixed hardcoded table names in accommodations.php
+- Resolved issue of duplicate terms being created in woocommerce
+- Updated language files with latest translatable terms
+- Fixed issue with comma in address on contact map 
+- Fixed issue with cruise schedules
+- Fixed issue with inquiry and review buttons not working
+
+Files changed:
+functions.php
+style.css
+js/scripts.js
+languages/default.pot
+languages/default.mo
+includes/parts/accommodation-item.php
+includes/parts/cruise-item.php
+includes/parts/tour-item.php
+includes/parts/review-item.php
+includes/post_types/reviews.php
+includes/theme_ajax.php
+includes/theme_of_custom.php
+options.php
+includes/theme_utils.php
+js/contact.js
+includes/theme_post_types.php
+includes/admin/theme_cruise_schedule_admin.php
+single-tour.php
+includes/theme_woocommerce.php
+css/style.css
+includes/theme_actions.php
+plugins/frontend-submit/frontend-submit.php
+page-user-register.php
+includes/parts/register-lightbox.php
+includes/theme_meta_boxes.php
+includes/post_types/accommodations.php
+includes/post_types/cruises.php
+single-accommodation.php
+single-car_rental.php
+single-cruise.php
+
+v5.00
+
+19.9.2014
+- fixed leftover bug in functions.php and single-tour.php
+- hide hotels/self catered count if accommodations are not enabeld
+
+Files changed:
+includes/parts/location-item.php
+single-tour.php
+functions.php
+
+19.9.2014
+
+- Cruises and cabins data type / scheduling
+- Front end accommodation/room type/vacancy submission
+- Added new page templates for front end listing and submitting accommodations, room types and vacancies
+- Content contributing user registration mode
+- Removed type archive list page templates, and instead added type parameter in admin for reach of hotel,
+self catered, car rental, tour, cruise list pages.
+- Dynamic review fields for tours/accommodations/cruises editable/addable/removable from admin
+- Dynamic extra fields for tours/accommodations/cruises editable/addable/removable from admin
+- Dynamic tabs for tours/accommodations/cruises editable/addable/removable from admin
+- Revamp of options admin page
+- General code refactoring
+- Upgraded WooCommerce templates to 2.2.4
+
+Files changed:
+_sample/bookyourtravel.sample.xml
+byt_home.php
+css/admin-custom.css
+css/images/
+css/images/sprite.png
+css/images/ui-bg_glass_75_e6e6e6_1x400.png
+css/images/ui-icons_888888_256x240.png
+css/jquery-ui-custom.css
+css/style.css
+framework/includes/class-options-framework-admin.php
+functions.php
+header-accommodation.php
+header-contact.php
+header-tour.php
+header.php
+includes/admin/admin.js
+includes/admin/theme_accommodation_vacancy_admin.php
+includes/admin/theme_car_rental_booking_admin.php
+includes/admin/theme_cruise_schedule_admin.php
+includes/admin/theme_cruise_schedule_booking_admin.php
+includes/admin/theme_tour_schedule_admin.php
+includes/admin/theme_tour_schedule_booking_admin.php
+includes/classes/abstracts/byt-entity.php
+includes/classes/accommodation.class.php
+includes/classes/BookYourTravel_Accommodation.class.php
+includes/classes/cabin_type.class.php
+includes/classes/car_rental.class.php
+includes/classes/cruise.class.php
+includes/classes/location.class.php
+includes/classes/room_type.class.php
+includes/classes/tour.class.php
+includes/parts/accommodation-contact-form.php
+includes/parts/accommodation-item.php
+includes/parts/accommodation-review-form.php
+includes/parts/car_rental-contact-form.php
+includes/parts/car_rental-item.php
+includes/parts/cruise-booking-form.php
+includes/parts/cruise-confirmation-form.php
+includes/parts/cruise-item.php
+includes/parts/cruise-review-form.php
+includes/parts/home-page-header.php
+includes/parts/inquiry-form.php
+includes/parts/location-item.php
+includes/parts/review-form.php
+includes/parts/review-item.php
+includes/parts/tour-contact-form.php
+includes/parts/tour-item.php
+includes/parts/tour-review-form.php
+includes/post_types/accommodations.php
+includes/post_types/car_rentals.php
+includes/post_types/cruises.php
+includes/post_types/reviews.php
+includes/post_types/tours.php
+includes/theme_actions.php
+includes/theme_ajax.php
+includes/theme_filters.php
+includes/theme_meta_boxes.php
+includes/theme_of_custom.php
+includes/theme_of_default_fields.php
+includes/theme_post_types.php
+includes/theme_utils.php
+includes/theme_woocommerce.php
+js/accommodations.js
+js/car_rentals.js
+js/cruises.js
+js/inquiry.js
+js/reviews.js
+js/scripts.js
+js/tours.js
+languages/default.mo
+languages/default.pot
+options.php
+page-accommodation-list.php
+page-accommodation-type-archive.php
+page-car_rental-list.php
+page-car-type-archive.php
+page-cruise-list.php
+page-hotel-list.php
+page-self_catered-list.php
+page-submit-content.php
+page-tour-list.php
+page-tour-type-archive.php
+page-user-accommodation-list.php
+page-user-accommodation-vacancy-list.php
+page-user-account.php
+page-user-register.php
+page-user-room-list.php
+page-user-submit-content.php
+plugins/frontend-submit/
+plugins/frontend-submit/class-html-helper.php
+plugins/frontend-submit/frontend-submit.js
+plugins/frontend-submit/frontend-submit.php
+plugins/lightSlider/css/lightSlider.css
+plugins/lightSlider/js/jquery.lightSlider.js
+plugins/lightSlider/js/jquery.lightSlider.min.js
+plugins/revslider/revslider.zip
+plugins/urlify/
+plugins/urlify/.gitignore
+plugins/urlify/.travis.yml
+plugins/urlify/composer.json
+plugins/urlify/INSTALL
+plugins/urlify/LICENSE
+plugins/urlify/phpunit.xml
+plugins/urlify/README.md
+plugins/urlify/tests/
+plugins/urlify/tests/bootstrap.php
+plugins/urlify/tests/URLifyTest.php
+plugins/urlify/URLify.php
+sidebar-right-accommodation.php
+sidebar-right-car_rental.php
+sidebar-right-cruise.php
+sidebar-right-tour.php
+single-accommodation.php
+single-car_rental.php
+single-cruise.php
+single-location.php
+single-tour.php
+style.css
+woocommerce/checkout/form-shipping.php
+
+v4.4
+
+30.08.2014
+- css fixed for images not displaying properly
+
+Files changed:
+css/style.css
+
+26.8.2014
+- Updated sample data
+- Various small css issues fixed
+
+Files changed:
+css/style.css
+SampleData/bookyourtravel.sample.xml
+
+22.08.2014
+- Revolution slider added. Removed old, buggy sequence slider.
+Note: your old slides will be lost. You must activate revolution slider and create new slider.
+You must then create new slides and go to Theme options and select new slider under Home page tab.
+- End date added to repeated tour schedules. Repeated tours can now be scheduled with end date in mind so that seasonal prices can be set for repeated tours.
+- Fixed issue with cart is empty for WooCommerce
+- Group price supported implemented for tours
+- Vacancy issues resolved for when multiple languages are used
+- User rating filter removed when reviews are disabled via theme options
+- Search by location fix implemented
+- Pager last page issue resolved for all paged templates
+
+Files changed:
+custom-search-results.php
+changelog.txt
+functions.php
+header-accommodation.php
+header-contact.php
+header-tour.php
+header.php
+includes/admin/admin.js
+includes/admin/theme_accommodation_vacancy_admin.php
+includes/admin/theme_tour_schedule_admin.php
+includes/admin/theme_tour_schedule_booking_admin.php
+includes/classes/accommodation.class.php
+includes/classes/car_rental.class.php
+includes/classes/location.class.php
+includes/classes/tour.class.php
+includes/parts/accommodation-item.php
+includes/parts/car_rental-item.php
+includes/parts/location-item.php
+includes/parts/post-latest.php
+includes/parts/tour-booking-form.php
+includes/parts/tour-item.php
+includes/post_types/accommodations.php
+includes/post_types/car_rentals.php
+includes/post_types/sequence-slides.php
+includes/post_types/tours.php
+includes/theme_actions.php
+includes/theme_ajax.php
+includes/theme_meta_boxes.php
+includes/theme_post_types.php
+includes/theme_woocommerce.php
+js/sequence.jquery-min.js
+js/sequence.js
+js/tours.js
+css/style.css
+languages/default.mo
+languages/default.pot
+options.php
+page-accommodation-list.php
+page-accommodation-type-archive.php
+page-car_rental-list.php
+page-car-type-archive.php
+page-hotel-list.php
+page-self_catered-list.php
+page-tour-list.php
+page-tour-type-archive.php
+plugins/class-tgm-plugin-activation.php
+plugins/revslider/
+plugins/revslider/revslider.zip
+single-accommodation.php
+single-tour.php
+
+v4.32
+
+01.08.2014
+- Search only accommodations with valid vacancies now fixed.
+- Issue of sort by rating/stars is now fixed
+- RTL support
+
+Files changed:
+includes/post_types/accommodations.php
+options.php
+includes/theme_actions.php
+single-accommodation.php
+single-car_rental.php
+single-location.php
+single-tour.php
+single.php
+css/style.css
+css/style-rtl.css
+
+30.07.2014
+- Fixed so that WooCommerce order creation does not delete booking
+- Vacancies/Hotels were appearing once for each language when multiple languages installed. This has been fixed.
+
+Files changed:
+
+functions.php
+includes/post_types/accommodations.php
+includes/post_types/car_rentals.php
+includes/post_types/locations.php
+includes/post_types/tours.php
+includes/theme_ajax.php
+includes/theme_woocommerce.php
+
+26.07.2014
+- Sample Content Updated
+
+Files changed:
+
+SampleData/bookyourtravel.sample.xml
+
+25.07.2014
+
+- Theme options are now WPML compatible - with help of wpml-config.xml
+- Click on inquiry form cancel button now properly closes inquiry form
+- Admin can now enable/disable captcha via theme options
+- Single location page now has a gallery of images using jquery.lightSlider
+- Website null issue has been resolved in contact page map
+- Custom tables are now utf-8 compatible so non-latin text can be entered and used without problems.
+- Admin can now enable/disable reviews via theme options
+- WPML booking/vacancy/schedule compatibility was rechecked
+- WooCommerce calculation issues resolved - if first X children are free etc.
+- Single accommodation/tour/car rental - if fields are blank, labels are no longer shown
+- Admin can now specify multiple contact email addresses for propreties by separating them with semi-colon (;)
+- Google map issue, where you click on Location tab, then click away, then click back to Location tab, does not rerender map properly resolved
+- WooCommerce booking details are now translatable
+- Missing translations in admin added
+- Booking is now properly deleted if item is removed from WooCommerce cart
+- Search only valid tours/car rentals now implemented. Option added to Searching tab in theme options.
+- Added loading "gif" when book buttons are clicked to ease waiting
+- Multiple redundant functions removed.
+- Code revamped, improved and optimized throughout the theme.
+
+Files changed:
+
+SampleData/bookyourtravel.sample.xml
+archive-location.php
+byt_home.php
+changelog.txt
+css/style.css
+custom-search-results.php
+framework/css/optionsframework.css
+framework/includes/class-options-framework-admin.php
+framework/includes/class-options-framework.php
+framework/includes/class-options-interface.php
+framework/includes/class-options-media-uploader.php
+framework/includes/class-options-sanitization.php
+framework/js/media-uploader.js
+framework/js/options-custom.js
+functions.php
+header-accommodation.php
+header-contact.php
+header-tour.php
+header.php
+includes/admin/theme_accommodation_booking_admin.php
+includes/admin/theme_accommodation_vacancy_admin.php
+includes/admin/theme_car_rental_booking_admin.php
+includes/admin/theme_tour_schedule_admin.php
+includes/admin/theme_tour_schedule_booking_admin.php
+includes/classes/location.class.php
+includes/parts/accommodation-booking-form.php
+includes/parts/accommodation-item.php
+includes/parts/accommodation-latest.php
+includes/parts/accommodation-review-form.php
+includes/parts/car_rental-booking-form.php
+includes/parts/car_rental-contact-form.php
+includes/parts/car_rental-item.php
+includes/parts/car_rental-latest.php
+includes/parts/location-item.php
+includes/parts/register-lightbox.php
+includes/parts/tour-booking-form.php
+includes/parts/tour-contact-form.php
+includes/parts/tour-item.php
+includes/parts/tour-latest.php
+includes/parts/tour-review-form.php
+includes/post_types/accommodations.php
+includes/post_types/car_rentals.php
+includes/post_types/locations.php
+includes/post_types/reviews.php
+includes/post_types/sequence-slides.php
+includes/post_types/tours.php
+includes/theme_actions.php
+includes/theme_ajax.php
+includes/theme_filters.php
+includes/theme_meta_boxes.php
+includes/theme_post_types.php
+includes/theme_woocommerce.php
+js/accommodations.js
+js/car_rentals.js
+js/locations.js
+js/scripts.js
+js/tours.js
+languages/default.mo
+languages/default.pot
+options.php
+page-accommodation-list.php
+page-accommodation-type-archive.php
+page-car_rental-list.php
+page-car-type-archive.php
+page-hotel-list.php
+page-location-list.php
+page-self_catered-list.php
+page-tour-list.php
+page-tour-type-archive.php
+page-user-account.php
+page-user-register.php
+plugins/metaboxes/meta_box.php
+plugins/widgets/widget-social.php
+sidebar-right-accommodation.php
+sidebar-right-tour.php
+single-accommodation.php
+single-car_rental.php
+single-location.php
+single-tour.php
+single-tour.php
+wpml-config.xml
+
+v4.2:
+
+27.06.2014
+
+- Tours not displaying prices fix
+
+Files changed:
+
+includes/post_types/tours.php
+
+27.06.2014
+
+- Tour/accommodation/car rental bookings can now be added and updated via admin dashboard.
+- Captcha has been added to registration form and registration ligthbox
+- Registration form issue with wysia newsletter plugin fixed when new users are registered.
+- Car rental when number of cars available has been exceeded, booking is no longer possible.
+- Accommodations, car rentals, tours can now be marked as "reservation only", and not processed by woocommerce even when woocommerce is active and used.
+- Accommodations, car rentals, tours can now be marked as featured. Admin can set on Theme options -> Home page that only featured items get displayed on home page.
+- Users can now link to tabs on single pages... like http://www.kajag.com/themes/book_your_travel_wordpress/accommodation/italia-hotel/#description and the correct tab will open
+- Custom templates like Accommodation list archive, Car rental list etc now can display custom content above the list (content that is entered via content editor).
+- Car rentals, tours, accommodations dipslay lightSlider image gallery on single view with thumbnails and left/right controls.
+- Accommodation facilities bug where user could not uncheck all facilities and save accommodation has been resolved.
+- Locations show hotels that belong to their location "children" now. For example, location England will now show all hotels/tours/car rentals that belong to London, Manchester, Liverpool etc.
+- Updated documentation
+- Updated preview
+
+Files changed:
+
+SampleData/bookyourtravel.sample.xml
+blog.php
+functions.php
+includes/admin/admin.js
+includes/admin/theme_accommodation_booking_admin.php
+includes/admin/theme_accommodation_vacancy_admin.php
+includes/admin/theme_car_rental_booking_admin.php
+includes/admin/theme_tour_schedule_booking_admin.php
+includes/admin/theme_tour_schedule_admin.php
+includes/classes/accommodation.class.php
+includes/classes/car_rental.class.php
+includes/classes/location.class.php
+includes/classes/tour.class.php
+includes/parts/accommodation-item.php
+includes/parts/accommodation-latest.php
+includes/parts/car_rental-confirmation-form.php
+includes/parts/car_rental-item.php
+includes/parts/car_rental-latest.php
+includes/parts/location-item.php
+includes/parts/location-latest.php
+includes/parts/post-latest.php
+includes/parts/register-lightbox.php
+includes/parts/tour-item.php
+includes/parts/tour-latest.php
+includes/post_types/accommodations.php
+includes/post_types/car_rentals.php
+includes/post_types/locations.php
+includes/post_types/tours.php
+includes/theme_actions.php
+includes/theme_ajax.php
+includes/theme_meta_boxes.php
+includes/theme_post_types.php
+includes/theme_utils.php
+index.php
+css/style.css
+js/accommodations.js
+js/car_rentals.js
+js/scripts.js
+js/tours.js
+js/tours.js
+languages/default.mo
+languages/default.pot
+options.php
+page-accommodation-list.php
+page-accommodation-type-archive.php
+page-car_rental-list.php
+page-car-type-archive.php
+page-hotel-list.php
+page-location-list.php
+page-self_catered-list.php
+page-tour-list.php
+page-tour-type-archive.php
+page-user-register.php
+plugins/lightSlider folder
+plugins/metaboxes/js/scripts.js
+plugins/metaboxes/meta_box.php
+search.php
+single-accommodation.php
+single-car_rental.php
+single-location.php
+single-tour.php
+single.php
+
+v4.1:
+
+30.05.2014
+
+- Another incompatibility issue fixed
+
+Files changed:
+
+single-accommodation.php
+
+29.05.2014
+
+- Added css/admin-custom.css so that you can style the admin.
+- Fixed issue of html breaking on accommodation/tour/car rental lists when html is used inside description.
+- Added a number of filters and actions (hooks) to many pages in order to improve usability of theme and simplify overrides and reduce requirement of copying entire files to child theme. These filters have been added to documentation for reference.
+- Added single car rental screen, and single car rental permalink slug to settings. Settings need to be saved and the permalinks need to be flushed in order for this to work and to avoid 404 error.
+- Improved car rental booking form to be in line with accommodation booking form.
+- Car booking form now has a flexible dropoff location field.
+- Improved tour booking form to be in line with accommodation booking form.
+- Tour booking form now allows multiple people to be booked in one go.
+- Improved accommodation vacancy and tour schedule calendar by doing ajax calls for vacancy days between month changes in order to improve performance and also allow bookings for future dates for as far ahead as vacancies exist.
+- Fixed issue with registration lightbox requiring a “agree terms and conditions” checkbox be checked and that checkbox was nowhere to be found.
+- Added location archive page that lets you specify a location parent (in order to list sub locations).
+- Added inquiry form to tour single page
+- Added inquiry form to car rental single page
+- Adult/child count/pickup location/drop off location are now included in booking emails sent to admin and customer
+- Various housekeeping tasks (like making overall code more Object oriented) etc.
+- Fixed WPML issues with vacancies and prices.
+- php incompatibility issue resolved
+
+Files that were changed:
+
+byt_home.php
+css/style.css
+custom-search-results.php
+functions.php
+header-accommodation.php
+header-contact.php
+header-tour.php
+header.php
+includes/admin/theme_accommodation_booking_admin.php
+includes/admin/theme_car_rental_booking_admin.php
+includes/admin/theme_accommodation_vacancy_admin.php
+includes/admin/theme_tour_schedule_admin.php
+includes/classes/accommodation.class.php
+includes/classes/car_rental.class.php
+includes/classes/location.class.php
+includes/classes/room_type.class.php
+includes/classes/tour.class.php
+includes/parts/accommodation-booking-form.php
+includes/parts/accommodation-confirmation-form.php
+includes/parts/accommodation-contact-form.php
+includes/parts/accommodation-item.php
+includes/parts/accommodation-review-form.php
+includes/parts/car_rental-booking-form.php
+includes/parts/car_rental-confirmation-form.php
+includes/parts/car_rental-contact-form.php
+includes/parts/car_rental-latest.php
+includes/parts/location-item.php
+includes/parts/location-latest.php
+includes/parts/register-lightbox.php
+includes/parts/tour-booking-form.php
+includes/parts/tour-confirmation-form.php
+includes/parts/tour-contact-form.php
+includes/parts/tour-item.php
+includes/parts/tour-review-form.php
+includes/post_types/accommodations.php
+includes/post_types/car_rentals.php
+includes/post_types/tours.php
+includes/theme_actions.php
+includes/theme_ajax.php
+includes/theme_filters.php
+includes/theme_meta_boxes.php
+includes/theme_utils.php
+js/accommodations.js
+js/car_rentals.js
+js/scripts.js
+js/tours.js
+languages/default.mo
+languages/default.pot
+options.php
+page-car_rental-list.php
+page-car-type-archive.php
+page-location-list.php
+page-user-forgot-pass.php
+page-user-login.php
+page-user-register.php
+sidebar-right-accommodation.php
+sidebar-right-car_rental.php
+sidebar-right-tour.php
+single-accommodation.php
+single-car_rental.php
+single-location.php
+single-tour.php
+
+v4.0:
+
+14.05.2014
+
+- Fixed search results issue
+- Added option to allow people to edit a tour schedule in admin
+Files that were changed:
+
+includes/post_types/accommodations.php
+includes/post_types/tours.php
+includes/admin/theme_accommodation_vacancy_admin.php
+includes/admin/theme_tour_schedule_admin.php
+
+13.05.2014
+
+- Fixed booking form children weren't being displayed for hotels bug
+Files that were changed:
+
+single-accommodation.php
+includes\parts\accommodation-booking-form.php
+includes\post_types\accommodations.php 
+js\accommodations.js 
+languages\default.pot 
+languages\default.mo
+
+07.05.2014
+
+- Search results issue fixed
+- Loading animation IE fixed
+Files that were changed:
+
+woocommerce\checkout\review-order.php
+includes\theme_actions.php 
+includes\parts\accommodation-booking-form.php 
+includes\post_types\accommodations.php 
+includes\theme_ajax.php 
+js\jquery.tablesorter.min.js 
+js\accommodations.js 
+
+03.05.2014
+
+- Login/register lightbox fix (fixed broken jquery)
+- Fixed booking form counting adult count even when per room mode was chosen.
+Files that were changed:
+
+/includes/post_types/accommodations.php
+/includes/theme_actions.php
+/includes/theme_ajax.php
+/js/accommodations.js
+/js/car_rentals.js
+/js/contact.js
+/js/metaboxes.js
+/js/scripts.js
+/js/tours.js
+
+01.05.2014
+
+- Price can be set on a per room or per person basis for each accommodation
+- Added text field for Availability tab description for individual accommodation
+- Moved calendar to booking form.
+- Improved pricing table on booking form.
+- Added "Loading..." feature when pricing table is being repopulated.
+- Selected default count for adults and children dropdown (1 for adults, 0 for children)
+- Updated styling
+- Updated language files
+- Updated sample data
+- Updated preview
+Files that were changed:
+
+functions.php
+header.php
+page-accommodation-type-archive.php
+single-accommodation.php
+single-tour.php
+includes/parts/accommodation-booking-form.php
+includes/parts/accommodation-dates-form.php <—removed as not needed
+includes/parts/accommodation-item.php
+includes/parts/accommodation-contact-form.php
+includes/parts/accommodation-review-form.php
+includes/parts/car_rental-booking-form.php
+includes/parts/car_rental-item.php
+includes/parts/tour-booking-form.php
+includes/parts/tour-item.php
+includes/parts/tour-review-form.php
+includes/parts/location-item.php
+includes/admin/admin.js
+includes/admin/theme_accommodation_vacancy_admin.php
+includes/post_types/accommodations.php
+includes/theme_ajax.php
+includes/theme_meta_boxes.php
+includes/theme_post_types.php
+js/accommodations.js
+js/car_rentals.js
+js/contact.js
+js/metaboxes.js
+js/scripts.js
+js/sequence.js
+js/tours.js
+css/style.css
+languages/default.mo
+languages/default.pot
+SampleData/bookyourtravel.sample.xml
+
+23.04.2014
+
+- Removed console.log from js files.
+- Fixed duplicate room display in single accommodation screen.
+- Fixed total price issue in non-default currency booking forms.
+
+25.04.2014
+
+- Removed console.log from js files.
+- Fixed duplicate room display in single accommodation screen.
+- Fixed total price issue in non-default currency booking forms.
+
+23.04.2014
+
+- Fixed price related issues
+
+21.04.2014
+
+- Fixed currency install bug for new installations
+- Fixed woocommerce styling
+
+17.04.2014
+
+- Woocommerce payment enabled.
+- Creation of daily, weekday and weekly tour types plus standard by-date tour types.
+- New way to create schedules for tours and accommodations.
+- Fixed issue where js files didn't apply to child theme. They do now.
+- Extra info for tours/car rentals now not reliant on whether accommodations are enabled or disabled.
+- Labels for meta boxes in admin are now translatable.
+- Multiple currency issues resolved.
+- Tour type and car rental archive pages added.
+- Latest car rentals can now be added to home page.
+- DB size of prices increased to 14 digits plus 2 decimals to accommodation currencies with large values.
+- User account page fields editable again.
+- Rates table added to accommodation booking form.
+- When review is deleted scores are updated to account for delete review.
+- Added number of adults and number of children to booking form.
+- Fixed pager issue on archive pages.
+- Updated Sample data
+- Updated Documentation
+Please note that this update will delete your existing vacancies.
+
+v3.9.1: 20.03.2014
+
+- Fixed registration page issue.
+- Fixed admin vacancy and schedule price decimal place support.
+
+v3.9: 15.03.2014
+
+- Slider slides now WPML fully compatible
+- Fixed currencies conversion to EURO issue 
+- Decimal places saved as 00 in admin now fixed for prices of vacancies and tour schedules
+- Front page now validates in HTML validator
+- Fixed image alignment isszue in posts
+- Fixed image responsiveness in posts
+
+v3.8: 22.02.2014
+
+- Added accommodation type archive page template so that admin can create /accommodations/self-catered/apartments, /accommodations/self-catered/villas pages etc.
+- Added contact email address for tours and car rental bookings.
+- Added booking can be sent to specified email address instead to admin
+- Added simple number sum captcha to booking forms
+- Added accommodation list template that lists all accommodations (hotels and self-catered).
+- Added major WPML fix so that accommodations/tours/car rentals are properly listed when translated on multilanguage websites
+- Added WPML fix so that correct page is pulled up for search results/my account/login/signup pages.
+- Added fix to entire hide search box if none of the tour/self-catered/hotel/car-rental search options are enabled in theme options
+- Fixed bug where latest offers on home page was not pulling up theme-options-assigned category posts
+- Fixed css Chrome button layout bug
+- Fixed search results bug
+- Removed couple of other small bugs
+
+v3.7: 13.02.2014
+
+- Replaced css3-mediaquerries.js with respond.js for Internet Explorer crashing issue
+- Temporarily removed compatibility for IE8
+
+v3.6: 10.02.2014
+
+- Removed jetpack dependence for newsletter. Added mailpoet and mailchimp newsletter styles.
+- Fixed broken translations where php parameter was passed into translation function by mistake.
+- Fixed broken currency conversion (dead webservice provider). Added European Central Bank currency xml support.
+- Added automatic-feed-links support.
+- Added default content width support.
+- Remove miscellaneous bugs reported by theme-check plugin.
+- Added better get_template_part support for accommodation, tour, car_rental and location custom post types.
+- Added content pagination support.
+- Adjusted element heights and fixed broken layout on all data-types lists
+- Updated documentation
+
+v3.5: 30.12.2013
+
+- fixed header navigation bug
+- upated widget areas
+
+v3.4: 25.12.2013
+
+- added above header and below footer sidebars on all pages.
+- room meta information (like tax and price description) is now dynamic, no longer hardcoded.
+- locations and sublocations now correctly show accommodations and tours in single view.
+- locations and sublocations now correctly show accommodation counts in list view.
+- fixed room count bug after booking increasing
+
+v3.3: 20.12.2013
+
+- Resolved issue with hotel and room counts not displaying correct on home page.
+- Search results from and to dates now correctly passed on to single accommodation screen via url.
+- Fixed issue of booking total price counting number of nights wrong (was always counting 1 night extra).
+- Allowed html in text fields (pets, credit card info etc.)
+- Added option to filter by room type in accommodation vacancy admin.
+- Added button for users to be able to delete all vacancies for accommodations and schedule entries for tours
+- Added css for more dropdown levels in main menu
+
+v3.2: 10.12.2013
+
+- Added Widget areas : home above slider, home below slider, blog index above posts, blog index below posts
+- Fixed Sidebar so that on tours and accommodation, the sidebar with description appears regardless of whether the user added another widget or not.
+- User phone number added to tour, car and accommodation booking forms and confirmation emails.
+- Single location now properly lists hotels under hotel tab, self-catered under self-catered tabs and also I added tours under tours tabs.
+- Location list item now shows Hotel and self-catered counts separately.
+
+v3.1: 30.11.2013
+
+- Contact form bug fixed
+- Header ribbon css z-index issue fixed
+- Drop down css opacity resolved
+- Updated language files
+- Updated Documentation
+- Bookings send to different email temporarily removed
+
+v3.0: 29.11.2013
+
+- Tours implemented
+- Tours single screen with review and booking
+- Tours list page
+- Latest tour offers
+- Tour search capability
+- Bookings send to different email -> admin email to send bookings to now configurable from Data tab in settings.
+- Noslider class added to homepage when slider is hidden via theme settings.
+- Facility name now shown instead of facility slug in single accommodation screen.
+- Contact form bug (no javascript) fixed.
+- Added support for child theme to allow for upgrade-proof customization.
+- Updated Documentation
+- Updated Sample Data
+- Updated Preview
+
+v2.1: 21.11.2013
+
+- Issue with search not searching for the right accommodations when hotel search is disabled (it should search for self catered).
+- Issue with room prices being the same when clearly different values are entered (previously code was wrongly showing min price for any room, instead of being room specific).
+
+v2.0: 20.11.2013
+
+- Allow creation of sub locations
+- Added currency administration page
+- Added car rental support with archive page and booking system
+- Added WPML language switcher support.
+- Allow turning on and off of latest destinations/locations on home page
+- Added dropdown filter to accommodations vacancy admin screen to allow filtering by accommodation
+- Fixed character count bug for accommodation description
+- Fixed vacation rentals calendar issue where switching between months didn't show available vacancies
+- Fixed Slider bug
+- Added a navy color theme
+- Sampe Data update
+- Documentation update
+- Preview update
+
+v1.3: 9.11.2013
+
+- Vacation rentals added as a separate entity
+- Added ability to set posts_per_page for archives and for search results and front page via settings.
+- Removed hotel archive page (the built in category-archive like page). Instead we have two page templates for which pages need to be created.
+- Self-catered checkbox added to hotel adding page... if self-catered there are no room types and no room count.
+- Availability calendar added for vacation rentals
+- Changed from dead google currency api to new one (http://www.webservicex.net/CurrencyConvertor.asmx)
+- Option to show all hotels/self-catered or only ones with availability
+- Removed absolute position on page header on inner pages (fix for bigger logos)
+- Sampe Data update
+- Documentation update
+- Preview update
+
+v1.2.3: 30.10.2013
+
+- Color scheme change logo bug fixed
+- Color scheme change Data content bug fixed
+
+v1.2.2: 24.10.2013
+
+- New tab in settings dedicated to search results.
+- Users can now specify search results default view. Default is set to Grid view when installed.
+- Prices in search results are now dynamic. On the same tab in settings as above, you can now specify price range bottom, price range increment and increment count to determine the prices that are displayed in the form.
+- You can now specify decimal places to be shown on all pages by going to the settings Data page and setting the decimal places there in drop down.
+- There is a new field in single hotel called hotel_contact_email. If this is specified, the hotel single page now shows a button in the right hand side under the review button. See the following as an example: 
+http://www.kajag.com/themes/book_your_travel_wordpress/hotels/tropicana-hotel/
+- Blog posts have been added to the home page. There is also an option to specify how many posts you want to show here.
+- Users can now successfully change permalinks of hotels and locations. After change, user must go to Settings->Permalinks and hit save.
+- Issue with currency symbol not showing right on first load of page has now been fixed.
+- Heights of hotel descriptions on grid view have also been fixed.
+- Updated Sample Data
+- Updated Documentation
+
+v1.2.1: 16.10.2013
+
+- Custom slugs for hotels and locations have been temporarily removed
+
+v1.2: 15.10.2013
+
+- Enhanced currency list (based on all currencies supported by Google currency converter:  https://developers.google.com/analytics/devguides/platform/features/currencies).
+- Default currency selection in theme settings.
+- Configurable checkbox list of currencies currently enabled on site (and appearing in toolbar) from theme settings
+- Configurable speed of slider on home page
+- Contact form 7 support
+- Fix of search by not found location which previously showed result (eg search for asdasdsads as reported bug).
+- Hide "What" field in form if only one set of data is enabled (eg only hotels, or only flights)
+- Completed booking of vacancy reduces the number of available rooms for that vacancy. Once all rooms are taken, vacancy marked as null.
+- If a booking (spam) is deleted, that vacancy room_count is returned to original.
+- Added Accommodation types - so that we can have hotels, lodges, flats etc
+- Search by accommodation type
+- Dates allow past dates to be selected bug fix
+- Booking price total now displayed in booking form instead of the current room price per day.
+- Allow searching across multiple vacancy dates without prices disappearing (reported bug)
+- Email sent to user on booking.
+- Updated Sample data
+- Updated Documentation
+- Updated Preview file
+
+v1.1: 30.09.2013
+
+- Some php bug fixes 
+- slider theming css fix

@@ -1,0 +1,574 @@
+msgid ""
+msgstr "MIME-Version: 1.0\n"
+
+#. Name.
+msgid "Post Views Count (Support caching plugins!)"
+msgstr ""
+
+#. Short description.
+msgid "This plugin counts views for post and pages, shortcodes [post_view] &amp; [most_view] are available, also a widget &quot;Most Viewed Posts&quot; is."
+msgstr ""
+
+#. Screenshot description.
+msgid "Shortcodes in post edition"
+msgstr ""
+
+#. Screenshot description.
+msgid "Result in front end post with [post_view]"
+msgstr ""
+
+#. Screenshot description.
+msgid "Widget demo"
+msgstr ""
+
+#. Screenshot description.
+msgid "Shortcode [most_view] demo, in a page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Settings page"
+msgstr ""
+
+#. Screenshot description.
+msgid "Meta box in each post type"
+msgstr ""
+
+#. Screenshot description.
+msgid "Same but i clicked on a value, i can cheat on it!"
+msgstr ""
+
+#. Screenshot description.
+msgid "Column in post list, each post type too"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "IMPORTANT: 3.0 supports cahing plugins!"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "When someone visits a post or page (not a search engine bot crawler), it adds 1 count views to its counter."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "But this is not all, the counters are split in days, weeks, months, years, so you can see stats and display any stat day."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Then you can display this views with the provided shortcode [post_view] or use the widget to display a top (or less) posts list."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "You can also use [most_view] in a post/page to get a top (or less) post most viewed."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If you were using another kind of plugin before and don't want to lose your counters, this plugin can keep them!"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Upload the <em>\"baw-post-views-count\"</em> to the <em>\"/wp-content/plugins/\"</em> directory"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate the plugin through the <em>\"Plugins\"</em> menu in WordPress"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Go to settings page"
+msgstr ""
+
+#. Found in installation list item.
+msgid "You can add the [post_view] shortcode to your theme template or directly in a post/page or add the widget."
+msgstr ""
+
+#. Found in installation list item.
+msgid "You can also use [most_view] in a post/page to get a top (or less, see FAQ) post most viewed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "08 oct 2015"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix (bool) false/true in footer, my bad, too quick!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix bug double counter"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "07 oct 2015"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "This version supports now all caching plugins, including the premium WP Rocket."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "11 sep 2015"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove the \"time between counts\" options, it was a bad idea believe me. Nor logical and badly coded."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "01 sep 2015"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Widget was broken"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "04 nov 2012"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "My bad, sorry for this, i broke any sites because of 2.19.10, fixed now ..."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add a new filter named 'baw_count_views_widget_post_types' to filter post types in the widget."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "01 nov 2012"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Widget only shows post type fro settings, not only posts."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove the stats informations for roles not allowed with 'baw_count_views_capa_role' (Default: edit_posts)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "31 oct 2012"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added, you can filter the minimum capability or set a role to see and modify the posts view stats. See FAQ (baw_count_views_capa_role)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added, a new action hook to add (or remove?) more then only the \"all\" count stats in post page list in admin panel. See FAQ (baw_count_views_render_post_columns)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "30 oct 2012"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix, a php warning appears when using the [most_views] with the new parameter \"post_type\""
+msgstr ""
+
+#. Found in changelog list item.
+msgid "29 oct 2012"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix, the counter was not under the content anymore. Sorry !"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Code improvment"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix a bug in [most_views] shortcode, only 'posts' types were displayed, now a \"post_type\" parameter can be used."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "29 sep 2012"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Try to fix a \"WP-To-Twitter\" bug which add some count from nowhere, so \"WordPress\" has been added as a forbidden bot, let's try."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "12 sep 2012"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix : if you were using a filter on 'baw_count_views_meta_key', my own count was not updated."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "13 aug 2012"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix on metabox"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "12 aug 2012"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change the post type request to display all CPT (Public or Not, displayed)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "31 jul 2012"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add a screenshot"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add some NOJS code"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change input text=&gt;number"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add the possibility to hack/cheat on values, directly into the metabox on each posts."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "09 jul 2012"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a filter for author in both Widget and [most_views] shortcode."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "05 jul 2012"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix since 2.15, orders from widgets and shortcode can be reversed, now it's ok, sorry"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "04 jul 2012"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove the timer filter, option is available since 2.7"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add action hook <em>baw_count_views_count_action</em>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modify some filters behavior"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "03 jul 2012"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add the possibility to reverse the order to create a kind of \"Less viewed posts\", for widget and [most_views] shortcode"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "02 jul 2012"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix a bug in [most_view] shortcode, thanks to Hafid pointing me this"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "01 jul 2012"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change : get_post_types() behavior (not a big deal)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "29 jun 2012"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Parent menu \"BoiteAWeb\" deleted, settings are in settings now."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Better nonce for reset action"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Some code imp."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "27 jun 2012"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Version renumbering"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add a remove_filter on \"adjacent_posts_rel_link_wp_head\" to avoid post counts without been really viewed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "About page updated (+2 new plugins)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "07 jun 2012"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved: Time between counts now includes post's ID"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Time between counts in seconds, not minutes as described."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Thanks Jacek (Mechlab) pointing me that!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "18 may 2012"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix : counter is always shown even on uncheck post types"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add some checkboxes in settings page to choose which posts can be \"counted\" "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Thanks James Fabian again for this idea !"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "16 may 2012"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix : Count is ok now, sorry &gt;_&lt;"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "15 may 2012"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix : You can not post new posts ... my bad !"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added l10n for 2.8 (forgot it)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "14 may 2012"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add a reset checkbox in each meta box of posts to allow people to reset counters"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add 2 options to avoid admins and/or logged users to increase the counters"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "These 2 ideas are from James Fabian, thanks !"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "11 may 2012"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Missing pictures ..."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "20 apr 2012"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "3 new screenshots"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Meta box in each post type to display all counters"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a columns in each post type lists, this display the \"all time\" counter"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translation FR/EN"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "17 mar 2012"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Default added filter \"baw_count_views_count_filter\" removed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added 2 parameters for the [most_view] shortcode : \"ul_class\" and \"li_class\""
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Default CSS class for UL and LI tags in [most_view] shortcode is \"pvc\""
+msgstr ""
+
+#. Found in changelog list item.
+msgid "15 mar 2012"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed the \"views\" word after counter, my bad, it was a test ... :]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New shortcode [most_view] (or [most_views] or [most_viewed]) to display in a page/post a top posts list, see FAQ for usage"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modification of the \"baw_count_views_count\" filter's behavior, not a big deal."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "02 mar 2012"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Default time between 2 counts is now 0"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Better transient managment"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "01 mar 2012"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove the compatibility with wp-postviews using a query, bad idea, sorry"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "29 feb 2012"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add more crawler bots"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add import compatibility with wp-postviews"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix shortcode : [post_view] or [post_views] works"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "First release"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Not realeased"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "There was no stats, just counts all."
+msgstr ""
+
+#. Found in faq header.
+msgid "How to use/display it?"
+msgstr ""
+
+#. Found in faq header.
+msgid "What are the hooks ?"
+msgstr ""
+
+#. Found in faq list item.
+msgid "[post_view] will display the counter for the actual post, custom post or page."
+msgstr ""
+
+#. Found in faq list item.
+msgid "[post_view id=\"123\"] will display the counter for the post/page ID \"123\"."
+msgstr ""
+
+#. Found in faq list item.
+msgid "[post_view time=\"day\"] will display the count view of the day. So same for \"week\" will display count view for this week."
+msgstr ""
+
+#. Found in faq list item.
+msgid "[post_view time=\"day\" date=\"20120213\"] will display the count view for this particular day: 13th, feb 2012. \"date\" can not be use alone, always use \"time\" in the same time."
+msgstr ""
+
+#. Found in faq list item.
+msgid "echo do_shortcode( '[post_view time=\"month\" date=\"' . date( 'Ym', mktime( 0, 0, 0, date(\"n\")-1, date(\"j\"), date(\"Y\") ) . '\"]' ); // This will always display the count views of the month of last year."
+msgstr ""
+
+#. Found in faq list item.
+msgid "\"before\": A text before the list; default is empty"
+msgstr ""
+
+#. Found in faq list item.
+msgid "\"after\": A text after the list; default is empty"
+msgstr ""
+
+#. Found in faq list item.
+msgid "\"show\": Do we show counters ? 1= yes, 0=no; default is 1."
+msgstr ""
+
+#. Found in faq list item.
+msgid "\"number\": How many posts to display ?; default is 10."
+msgstr ""
+
+#. Found in faq list item.
+msgid "\"ul_class\": A CSS class"
+msgstr ""
+
+#. Found in faq list item.
+msgid "\"li_class\": A CSS class"
+msgstr ""
+
+#. Found in faq list item.
+msgid "\"order\": 'desc' or 'asc'"
+msgstr ""
+
+#. Found in faq list item.
+msgid "\"author\": an author ID or author name."
+msgstr ""
+
+#. Found in faq list item.
+msgid "<p><em>widget_title</em> This is a WordPress hook, see codex or core code.</p>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "or"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "This return \"views\" if the selected stats count is \"all\" ! You can also play with $time and $date to do some checkings."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "<em>widget_title</em> This is a WordPress hook, see codex or core code."
+msgstr ""

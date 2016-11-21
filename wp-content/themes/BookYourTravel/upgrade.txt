@@ -1,0 +1,40 @@
+********************************************************************************
+To upgrade theme please follow these steps:
+********************************************************************************
+
+NOTE: When using an ftp client, please make sure your Transfer mode is set to Binary before uploading any files.
+
+1. Download the upgrade from ThemeForest and unzip on your computer.
+2. Inside the downloaded zip file, unzip the contained BookYourTravel.zip
+3. Turn on maintenance on your website. You can use a plugin like this one for the purpose: https://wordpress.org/plugins/ultimate-maintenance-mode/
+4. Backup your languages folder inside wp-content/themes/BookYourTravel
+5. Delete all files and folders inside wp-content/themes/BookYourTravel parent folder except the languages folder if you have translations there.
+6. Upload contents of the above mentioned unzipped BookYourTravel.zip file to wp-content/themes/BookYourTravel.
+NOTE: While uploading your code, do not access your wordpress admin. Let the upload finish first.
+7. Clear your browser cache!
+8. Readd the contents of your languages folder into wp-content/themes/BookYourTravel/languages
+
+If using a child theme:
+
+9. Backup your child theme.
+10. Upgrade each php and js file in your child theme to latest version. 
+11. Re-add your code changes to the php and js files by using a text editor.
+12. If you are upgrading from version 6 to version 7 you have to go to Appearance -> Widgets and readd your widgets to your sidebars. We had to rename
+our theme's custom widget classes due to ThemeForest submission requirements and this causes the widgets to be removed from your sidebars.
+13. If you are upgrading from version 6 to version 7 go to Theme options and click Save at the bottom.
+
+And finally
+
+14. Turn off maintenance mode.
+15. Test your theme and website.
+********************************************************************************
+
+********************************************************************************
+To upgrade RevSlider please follow these steps:
+********************************************************************************
+
+1. Connect to your server via FTP client.
+2. Go to wp-content/plugins and completely delete revslider folder.
+3. Go to your website admin and follow the prompts to install required slider RevSlider.
+4. After installing RevSlider, activate it.
+5. That should be it. For further configuration information please look at _documentation\revolution_slider folder.

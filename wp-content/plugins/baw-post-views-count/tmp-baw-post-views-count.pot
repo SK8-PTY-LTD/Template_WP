@@ -1,0 +1,161 @@
+# Copyright (C) 2015 BAW Post Views Count
+# This file is distributed under the same license as the BAW Post Views Count package.
+msgid ""
+msgstr ""
+"Project-Id-Version: BAW Post Views Count 3.0.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/baw-post-views-"
+"count\n"
+"POT-Creation-Date: 2015-10-08 12:00:46+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: bawpv.php:83
+msgid "The most viewed posts on your site"
+msgstr ""
+
+#: bawpv.php:84 bawpv.php:108
+msgid "Most Viewed Posts"
+msgstr ""
+
+#: bawpv.php:198
+msgid "Title:"
+msgstr ""
+
+#: bawpv.php:201
+msgid "How many posts:"
+msgstr ""
+
+#: bawpv.php:204
+msgid "Which top do you want:"
+msgstr ""
+
+#: bawpv.php:213
+msgid "Top for this author only:"
+msgstr ""
+
+#: bawpv.php:215
+msgid "All authors"
+msgstr ""
+
+#: bawpv.php:227
+msgid "Date format"
+msgstr ""
+
+#: bawpv.php:229
+msgid "If you leave blank the actual time will be used."
+msgstr ""
+
+#: bawpv.php:231
+msgid "Show posts count:"
+msgstr ""
+
+#: bawpv.php:234
+msgid "Order"
+msgstr ""
+
+#: bawpv.php:236
+msgid "From most viewed to less viewed"
+msgstr ""
+
+#: bawpv.php:237
+msgid "From less viewed to most viewed"
+msgstr ""
+
+#: bawpv.php:348
+msgid "General"
+msgstr ""
+
+#: bawpv.php:349
+msgid "Count format"
+msgstr ""
+
+#: bawpv.php:350
+msgid "Display counter in post content"
+msgstr ""
+
+#: bawpv.php:351
+msgid "Do not count views for logged members"
+msgstr ""
+
+#: bawpv.php:352
+msgid "Do not count views for admins"
+msgstr ""
+
+#: bawpv.php:353
+msgid "Select post types"
+msgstr ""
+
+#: bawpv.php:374
+msgid "Public"
+msgstr ""
+
+#: bawpv.php:374
+msgid "Not public"
+msgstr ""
+
+#: bawpv.php:379
+msgid ""
+"Public: Whether a post type is intended to be used publicly either via the "
+"admin interface or by front-end users.<br />Not public: The opposite..."
+msgstr ""
+
+#: bawpv.php:387
+msgid "Check me to avoid counting views for logged members."
+msgstr ""
+
+#: bawpv.php:394
+msgid "Check me to avoid counting views for admins."
+msgstr ""
+
+#: bawpv.php:401
+msgid "seconds"
+msgstr ""
+
+#: bawpv.php:408
+msgid "Use <code>%count%</code> to display the counter."
+msgstr ""
+
+#: bawpv.php:415
+msgid "Will be displayed in bottom of content."
+msgstr ""
+
+#: bawpv.php:505
+msgid "(Clic value to edit it)"
+msgstr ""
+
+#: bawpv.php:525
+msgid "Clic to edit me!"
+msgstr ""
+
+#: bawpv.php:531
+msgid "Check me to reset all views"
+msgstr ""
+
+#: bawpv.php:591
+msgid "Settings"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "BAW Post Views Count"
+msgstr ""
+
+#. #-#-#-#-#  tmp-baw-post-views-count.pot (BAW Post Views Count 3.0.2)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  tmp-baw-post-views-count.pot (BAW Post Views Count 3.0.2)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://www.boiteaweb.fr"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Count views for post and pages, shortcode [post_view] and [most_view] "
+"available, widget \"Most Viewed Posts\" available."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Juliobox"
+msgstr ""

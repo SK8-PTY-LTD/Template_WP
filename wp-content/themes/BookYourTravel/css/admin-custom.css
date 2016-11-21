@@ -1,0 +1,65 @@
+/*CUSTOM CSS FOR ADMIN PANEL THEME OPTIONS*/
+.wrap h2										{padding-bottom:20px !important;}
+
+#optionsframework-wrap h2.nav-tab-wrapper 	{float:left;width:20%;padding:0 !important;}
+#optionsframework-wrap .nav-tab						{float:left;width:90%;padding:15px 5%;margin:0;color:#444;}
+#optionsframework-wrap .nav-tab-active			{background:#fff;}
+#optionsframework-wrap .metabox-holder 			{float:left;width:80%;padding:0;}
+#optionsframework-wrap .metabox-holder h3		{font-size:20px;padding:20px 20px 0;border:none;background:none;}
+#optionsframework-wrap .group .section				{border-bottom:1px solid #ddd;padding:10px 20px 15px;}
+
+.meta_box_items li {float:left;width:100% !important;}
+
+#optionsframework .mini .controls input, 
+#optionsframework .mini .controls,
+#optionsframework .mini .controls select, 
+#optionsframework .section .mini .controls	{min-width: 300px !important;width: 300px !important;margin:0 !important;}
+#optionsframework .section div.explain 		{width:100% !important;max-width:100% !important;padding:12px 0 0;}
+
+#optionsframework .section .controls *					{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+#optionsframework .section .controls 					{padding:0 !important;width:100% !important;}
+#optionsframework .section .controls .of-repeat-group div						{float:left;}
+#optionsframework .ui-draggable, #optionsframework .ui-sortable			{display:inline-block;width:100%;margin:10px 0 20px;}
+#optionsframework .ui-state-default,
+#optionsframework .ui-widget-content .ui-state-default,
+#optionsframework .ui-widget-header .ui-state-default 							{background:none;border:none;}
+#optionsframework .ui-draggable .ui-state-default,
+#optionsframework .ui-sortable .ui-state-default 										{float:left;width:100%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;border-bottom:1px dashed #ccc;padding:15px 15px 15px 40px;background:#eee;position:relative;margin:0;}
+#optionsframework .ui-draggable .ui-state-default:before,
+#optionsframework .ui-sortable .ui-state-default:before 							{content:"";background: url(images/sprite.png) -68px -100px no-repeat;width:20px;height:17px;position:absolute;top:20px;left:10px;}
+#optionsframework .ui-draggable .ui-state-default:nth-child(2n),
+#optionsframework .ui-sortable .ui-state-default:nth-child(2n) 					{background:#f8f8f8;}
+
+#optionsframework .controls .of-check-wrap {padding:10px 0 0 15px;}
+
+#optionsframework .ui-sortable-helper 	{cursor:move;}
+#optionsframework .ui-icon-close			{position:absolute;top:12px;right:10px;cursor:pointer;}
+
+#optionsframework .of-repeat-extra-fields .of-repeat-group .of-input-wrap 						{padding:0 20px 10px 0;width:50%;}
+#optionsframework .of-repeat-extra-fields .of-repeat-group .of-select-wrap						{width:50%;padding:0 20px 10px 0;}
+#optionsframework .of-repeat-extra-fields .of-repeat-group .of-select-wrap:last-of-type 		{padding-right:0;}
+
+#optionsframework .of-repeat-review-fields .of-repeat-group .of-input-wrap 			{float:left;width:70%;}
+#optionsframework .of-repeat-review-fields .of-repeat-group .of-input-wrap label 	{float:left;width:20%;}
+#optionsframework .of-repeat-review-fields .of-repeat-group .of-input-wrap input {float:left;width:70%;}
+
+#optionsframework .of-repeat-review-fields .checkbox-hide-field 					{margin:0 0 -7px 10px !important;}
+
+#optionsframework .section .explain {color:#444;}
+
+#optionsframework .of-repeat-form-fields 	{margin-bottom:20px;display:inline-block;width:100%;}
+#optionsframework .of-repeat-form-fields > li 								{border-bottom:1px solid #ddd;padding:22px 15px 15px;margin:0;background:#eee;float:left;width:100%;}
+#optionsframework .of-repeat-form-fields > li:nth-of-type(2n) 		{background:#f8f8f8;}
+#optionsframework .of-repeat-form-fields .of-select-wrap				{width:70%;}
+#optionsframework .form-table input.tog, 
+#optionsframework input[type="checkbox"], 
+#optionsframework input[type="radio"] 			{float: left;margin-bottom: -1px;margin-top: 1px;}
+
+#optionsframework .of-input-wrap .loading {background:url(images/ajax-loader.gif) 50% 50% no-repeat;float:left;height: 16px;width: 16px;margin:5px 0;}
+
+
+
+
+
+
+

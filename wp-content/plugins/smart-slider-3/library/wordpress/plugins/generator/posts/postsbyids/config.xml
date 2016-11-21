@@ -1,0 +1,5 @@
+<root>
+    <params name="posts" label="Filter">
+        <param name="ids" label="Ids (one per line)" type="textarea" default="" style2="width:300px;height: 200px;"/>
+    </params>
+</root>

@@ -1,0 +1,508 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: form_maker\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-22 17:05+0400\n"
+"PO-Revision-Date: 2015-05-22 17:05+0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-SearchPath-0: C:\\wamp\\www\\wordpress\\wp-content\\plugins\\form-"
+"maker\n"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/admin/models/FMModelSubmissions_fm.php:240
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:4201
+msgid "Street Address"
+msgstr "தெரு முகவரி"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/admin/models/FMModelSubmissions_fm.php:243
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:4202
+msgid "Street Address Line 2"
+msgstr "தெரு முகவரி வரி 2"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/admin/models/FMModelSubmissions_fm.php:246
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:4203
+msgid "City"
+msgstr "நகரம்"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/admin/models/FMModelSubmissions_fm.php:249
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:4204
+msgid "State / Province / Region"
+msgstr "மாநிலம் / மாகாணம் / பிராந்தியம்"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/admin/models/FMModelSubmissions_fm.php:252
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:4205
+msgid "Postal / Zip Code"
+msgstr "தபால் / ஜிப் குறியீடு"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/admin/models/FMModelSubmissions_fm.php:255
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:4206
+msgid "Country"
+msgstr "நாடு"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/admin/views/FMViewSelect_data_from_db.php:104
+msgid "Connection type"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/admin/views/FMViewSelect_data_from_db.php:140
+msgid "Type"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/admin/views/FMViewSubmissions_fm.php:2530
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:2419
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:4189
+msgid "January"
+msgstr "ஜனவரி"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/admin/views/FMViewSubmissions_fm.php:2530
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:2419
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:4190
+msgid "February"
+msgstr "பிப்ரவரி"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/admin/views/FMViewSubmissions_fm.php:2530
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:2419
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:4191
+msgid "March"
+msgstr "மார்ச்"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/admin/views/FMViewSubmissions_fm.php:2530
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:2419
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:4192
+msgid "April"
+msgstr "ஏப்ரல்"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/admin/views/FMViewSubmissions_fm.php:2530
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:2419
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:4193
+msgid "May"
+msgstr "மே 2005."
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/admin/views/FMViewSubmissions_fm.php:2530
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:2419
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:4194
+msgid "June"
+msgstr "ஜூன்"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/admin/views/FMViewSubmissions_fm.php:2530
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:2419
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:4195
+msgid "July"
+msgstr "ஜூலை"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/admin/views/FMViewSubmissions_fm.php:2530
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:2419
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:4196
+msgid "August"
+msgstr "ஆகஸ்ட்"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/admin/views/FMViewSubmissions_fm.php:2530
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:2419
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:4197
+msgid "September"
+msgstr "செப்டெம்பர்"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/admin/views/FMViewSubmissions_fm.php:2530
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:2419
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:4198
+msgid "October"
+msgstr "அக்டோபர்"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/admin/views/FMViewSubmissions_fm.php:2530
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:2419
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:4199
+msgid "November"
+msgstr "நவம்பர்"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/admin/views/FMViewSubmissions_fm.php:2530
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:2419
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:4200
+msgid "December"
+msgstr "டிசம்பர்"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/models/FMModelForm_maker.php:77
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/models/FMModelForm_maker.php:92
+msgid "Error, incorrect Security code."
+msgstr "பிழை, தவறான பாதுகாப்பு குறியீடு."
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/models/FMModelForm_maker.php:106
+msgid "Your ip is blacklisted. Please contact the website administrator."
+msgstr "உங்கள் IP தடுக்கப்பட்டது. இணைய நிர்வாகியை தொடர்பு கொள்க"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/models/FMModelForm_maker.php:325
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/models/FMModelForm_maker.php:854
+msgid "The file exceeds the allowed size of"
+msgstr "கோப்பு அனுமதிக்கப்பட்ட அளவை விட அதிகமாக"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/models/FMModelForm_maker.php:344
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/models/FMModelForm_maker.php:869
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:2520
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:4233
+msgid "Sorry, you are not allowed to upload this type of file."
+msgstr "மன்னிக்கவும், நீங்கள் இந்த வகை கோப்பை பதிவேற்ற அனுமதி இல்லை."
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/models/FMModelForm_maker.php:365
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/models/FMModelForm_maker.php:890
+msgid "Error, file cannot be moved."
+msgstr "பிழை, கோப்பு நகர்த்த முடியாது."
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/models/FMModelForm_maker.php:743
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/models/FMModelForm_maker.php:1207
+#, php-format
+msgid ""
+"This field %s requires a unique entry and this value was already submitted."
+msgstr ""
+"இந்த புலம் %s ஒரு தனிப்பட்ட உள்ளீடு தேவைப்படுகிறது மற்றும் இந்த மதிப்பு ஏற்கனவே "
+"சமர்ப்பிக்கப்பட்டது."
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/models/FMModelForm_maker.php:895
+#, fuzzy
+msgid "Error, file destination does not exist."
+msgstr "பிழை, மின்னஞ்சல் அனுப்பப்படவில்லை."
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/models/FMModelForm_maker.php:1434
+msgid "Nothing was submitted."
+msgstr "எதுவும் சமர்ப்பிக்கப்பட்டது."
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/models/FMModelForm_maker.php:2343
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/models/FMModelForm_maker.php:2356
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/models/FMModelForm_maker.php:4047
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/models/FMModelForm_maker.php:4052
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:64
+msgid "Your form was successfully submitted."
+msgstr "உங்கள் படிவத்தை வெற்றிகரமாக சமர்ப்பிக்கப்பட்டது."
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/models/FMModelForm_maker.php:2351
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/models/FMModelForm_maker.php:4043
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:61
+msgid "Error, email was not sent."
+msgstr "பிழை, மின்னஞ்சல் அனுப்பப்படவில்லை."
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/models/FMModelVerify_email.php:27
+msgid "Your email address is already verified."
+msgstr "உங்கள் மின்னஞ்சல் முகவரியை ஏற்கனவே சரிபார்க்கப்பட்டது."
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/models/FMModelVerify_email.php:68
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/models/FMModelVerify_email.php:94
+msgid "Your email has been successfully verified."
+msgstr "உங்கள் மின்னஞ்சல் வெற்றிகரமாக பரிசோதிக்கப்பட்டது."
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/models/FMModelVerify_email.php:71
+msgid "Your email verification has timed out."
+msgstr "உங்கள் மின்னஞ்சல் சரிபார்ப்பு காலாவதியானது."
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/models/FMModelVerify_email.php:99
+msgid "Verification link is invalid."
+msgstr "சரிபார்ப்பு இணைப்பு தவறானது."
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:1034
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:1085
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:1156
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:1203
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:1252
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:1307
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:1379
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:1484
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:1499
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:1601
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:1673
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:1855
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:2022
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:2155
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:2214
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:2290
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:2340
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:2457
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:2505
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:2560
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:2728
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:2918
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:3088
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:3245
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:3386
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:3487
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:3546
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:3601
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:3661
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:3718
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:3778
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:3892
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:3906
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:3921
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:3936
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:4238
+msgid "field is required."
+msgstr "புலத்தில் தேவைப்படுகிறது."
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:1690
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:4236
+msgid "This is not a valid email address."
+msgstr "இந்த ஒரு செல்லுபடியாகும் மின்னஞ்சல் முகவரி அல்ல."
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:2356
+msgid ""
+"You cannot select former dates. Choose a date starting from the current one."
+msgstr ""
+"நீங்கள் முன்னாள் தேதிகள் தேர்ந்தெடுக்க முடியாது. தற்போதைய ஒரு இருந்து, ஒரு தேதி தேர்வு."
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:2767
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:4239
+msgid "The"
+msgstr "The"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:2767
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:4239
+msgid "value must be between"
+msgstr "மதிப்பு இடையே இருக்க வேண்டும் "
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:2893
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:2933
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:3064
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:3101
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:3220
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:3261
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:4212
+msgid "Quantity"
+msgstr "அளவு"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:3792
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:4001
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:4002
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:4234
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:4235
+msgid "Your score should be less than"
+msgstr "உங்கள் மதிப்பெண் குறைவாக இருக்க வேண்டும்"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:4185
+msgid "Title"
+msgstr "பெயர்"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:4186
+msgid "First"
+msgstr "முதல்"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:4187
+msgid "Last"
+msgstr "கடந்த"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:4188
+msgid "Middle"
+msgstr "நடுநிலை"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:4207
+msgid "Area Code"
+msgstr "பகுதி குறியீட்டு"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:4208
+msgid "Phone Number"
+msgstr "தொலைபேசி எண்"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:4209
+msgid "Dollars"
+msgstr "டாலர்கள்"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:4210
+msgid "Cents"
+msgstr "சென்ட்"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:4213
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:300
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:586
+msgid "From"
+msgstr "இருந்து"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_maker.php:4214
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:305
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:588
+msgid "To"
+msgstr "வேண்டும்"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:29
+msgid "You have no permission to view submissions."
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:143
+msgid "Entries"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:145
+msgid "Views"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:147
+msgid "Conversion Rate"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:150
+msgid "Export to"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:166
+msgid "GO"
+msgstr "செல்ல "
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:167
+msgid "Reset"
+msgstr "மீட்டமை "
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:170
+msgid "of"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:170
+msgid ""
+"submissions are not shown, as the field you sorted by is missing in those "
+"submissions."
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:357
+msgid "Canceled"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:358
+msgid "Cleared"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:359
+msgid "Cleared by payment review"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:360
+msgid "Completed"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:361
+msgid "Denied"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:362
+msgid "Failed"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:363
+msgid "Held"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:364
+msgid "In progress"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:365
+msgid "On hold"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:366
+msgid "Paid"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:367
+msgid "Partially refunded"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:368
+msgid "Pending verification"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:369
+msgid "Placed"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:370
+msgid "Processing"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:371
+msgid "Refunded"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:372
+msgid "Refused"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:373
+msgid "Removed"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:374
+msgid "Returned"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:375
+msgid "Reversed"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:376
+msgid "Temporary hold"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:377
+msgid "Unclaimed"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:472
+msgid "Show on Map"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:505
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:754
+msgid "Total"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:510
+msgid "Show Matrix"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:560
+msgid "Statistics"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:564
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:568
+msgid "Select a Field"
+msgstr "வெளிக்கள தேர்வு "
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:583
+msgid "Select a Date"
+msgstr "ஒரு தேதி தேர்வு"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:594
+msgid "Show"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:626
+msgid "Please select the field!"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:723
+msgid "Choices"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:724
+msgid "Percentage"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:725
+msgid "Count"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:747
+msgid "Unanswered"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:771
+msgid "Address"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:779
+msgid "Longitude"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\form-maker/frontend/views/FMViewForm_submissions.php:787
+msgid "Latitude"
+msgstr ""

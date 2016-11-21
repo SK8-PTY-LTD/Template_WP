@@ -1,0 +1,85 @@
+.wpsm_team_1_member_wrapper .wpsm_team_1_member_wrapper_inner{
+	padding: 25px 9px 9px 15px;
+	color: #333;
+
+}
+.wpsm_team_1_member_wrapper{
+	text-align:center;
+	background: transparent;
+}
+.wpsm_team_1_b_row{ 
+	overflow:hidden;
+	display:block;
+	width:100%;
+	border:0px solid #ddd;
+	margin-bottom:30px;
+}
+.wpsm-col-div{
+	margin-bottom:30px;
+}
+.wpsm_team_1_mem_img{
+	margin:0px !important;
+	width:100%;
+}
+
+.wpsm_team_1_member_wrapper_inner h3{
+	text-align:center;
+	font-size:20px;
+	color:#333;
+	margin-bottom:10px !important;
+	margin-top:0px !important;
+	display: block;
+	font-weight:600;
+}
+.wpsm_team_1_name_divider{
+	background-color: #333;
+	height: 2px;
+	margin: 0 auto;
+	margin-top: 10px;
+	text-align: center;
+	 width: 60px;
+}
+.wpsm_team_1_b_desig{
+	margin-bottom:10px;
+	margin-top:0px;
+	color:#444;
+	font-size:16px;
+	display: block;
+	font-weight:500;
+}
+.wpsm_team_1_b_desc{
+	margin-top:15px !important;
+	margin-bottom:10px !important;
+	color:#555 !important;
+	font-size:14px !important;
+	display: block !important;
+}
+.wpsm_team_1_social_div{
+	display: block !important;
+	margin-top:15px !important;
+	
+}
+.wpsm_team_1_social_div a{
+	text-align:center;
+	text-decoration:none !important;
+	border:0px !important;
+	margin:0px !important;
+	box-shadow:none !important;
+}
+.wpsm_team_1_social_div a i{
+	font-size: 20px;
+	background: #31a3dd;
+	color: #fff;
+	width: 33px;
+	height: 34px;
+	line-height: 1.8;
+	vertical-align: middle;
+	margin-right: 5px;
+	margin-bottom: 8px;
+}
+.wpsm_row{
+	overflow:hidden;
+	display:block;
+	width:100%;
+}
+	

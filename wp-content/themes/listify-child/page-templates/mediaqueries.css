@@ -1,0 +1,939 @@
+@charset "UTF-8";
+/*
+    Name: Travel Dojo Template
+    Description: Responsive stylesheets for Travel Dojo Template
+    Version: 1.0
+    Author: Themes Dojo
+
+    TABLE OF CONTENTS 
+    ---------------------------
+    
+     1.  SmartPhones (portrait)
+     2.  SmartPhones (landscape)
+	 3.  Tablets/iPads (portrait)
+	 4.  Tablets/iPads (landscape)
+     
+*/
+
+
+/*********** 1.  SmartPhones **************/
+@media only screen and (min-device-width: 320px) and (max-device-height: 736px) and (orientation : portrait) {
+	
+	/*** index.html ***/
+
+	/*button Menu*/
+	.navbar-toggle.collapsed,
+	.navbar-toggle{
+		background: transparent;
+		border-radius: 0;
+		border-width: 2px;
+		margin-top: 15px;
+		transition: all 0.2s ease-in-out;
+		overflow: hidden;
+		z-index: 11;
+	}
+	.navbar-toggle span{display: none;}
+	.navbar-toggle.collapsed span,
+	.navbar-toggle span{
+		position: relative;
+		background-color: #fff !important;
+	}
+	.navbar-toggle.collapsed span:nth-child(3){
+		visibility: visible;
+		transition: all 0.2s ease-in-out;
+		left: 0;
+	}
+	.navbar-toggle.collapsed span:nth-child(2){
+		transform: rotate(0);
+		top: 0;
+		transition: all 0.2s ease-in-out;
+	}
+	.navbar-toggle.collapsed span:last-child{
+		transform: rotate(0);
+		top: 0;
+		transition: all 0.2s ease-in-out;
+	}
+	.navbar-toggle span:nth-child(3){
+		left: 35px;
+		visibility: hidden;
+		transition: all 0.2s ease-in-out;
+	}
+	.navbar-toggle span:nth-child(2){
+		transform: rotate(45deg);
+		top: 5px;
+		transition: all 0.2s ease-in-out;
+	}
+	.navbar-toggle span:last-child{
+		transform: rotate(-45deg);
+		top: -7px;
+		transition: all 0.2s ease-in-out;
+	}
+
+	.navbar-fixed-top .navbar-brand{padding: 15px;}
+	.navbar-fixed-top .navbar-toggle.collapsed{border-color: #e04930;}
+	.navbar-fixed-top .navbar-toggle{border-color: #e04930;}
+	.navbar-fixed-top .navbar-toggle.collapsed span{background-color: #e04930 !important;} 
+	.navbar-fixed-top .navbar-toggle span{background-color: #e04930 !important;}
+
+	/* main menu */
+	.navbar-collapse{
+		position: absolute;
+		top: 0;
+    	left: -100%;
+    	width: 100%;
+    	margin: 0 !important;
+		box-shadow: none;
+		border: none;
+		min-height: 100vh;
+    	z-index: 9;
+    	background: #e04930;
+    	transition: all 0.2s ease-in-out;
+	}
+	.navbar .navbar-collapse.in{ left: 0; }
+	.navbar-nav{margin: 60px auto 0 auto;}
+	.navbar-nav>li{ display: block; }
+	.navbar-nav>li>a{padding: 10px 25px;}
+	.navbar-fixed-top{height: 67px;}
+	.navbar-fixed-top .navbar-nav{float: none;}
+	.navbar-fixed-top .navbar-nav li:last-child>a{padding-right: 25px;}
+	.navbar-fixed-top .navbar-nav>li>a{color: #fff !important;}
+	.navbar-fixed-top .navbar-collapse{top: 55px;}
+	.navbar-default .navbar-nav>li.active>a{color: #fff !important;}
+	
+	/* elements */
+	.header-center-content h1{letter-spacing: 5px;}
+	.goUp-btn{display: none;}
+	.select-options .search-btn{
+		position: absolute;
+	    bottom: 0;
+	    margin-bottom: -50px;
+	    left: 35%;
+	    width: 35%;
+	    border-radius: 30px;
+	    transform: translateX(-50%);
+	    text-align: center;
+	}
+	.select-options .search-btn:after,
+	.experience-select:after, .destination-select:after {display: none;}
+	.experience-select, .destination-select {
+	    width: 100%;
+	    margin: 10px 0;
+	}
+	.experience-select.cs-select span,
+	.destination-select.cs-select span{
+		border-radius: 30px;
+		padding-left: 55px;
+	}
+	.experience-select .cs-options,
+	.destination-select .cs-options{width: 90%; left: 20px;}
+	.destination-select .cs-placeholder {
+		border-top-left-radius: 30px;
+		border-bottom-left-radius: 30px;
+		padding-left: 55px;
+	}
+	.destination-select.cs-skin-elastic > span::before{left: 25px;}
+
+	 
+	.scroll-down{display: none;}
+	.country-list li{margin: 0 10px;}
+	.section-intro{
+		position: relative;
+		z-index: 0;
+	}
+	.author-quote{
+		padding: 23px;
+		height: auto;
+	}
+	.about-video-bg{width: 50%;}
+	.adventure-list{text-align: center;}
+	.adventure-list li{margin-right: 0;}
+	.about-description h1{width: calc(100% - 20px);}
+	.about-description .play-btn{width: calc(100% - 40px);}
+	.about-description span{margin-bottom: 15px;}
+	.blog-intro .btn{
+		display: block;
+		margin: 20px auto 10px auto;
+	}
+	.posts-list{
+		text-align: center;
+		margin-top: 40px;
+		margin-left: 0
+	}
+	.posts-list li{
+		float: none;
+		margin: 0 10px 30px 10px;
+		width: 250px;
+	}
+	.posts-list li:last-child{margin-right: 5px;}
+	.contacts-section{ 
+		height: 100%; 
+		padding-bottom: 20px;
+	}
+	.contacts-section .book-btn{margin: 0 0 10px 0;}
+	.contacts-list li{margin: 30px;}
+	.footer{
+		position: static;
+		height: 100%;
+	}
+	.footer .footer-col-title{margin: 40px 0 10px 0;}
+
+	/*** destinations.html ***/
+	.regions-inline{ height: 100%;}
+	.regions-inline li{width: 100%;}
+	.regions-block-intro h1{
+		line-height: 50px;
+		margin-right: 28%;
+	}
+	.regions-block-intro span{color: #999;}
+	.adventures-select{
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.adventure-block{
+		width: 100%;
+		text-align: center;
+	}
+	.adventure-block li{
+		float: none;
+		margin: 0 0 30px 0;
+	}
+	.contact-us-small{max-width: 100%;}
+	.author-quote i.icon{margin-bottom: 20px;}
+
+	/*** tour-page.html ***/
+	.second-nav-button{
+		display: none;
+	}
+	.navbar-fixed-top .second-nav-button.collapsed span,
+	.navbar-fixed-top .second-nav-button span{background-color: #fff !important;}
+
+	#second-nav{
+		top: 110px;
+		width: 100%;
+	}
+	#second-nav .nav li:last-child{border-left: none;}
+	#second-nav ul{
+		text-align: center;
+		width: 100%;
+		padding: 0;
+	}
+	#second-nav li{
+		float: none;
+		width: 100%;
+		margin: 0;
+	}
+	#second-nav .nav a{
+		border-bottom: 1px solid #fff;
+		border-left: 1px solid #fff;
+		border-radius: 0;
+	}
+
+	#tour-header{background-size: auto;}
+	#tour-header .trip-costs .container{height: 100%;}
+	#tour-header .trip-costs li{padding: 5px 6.25%;}
+	.trip-bg p{
+		width: 100%;
+		padding-left: 3%;
+	}
+	#tour-header .header-center-content h1{
+		font-size: 30px;
+		letter-spacing: 1px;
+	}
+	.trip-description{padding: 30px 0 0;}
+	#trip-activities{height: 100%;}
+	.trip-activities-bg{
+		width: 100%;
+		position: relative;
+	}
+	.places-tabs>li>a{margin: 10px 15px;}
+	.day-description{padding-top: 40px;}
+	.section-intro h1{letter-spacing: 0;}
+	section{background-attachment: inherit;}
+	.trip-charge{height: 100%;}
+	.trip-charge h1{
+		margin-bottom: 20px;
+		letter-spacing: 0;
+	}
+	.price-block{
+		width: 100%;
+		height: 130px;
+	}
+	.price-block span{
+		width: 100%;
+		max-width: 100%;
+	}
+	.price-description{
+		width: 100%;
+		height: 150px;
+	}
+	#gallery{
+		position: relative;
+		margin: 0;
+	}
+	.gallery-title{padding: 37px 0;}
+	.gallery-photos {text-align: center;}
+	.gallery-photos li{
+		float: none;
+		margin: 0 10px 30px 10px;
+	}
+
+	/* experience.html */
+	.about-page header{
+		background-position: center;
+		background-size: cover;
+	}
+	.noPaddingLeft{padding: 0;}
+	.about-tabs .tab-title{top: 250px;}
+	.about-tabs-control .nav-tabs li a:before{display: none;}
+	.about-tabs-control .nav-tabs{text-align: left;}
+	.about-tabs-control .nav-tabs li a{padding: 0 55px;}
+	.about-tabs .tab-wrapp{
+		padding-top: 60px;
+		padding-right: 0;
+	}
+	.category{margin-top: 60px;}
+	.member-socials{padding: 0;}
+
+	/* blog-page & blog-post-page */
+	.blog-page header{
+		height: 100vh;
+		background-size: cover;
+		background-attachment: local;
+		background-position: center;
+	}
+	.sidebar .categories{margin: 0 auto 30px;}
+	.blog-post-intro{
+		height: 720px;
+		padding: 10px;
+	}
+	.blog-post-intro-bg{margin-bottom: 10px;}
+	.blog-post-intro .post-divider{
+		float: none;
+		width: 100%;
+	}
+	.blog-post-intro .hovered{
+		visibility: visible;
+		bottom: 60px;
+		left: 50%;
+		top: auto;
+		right: auto;
+		border: none;
+	}
+	.blog-post-intro .hovered .post-link{
+		height: 40px;
+		line-height: 38px;
+	}
+	.blog-post-intro:hover .hovered{top: auto;}
+	.instagram-block ul{margin: 0 auto;}
+
+	.blog-post-content .post-cite{height: 175px;}
+	.blog-post-content .post-cite i{line-height: 30px;}
+	.posts-pagination .prev-post a, .posts-pagination .next-post a{
+		padding: 0;
+		width: 50px;
+		overflow: hidden;
+		color: #fff;
+	}
+	.posts-pagination .prev-post a:before, .posts-pagination .next-post a:before{
+		top: 8px;
+		font-size: 30px;
+		color: #e04930;
+	}
+	.posts-pagination .prev-post a:before{left: 15px;}
+	.posts-pagination .next-post a:before{right: 14px;}
+
+	/* contact.hrml */
+	.contact-page .contacts-section{padding-bottom: 60px;}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 736px) and (orientation : landscape){
+
+	/*** index.html ***/
+	.navbar{padding-top: 5px;}
+
+	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{background-color: #e04930;}
+
+	/*button Menu*/
+	.navbar-toggle.collapsed,
+	.navbar-toggle{
+		background: transparent;
+		border-radius: 0;
+		border-width: 2px;
+		transition: all 0.2s ease-in-out;
+		overflow: hidden;
+		z-index: 11;
+	}
+	.navbar-toggle span{display: none;}
+	.navbar-toggle.collapsed span,
+	.navbar-toggle span{
+		position: relative;
+		background-color: #fff !important;
+	}
+	.navbar-toggle.collapsed span:nth-child(3){
+		visibility: visible;
+		transition: all 0.2s ease-in-out;
+		left: 0;
+	}
+	.navbar-toggle.collapsed span:nth-child(2){
+		transform: rotate(0);
+		top: 0;
+		transition: all 0.2s ease-in-out;
+	}
+	.navbar-toggle.collapsed span:last-child{
+		transform: rotate(0);
+		top: 0;
+		transition: all 0.2s ease-in-out;
+	}
+	.navbar-toggle span:nth-child(3){
+		left: 35px;
+		visibility: hidden;
+		transition: all 0.2s ease-in-out;
+	}
+	.navbar-toggle span:nth-child(2){
+		transform: rotate(45deg);
+		top: 5px;
+		transition: all 0.2s ease-in-out;
+	}
+	.navbar-toggle span:last-child{
+		transform: rotate(-45deg);
+		top: -7px;
+		transition: all 0.2s ease-in-out;
+	}
+	.navbar-fixed-top .navbar-brand{padding: 10px 15px;}
+	.navbar-fixed-top .navbar-toggle.collapsed{border-color: #e04930;}
+	.navbar-fixed-top .navbar-toggle{border-color: #fff;}
+	.navbar-fixed-top .navbar-toggle.collapsed span{background-color: #e04930 !important;} 
+	.navbar-fixed-top .navbar-toggle span{background-color: #fff !important;}
+
+	/* main menu */
+	.navbar-collapse{
+		position: relative;
+		top: -55px;
+    	left: -100%;
+		box-shadow: none;
+		border: none;
+		min-height: 100vh;
+    	z-index: 9;
+    	background: #e04930;
+    	transition: all 0.2s ease-in-out;
+	}
+	.navbar-collapse.in{ left: 0; }
+	.navbar-nav{margin: 60px auto 0 auto;}
+	.navbar-nav>li{ display: block; }
+	.navbar-nav>li>a{padding: 10px 25px;}
+	.navbar-fixed-top .navbar-nav{float: none;}
+	.navbar-fixed-top .navbar-nav li:last-child>a{padding-right: 25px;}
+	.navbar-fixed-top .navbar-nav>li>a{color: #fff !important;}
+
+	.select-options .search-btn{right: 14%;}
+
+	/* elements */
+	.scroll-down{display: none;}
+	.author-quote{height: 510px;}
+	.author-quote i.icon{margin-bottom: 30px;}
+
+	.adventure-list li{
+		width: 250px;
+		height: 210px;
+		padding: 0;
+	}
+	.adventure-list li a{
+		width: 100%;
+		height: 100%;
+	}
+	.about-description{
+		width: 60%;
+		float: right;
+	}
+	.posts-list{text-align: center;}
+	.posts-list li{
+		margin: 15px;
+		float: none;
+	}
+	.posts-list li:last-child{margin-right: 15px;}
+	.contacts-list li{margin: 0 3%;}
+	.contacts-section{height: 600px;}
+	.footer{
+		position: relative;
+		height: 100%;
+	}
+
+	/*** destinations.html ***/
+	.regions-inline{ height: 100%;}
+	.regions-inline ul{float: none;}
+	.regions-inline li{
+		margin-left: 0 !important;
+    	margin-right: 10px !important;
+	}
+	.regions-block-intro h1{
+		line-height: 50px;
+		margin-right: 5px;
+	}
+	.regions-block-intro span{color: #999;}
+	.adventures-select{
+		width: 60%;
+		margin: 15px 0;
+	}
+	.adventure-block{
+		width: 100%;
+		text-align: center;
+	}
+	.adventure-block li{
+		float: none;
+		margin: 0 15px 30px 15px;
+	}
+	.contact-us-small{max-width: 100%;}
+
+	/*** destinations.html ***/
+	.regions-inline{ height: 100%;}
+	.regions-inline li{width: 100%;}
+	.regions-block-intro h1{
+		line-height: 50px;
+		margin-right: 28%;
+	}
+	.regions-block-intro span{color: #999;}
+	.adventures-select{
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.adventure-block{
+		width: 100%;
+		text-align: center;
+	}
+	.adventure-block li{
+		float: none;
+		margin: 0 0 30px 0;
+	}
+	.contact-us-small{max-width: 100%;}
+	.author-quote i.icon{margin-bottom: 20px;}
+
+	/*** tour-page.html ***/
+	.second-nav-button{display: none;}
+	.navbar-fixed-top .second-nav-button.collapsed span,
+	.navbar-fixed-top .second-nav-button span{background-color: #fff !important;}
+
+	#second-nav{
+		position: absolute;
+		top: 60px;
+		height: 100%;
+		width: 100%;
+	}
+	#second-nav .nav li:last-child{border-left: none;}
+	#second-nav ul{
+		text-align: center;
+		width: 100%;
+		padding: 0;
+	}
+	#second-nav li{
+		float: none;
+		width: 100%;
+		margin: 0;
+	}
+	#second-nav .nav a{
+		border-bottom: 1px solid #fff;
+		border-left: 1px solid #fff;
+		border-radius: 0;
+	}
+
+	#tour-header{
+		background-size: auto;
+		height: 550px;
+	}
+	#tour-header .trip-costs .container{height: 100%;}
+	#tour-header .trip-costs li{padding: 10px 3.25%;}
+	.trip-bg p{
+		width: 100%;
+		padding-left: 3%;
+	}
+	.trip-description{padding: 30px 0 0;}
+	#trip-activities{height: 100%;}
+	.trip-activities-bg{
+		width: 100%;
+		position: relative;
+	}
+	.places-tabs>li>a{margin: 0 10px;}
+	.day-description{padding-top: 40px;}
+	.section-intro h1{letter-spacing: 0;}
+	section{background-attachment: inherit;}
+	.trip-charge{height: 100%;}
+	.trip-charge h1{
+		margin: 20px 0;
+		letter-spacing: 3px;
+	}
+	.price-block{
+		width: 100%;
+		height: 130px;
+		padding: 0 30px;
+	}
+	.price-block span{
+		width: 100%;
+		max-width: 100%;
+	}
+	.price-description{
+		width: 100%;
+		height: 90px;
+	}
+	#gallery{
+		position: relative;
+		margin: 0;
+	}
+	.gallery-photos {text-align: center;}
+	.gallery-photos li{
+		float: none;
+		margin: 0 10px 30px 10px;
+	}
+	.goUp-btn{ display: none;}
+
+	/* experience.html */
+	.about-page header{
+		background-position: center;
+		background-size: cover;
+		height: 100vh;
+	}
+	.noPaddingLeft{padding: 0;}
+	.about-tabs .tab-title{top: 250px;}
+	.about-tabs-control .nav-tabs li a:before{display: none;}
+	.about-tabs-control .nav-tabs{text-align: left;}
+	.about-tabs-control .nav-tabs li a{padding: 0 55px;}
+	.about-tabs .tab-wrapp{
+		padding-top: 60px;
+		padding-right: 0;
+	}
+	.category{margin-top: 60px;}
+	.member-socials{padding: 0;}
+	.our-team .col-md-3{
+		width: 50%;
+		float: left;
+	}
+	.team-member{height: 340px;}
+	
+	/* blog-page & blog-post-page */
+	.blog-page header{
+		height: 100vh;
+		background-size: cover;
+		background-attachment: local;
+		background-position: center;
+	}
+	.sidebar .categories{margin: 0 auto 30px;}
+	.blog-post-intro{
+		height: 520px;
+	}
+	.blog-post-intro-bg{
+		margin: 0 auto 20px;
+		float: none;
+	}
+	.blog-post-intro .post-divider{
+		float: right;
+		width: 100%;
+		margin-bottom: 0;
+	}
+	.blog-post-intro .hovered{
+		visibility: visible;
+		bottom: 60px;
+		left: 50%;
+		top: auto;
+		right: auto;
+		border: none;
+	}
+	.blog-post-intro .hovered .post-link{
+		height: 40px;
+		line-height: 38px;
+	}
+	.blog-post-intro:hover .hovered{top: auto;}
+	.instagram-block ul{margin: 0 auto;}
+	.blog-post-intro.sticky-post .post-title, .blog-post-intro.sticky-post p{float: left; margin: 0;}
+
+	.blog-post-content .post-cite i{line-height: 40px;}
+
+	/* contact.hrml */
+	.contact-page .contacts-section{padding-bottom: 60px;}
+}
+
+
+/*********** 3.  Tablets **************/
+/* portratit mode */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1280px) and (orientation: portrait) {
+	
+	/*** index.html ***/
+	.select-options .search-btn{right: 3px;}
+	.country-list li{
+		padding: 0;
+		margin: 0 15px;
+	}
+	.posts-list li{margin-right: 15px;}
+	.contacts-section{
+		height: 100%;
+		min-height: 100%;
+		padding-bottom: 30px;
+	}
+	.footer{
+		position: relative;
+		height: 100%;
+	}
+	.social-links{margin-bottom: 30px;}
+	.footer .footer-col-title{margin-bottom: 20px;}
+	.copyright{
+		padding: 0;
+		margin: 0;
+	}
+
+	/*** destinations.html ***/
+	.regions-inline{height: 95px;}
+	.regions-inline li{margin-left: 10px !important;}
+	.regions-sidebar,
+	.contact-us-small{
+		width: 270px;
+		margin: 0 auto 30px;
+	}
+	.adventure-block{
+		width: 100%;
+		text-align: center;
+	}
+	.adventure-block li{float: none;}
+
+	/*** tour-page.html ***/
+	#second-nav .nav{padding: 0;}
+	#second-nav .nav a{padding: 0 14px;}
+	#tour-header{
+		background-size: auto;
+		height: 67vh;
+	}
+	#tour-header .trip-costs li{padding: 17px 4.25%;}
+	.activities-list.bordered:before{display: none;}
+	.places-content h4{margin-top: 30px;}
+	.places-content .activities-list.bordered, .places-content .activities-list.bordered:before{
+		top: 0;
+		padding-top: 0;
+	}
+	.trip-charge{height: 100%;}
+	#gallery{
+		position: relative;
+		margin-top: 50px;
+	}
+	.trip-charge h1{line-height: 95px;}
+	.price-description, .price-block{
+		width: 50%;
+		height: 130px;
+	}
+	.price-block h1{
+		line-height: 100% !important;
+		margin-bottom: 10px;
+	}
+	.price-block span{
+		width: 100%;
+		max-width: 100%;
+	}
+	.gallery-photos {
+		text-align: center;
+	}
+	.gallery-photos li{float: none;}
+
+	/* experience.html */
+	.about-page header{
+		background-position: center;
+		background-size: cover;
+	}
+	.noPaddingLeft{padding: 0;}
+	.about-tabs .tab-title{top: 250px;}
+	.about-tabs-control .nav-tabs li a:before{display: none;}
+	.about-tabs-control .nav-tabs li a{padding: 0 55px;}
+	
+	.category{margin-top: 60px;}
+	.member-socials{padding: 0;}
+	.about-video-bg{width: calc((100vw - 750px)/2 + 760px - 195px);}
+
+	/* blog-page & blog-post-page */
+	.blog-page header{
+		background-size: cover;
+		background-attachment: local;
+		background-position: center;
+	}
+	.categories,
+	.sidebar form,
+	.sidebar-tags,
+	.instagram-block{
+		display: inline-block;
+	    width: 38%;
+	    margin: 0 5% 30px;
+	    float: left;
+	}
+	.blog-post-intro.sticky-post .post-divider{
+		position: absolute;
+		left: 290px;
+		width: 55%;
+	}
+
+	.blog-post-content .post-cite i{line-height: 36px;}
+
+	/* contact.hrml */
+	.contact-page .contacts-section{padding-bottom: 60px;}
+
+}
+
+/* landscape mode */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1280px) and (orientation: landscape) {
+
+	/* index.html */
+	.select-options .search-btn{right: -2px;}
+	.author-quote{
+		height: 490px;
+		padding: 40px;
+	}
+	.adventure-list{
+		margin-top: 80px;
+		margin-bottom: 130px;
+	}
+	.adventure-list li{
+		margin-right: 15px;
+		width: 220px;
+		height: 180px;
+	}
+	.adventure-list li a{
+		width: 100%;
+		height: 100%;
+	}
+	.about-description{padding-top: 30px;}
+	.about-description .play-btn{
+		width: 83%;
+		letter-spacing: 1px;
+	}
+	.posts-list li{margin-bottom: 30px;}
+	.form input[type="submit"]{width: 95px;}
+	.copyright{padding-top: 5px;}
+
+	/* destinations.html */
+	.regions-inline li{margin-left: 10px !important;}
+	.contact-us-small{height: 245px;}
+
+	/* tour-page.html */
+	#tour-header{background-size: auto;}
+	#second-nav .nav{padding-right: 0;}
+	#second-nav .nav a{padding: 0 25px;}
+	#tour-header .trip-costs li{padding: 17px 5.25%;}
+	.section-intro p{font-size: 16px;}
+	.trip-activities-bg:after{
+		content: "";
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(255, 255, 255, 0.3);
+	}
+	.trip-charge{height: 100%;}
+	#gallery{
+		position: relative;
+		margin-top: 50px;
+	}
+	.trip-charge h1{font-size: 28px;}
+	.price-description, .price-block{
+		width: 50%;
+		height: 120px;
+	}
+	.price-block h1{
+		line-height: 100% !important;
+		margin-bottom: 10px;
+	}
+	.price-block span{
+		width: 100%;
+		max-width: 100%;
+	}
+	.gallery-photos{
+		display: inline-block;
+		text-align: center;
+	}
+	.gallery-photos li{float: none;}
+		
+	/* about.html */
+	.about-tabs .tab-bg{height: 555px;}
+
+}
+
+/* ----------- MacBoock 13' ----------- */
+@media only screen and (min-device-width: 1024px) and (max-height: 660px) { 
+	
+	/* index.html */
+	.select-options .search-btn{right: -4px;}
+	.author-quote{padding: 30px;}
+	.author-quote i.icon{margin-bottom: 30px;}
+
+	.adventure-list{
+		padding-top: 50px;
+		margin-bottom: 95px;
+	}
+	.adventure-list li{
+		width: 210px;
+		height: 175px;
+	}
+	.adventure-list li a{
+		width: 100%;
+		height: 100%;
+	}
+	.adventure-list .overlay-lnk i.icon{margin-top: 50px;}
+	.about-video-bg{width: calc((100vw - 970px)/2 + 970px - 155px);}
+	.about-description h1{padding: 0 45px 20px 45px;}
+	.about-description .play-btn{
+		width: 240px;
+		padding: 6px 5px;
+	}
+	.about-description span{margin-bottom: 10px;}
+	.posts-list li:last-child{display: none;}
+	.copyright{padding-top: 5px;}
+
+	/* destinations.html */
+	.regions-inline li{margin-left: 10px !important;}
+	.adventure-block{text-align: center;}
+	.adventure-block li{float: none;}
+	.contact-us-small{height: 245px;}
+
+	/*about.html*/
+	.about-page header{
+		background-size: cover;
+		background-position: -35px;
+	}
+	.about-tabs .tab-bg{height: 580px;}
+
+	/* blog.html */
+	.blog-page header{
+		background-size: cover;
+		background-position: center;
+	}
+	.blog-post-intro .post-divider{
+		width: 375px;
+		margin: 0;
+	}
+	.sidebar-tags{padding: 10px 5px 5px 5px;}
+	.sidebar-tags h6{margin-bottom: 5px;}
+	.instagram-block{padding: 15px 10px;}
+	.instagram-block li{
+		height: 75px;
+		width: 75px;
+	}
+	.instagram-block{height: 255px;}
+	.blog-post-content .post-cite i{line-height: 40px;}
+
+	/* tour-page.html */
+	#second-nav .nav a{padding: 0 20px;}
+	#tour-header .trip-costs li{padding: 17px 5.25%;}
+	.activities-list{padding-top: 30px;}
+	.activities-list li{margin-bottom: 20px;}
+	.trip-activities-bg{width: 35%;}
+	.places-content .activities-list.bordered, .places-content .activities-list.bordered:before{top: 0;}
+	.route-map{height: 455px;}
+	.trip-charge{height: 150vh;}
+	.trip-charge h1{font-size: 30px;}
+	.price-block{
+		width: 330px;
+		padding: 28px;
+	}
+	#gallery{margin: 0;}
+	.gallery-photos{
+		margin: 0;
+		display: inline-block;
+	}
+	.gallery-photos li{margin-left: 24px;}
+
+}
+
+
+

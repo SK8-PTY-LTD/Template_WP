@@ -1,0 +1,29 @@
+<root>
+    <params name="posts" label="Filter">
+        <param name="postscategory" label="Categories" type="wpcategories" default="0" multiple="1" size="10"/>
+        <param name="posttags" label="Tags" type="wptags" default="0" multiple="1" size="10"/>
+        <param name="poststicky" type="list" label="Show posts" translateable="1">
+            <option value="all">All</option>
+            <option value="sticky">Only sticky</option>
+            <option value="nonsticky">Only non-sticky</option>
+        </param>
+    </params>
+
+    <params name="order" label="Order by">
+        <param name="postscategoryorder" type="mixed" label="Order" default="post_date|*|desc">
+            <param type="list" label="Field" translateable="1">
+                <option value="none">None</option>
+                <option value="post_date">Post date</option>
+                <option value="ID">ID</option>
+                <option value="title">Title</option>
+                <option value="post_modified">Modification date</option>
+                <option value="rand">Random</option>
+                <option value="comment_count">Comment count</option>
+            </param>
+            <param type="radio" label="order" translateable="1">
+                <option value="asc">Ascending</option>
+                <option value="desc">Descending</option>
+            </param>
+        </param>
+    </params>
+</root>

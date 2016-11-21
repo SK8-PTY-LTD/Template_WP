@@ -1,0 +1,156 @@
+# Copyright (C) 2016 Astoundify
+# This file is distributed under the same license as the WP Job Manager - Products package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Job Manager - Products 1.3.0\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/wp-job-manager-products\n"
+"POT-Creation-Date: 2016-08-04 19:58:41+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+
+#: includes/admin/class-wpjmp-settings.php:42
+msgid "Products"
+msgstr ""
+
+#: includes/admin/class-wpjmp-settings.php:48
+msgid "Products limitation"
+msgstr ""
+
+#: includes/admin/class-wpjmp-settings.php:49
+msgid ""
+"What products can listing owners select? <small>Admins will see all "
+"products</small>"
+msgstr ""
+
+#: includes/admin/class-wpjmp-settings.php:51
+msgid "Only their own"
+msgstr ""
+
+#: includes/admin/class-wpjmp-settings.php:52
+msgid "All"
+msgstr ""
+
+#: includes/admin/class-wpjmp-settings.php:59
+msgid "Select Products Text"
+msgstr ""
+
+#: includes/admin/class-wpjmp-settings.php:60
+msgid "<em>Default: \"Select Your Services & Products\"</em>"
+msgstr ""
+
+#: includes/admin/class-wpjmp-settings.php:67
+msgid "Listing Products Text"
+msgstr ""
+
+#: includes/admin/class-wpjmp-settings.php:68
+msgid "<em>Default: \"Listing products\"</em>"
+msgstr ""
+
+#: includes/admin/class-wpjmp-settings.php:69
+msgid "Listing products"
+msgstr ""
+
+#: includes/admin/class-wpjmp-settings.php:76
+msgid "Enable Products List for Job Listings"
+msgstr ""
+
+#: includes/admin/class-wpjmp-settings.php:77
+msgid "Enable product selection when submitting a listing using [submit_job_form]"
+msgstr ""
+
+#: includes/admin/class-wpjmp-settings.php:78
+msgid ""
+"Allow users to attach products to listings when submitting a listing on the "
+"frontend."
+msgstr ""
+
+#: includes/admin/class-wpjmp-settings.php:86
+msgid "Enable Products List for Events"
+msgstr ""
+
+#: includes/admin/class-wpjmp-settings.php:87
+msgid "Enable product selection when submitting an event using [submit_event_form]"
+msgstr ""
+
+#: includes/admin/class-wpjmp-settings.php:88
+msgid ""
+"Allow users to attach products to events when submitting an event on the "
+"frontend."
+msgstr ""
+
+#: includes/admin/class-wpjmp-settings.php:96
+msgid "Draft Products"
+msgstr ""
+
+#: includes/admin/class-wpjmp-settings.php:97
+msgid "Draft products connected to listings when the listing expires"
+msgstr ""
+
+#: includes/admin/class-wpjmp-settings.php:98
+msgid "Force products to be set to draft when a connected listing expires."
+msgstr ""
+
+#: includes/updater/EDD_SL_Plugin_Updater.php:186
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+
+#: includes/updater/EDD_SL_Plugin_Updater.php:193
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a "
+"href=\"%4$s\">update now</a>."
+msgstr ""
+
+#: includes/updater/EDD_SL_Plugin_Updater.php:334
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: includes/updater/EDD_SL_Plugin_Updater.php:334
+msgid "Error"
+msgstr ""
+
+#: includes/updater/class-astoundify-updater.php:42
+msgid "License Key"
+msgstr ""
+
+#: includes/updater/class-astoundify-updater.php:43
+msgid "Enter the license key you received with your purchase receipt."
+msgstr ""
+
+#: includes/updater/class-astoundify-updater.php:78
+msgid "Deactivate"
+msgstr ""
+
+#: wp-job-manager-products.php:100
+msgid "Oops, nothing found!"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Job Manager - Products"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://astoundify.com/downloads/wp-job-manager-products"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Allows you to assign products created in WooCommerce to be associated with "
+"listings."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Astoundify"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://astoundify.com/"
+msgstr ""

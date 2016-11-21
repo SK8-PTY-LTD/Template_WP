@@ -1,0 +1,107 @@
+.mh200{
+    height: 200px;
+    font-size: 14px!important;
+}
+.spcc_promo{
+    background: #fff;
+    padding: 15px 0px;
+    margin-top: 30px;
+    box-shadow: 0 0 4px 1px #DAD2D2;
+}
+.spcc_promo h2{
+    color: #666;
+
+}
+.sppc_wrap h2#main-title{
+    background: #fff;
+    color: #FF5B57;
+    font-weight: bold;
+    /*text-shadow: 1px 0px #9e9e9e;*/
+    font-size: 30px;
+    /*padding: 10px 20px;*/
+    /*box-shadow: 0 0 4px 1px #DAD2D2;*/
+    margin-bottom: 20px;
+}
+.sppc_wrap .nav-tab-wrapper{
+    border: none!important;
+    margin-bottom: 15px!important;
+}
+.sppc_wrap .nav-tab-wrapper a.nav-tab{
+    margin-left: 0px;
+    background: #EDEAEA;
+    color: #FF5B57;
+    border: none;
+    /*box-shadow: 0 0 4px 1px #DAD2D2;*/
+    margin-right: 5px;
+}
+.sppc_wrap h3{
+    color: #666;
+}
+.sppc_wrap .nav-tab-wrapper a.nav-tab.nav-tab-active{
+    background: #FF5B57!important;
+    color: #fff!important;
+}
+.spcc_promo a{
+    color: #FF5B57;
+}
+
+.spcc_promo .button.button-primary {
+    background-color: #E96363!important;
+    text-shadow: none!important;
+    border: none!important;
+    box-shadow: 0 0 10px 1px #B5B5B5!important;
+    height: 36px!important;
+    line-height: 36px!important;
+    margin-right: 10px!important;
+}
+
+.sppc_wrap .button.save{
+    /*box-shadow: 0 0 9px 2px #DAD2D2!important;*/
+    box-shadow:none;
+    background: #FF5B57!important;
+    color: #fff!important;
+    text-shadow: none!important;
+    border: none;
+    font-size: 16px!important;
+    height: auto;
+    padding: 5px 15px!important;
+}
+.sppc_wrap{
+    background: #fff;
+    padding: 15px 20px;
+    margin-top: 30px;
+    box-shadow: 0 0 4px 1px #DAD2D2;
+}
+.sppc_wrap .updated{
+    background: #46b450;
+    color: #fff;
+}
+
+.sppc_wrap form h4{
+    background-color: #757575;
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+}
+.sppc_wrap form h4 small{
+    float: right;
+}
+.sppc_wrap .ace_editor{
+    border: 1px solid #f0f0f0;
+}
+.sppc_wrap .ace-chrome .ace_print-margin{
+    display: none;
+}
+.sppc_wrap .notice.is-dismissible{
+    background-color: orange;
+    color: #fff;
+}
+.adv h2{
+    min-height: 36px;
+}
+.adv h2 a{
+    text-decoration: none;
+}
+.sppc_wrap a:focus,.spcc_promo a:focus{
+    box-shadow: none;
+}

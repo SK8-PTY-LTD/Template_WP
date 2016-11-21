@@ -1,0 +1,204 @@
+.aws-container .aws-search-form {
+    position: relative;
+    width: 100%;
+}
+
+.aws-container .aws-search-form * {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-hyphens: manual;
+    -webkit-hyphens: manual;
+    hyphens: manual;
+    border-radius: 0 !important;
+}
+
+.aws-container .aws-search-form:after {
+    display: none;
+    position: absolute;
+    content: '';
+    background: url('../img/loader-1.GIF') no-repeat 50% 50%;
+    width: 20px;
+    height: 20px;
+    right: 10px;
+    top: 50%;
+    margin-top: -10px;
+    z-index: 999;
+}
+
+.aws-container .aws-search-form.processing:after {
+    display: block;
+}
+
+.aws-container .aws-search-field {
+    width: 100%;
+    color: #313131;
+    padding: 6px;
+    line-height: 30px;
+    display: block;
+    font-size: 12px;
+    position: relative;
+    z-index: 2;
+    background: rgb(247, 247, 247);
+    -webkit-appearance: none;
+}
+
+.aws-container .aws-search-field:focus {
+    background-color: #fff;
+}
+
+.aws-search-result {
+    position: absolute;
+    z-index: 999;
+    z-index: 9999;
+    background: #fff;
+    width: 100%;
+    margin-top: -1px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.aws-search-result ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 !important;
+
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.aws-search-result ul li {
+    list-style: none;
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+    margin: 0 !important;
+    position: relative;
+}
+
+.aws-search-result ul li:last-child {
+    border-bottom: 0;
+}
+
+
+.aws-search-result .aws_result_link {
+    display: block;
+    cursor: pointer;
+    padding: 10px 8px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-decoration: none;
+    border: 0;
+}
+.aws-search-result .aws_result_link:hover {
+    background: #f5f5f5;
+}
+
+
+.aws-search-result .aws_result_content {
+    overflow: hidden;
+    display: block;
+}
+
+.aws-search-result .aws_result_title {
+    display: block;
+    font-weight: normal;
+    margin-bottom: 3px;
+    color: #21759b;
+}
+
+.aws-search-result .aws_result_sku {
+    display: block;
+    font-weight: normal;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    color: #222;
+}
+
+.aws-search-result .aws_result_cat .aws_result_title,
+.aws-search-result .aws_result_tag .aws_result_title {
+    margin-bottom: 2px;
+}
+
+.aws-search-result .aws_result_excerpt {
+    display: block;
+    color: #222;
+}
+
+.aws-search-result .aws_result_price {
+    display: block;
+    padding: 2px 0;
+    color: #222;
+}
+
+.aws-search-result .aws_result_price del,
+.aws-search-result .aws_result_price ins {
+    background: none;
+    padding: 0 12px 0 0;
+    opacity: 1;
+}
+
+.aws-search-result .aws_result_cats {
+    display: block;
+    float: left;
+    margin-right: 20px;
+}
+
+.aws-search-result .aws_result_image {
+    display: block;
+    height: 100%;
+    float: left;
+    padding-right: 10px;
+}
+.aws-search-result .aws_result_image img {
+    width: 50px;
+    height: 50px;
+    box-shadow: none;
+}
+
+.aws-search-result .aws_result_sale {
+    display: block;
+    height: 42px;
+    overflow: hidden;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 47px;
+}
+
+.aws-search-result .aws_onsale {
+    background: #77a464 none repeat scroll 0 0;
+    color: #fff;
+    display: block;
+    float: right;
+    height: 20px;
+    padding-top: 2px;
+    position: relative;
+    right: -25px;
+    text-align: center;
+    top: 3px;
+    transform: rotate(45deg);
+    width: 77px;
+}
+
+.aws-search-result .aws_no_result {
+    line-height: 40px;
+    padding: 0 6px;
+    cursor: auto;
+}
+
+.aws-search-result .aws_search_more {
+
+}
+.aws-search-result .aws_search_more a {
+    line-height: 40px;
+    display: block;
+    text-decoration: none;
+    border: 0;
+    text-align: center;
+    color: #21759b;
+}
+.aws-search-result .aws_search_more a:hover {
+    background: #f5f5f5;
+}

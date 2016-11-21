@@ -1,0 +1,640 @@
+0000.004 (0) Opened log file at time: Tue, 25 Oct 2016 08:14:50 +0000 on http://freshjourney.com.au
+0000.011 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.23 WP: 4.6.1 PHP: 5.5.38 (cgi-fcgi, Linux webcloud45.au.syrahost.com 2.6.32-673.8.1.lve1.4.3.el6.x86_64 #1 SMP Wed Feb 10 08:57:30 EST 2016 x86_64) MySQL: 10.0.27 WPLANG: en_US Server: Apache/2.2.31 (Unix) mod_ssl/2.2.31 OpenSSL/1.0.1e-fips mod_bwlimited/1.4 mod_perl/2.0.8 Perl/v5.10.1 safe_mode: 0 max_execution_time: 900 memory_limit: 128M (used: 16.8M | 17.5M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.437 (0) Free space on disk containing Updraft's temporary directory: 117123.8 MB
+0000.454 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.463 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.487 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1477295910, seconds_ago=87380)
+0000.504 (0) Set semaphore last lock (fd) time to 2016-10-25 08:14:50
+0000.510 (0) Semaphore lock (fd) complete
+0000.531 (0) Backup run: resumption=0, nonce=f2a9942fa2ef, begun at=1477383290 (0s ago), job type=backup
+0000.543 (0) Scheduling a resumption (1) after 300 seconds (1477383590) in case this run gets aborted
+0000.594 (0) Checking if we have a zip executable available
+0000.604 (0) Testing: /usr/bin/zip
+0000.701 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.709 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.716 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.724 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.731 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.748 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.756 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.790 (0) Working binary zip found: /usr/bin/zip
+0000.803 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.809 (0) Creation of backups of directories: beginning
+0000.832 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0002.244 (0) Total entities for the zip file: 1394 directories, 8267 files (0 skipped as non-modified), 102.3 MB
+0002.266 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0002.283 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0002.301 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0002.320 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0002.339 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0002.350 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.3 MB, 8267 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0013.260 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: size is now: 2.70 MB
+0013.312 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 600 files added (on-disk size: 2781.5 KB)
+0013.336 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 700 files added (on-disk size: 2781.5 KB)
+0013.354 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 800 files added (on-disk size: 2781.5 KB)
+0013.370 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 900 files added (on-disk size: 2781.5 KB)
+0013.388 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 1000 files added (on-disk size: 2781.5 KB)
+0013.395 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.5 MB, 8267 files batched, 501 (1002) added so far); re-opening (prior size: 2781.5 KB)
+0020.936 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: size is now: 4.20 MB
+0020.964 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 1100 files added (on-disk size: 4297.4 KB)
+0020.984 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 1200 files added (on-disk size: 4297.4 KB)
+0021.006 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 1300 files added (on-disk size: 4297.4 KB)
+0021.019 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 1400 files added (on-disk size: 4297.4 KB)
+0021.033 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 1500 files added (on-disk size: 4297.4 KB)
+0021.042 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.9 MB, 8267 files batched, 501 (1503) added so far); re-opening (prior size: 4297.4 KB)
+0035.640 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: size is now: 10.30 MB
+0035.669 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 1600 files added (on-disk size: 10544.1 KB)
+0035.683 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 1700 files added (on-disk size: 10544.1 KB)
+0035.701 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 1800 files added (on-disk size: 10544.1 KB)
+0035.718 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 1900 files added (on-disk size: 10544.1 KB)
+0035.743 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 2000 files added (on-disk size: 10544.1 KB)
+0035.754 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.6 MB, 8267 files batched, 501 (2004) added so far); re-opening (prior size: 10544.1 KB)
+0050.690 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: size is now: 13.30 MB
+0050.719 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 2100 files added (on-disk size: 13667 KB)
+0050.734 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 2200 files added (on-disk size: 13667 KB)
+0050.750 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 2300 files added (on-disk size: 13667 KB)
+0050.764 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 2400 files added (on-disk size: 13667 KB)
+0050.782 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 2500 files added (on-disk size: 13667 KB)
+0050.790 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.7 MB, 8267 files batched, 501 (2505) added so far); re-opening (prior size: 13667 KB)
+0060.082 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 2600 files added (on-disk size: 16337 KB)
+0060.093 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 2700 files added (on-disk size: 16337 KB)
+0060.105 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 2800 files added (on-disk size: 16337 KB)
+0060.116 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 2900 files added (on-disk size: 16337 KB)
+0060.130 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 3000 files added (on-disk size: 16337 KB)
+0060.139 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.1 MB, 8267 files batched, 501 (3006) added so far); re-opening (prior size: 16337 KB)
+0065.147 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 3100 files added (on-disk size: 19368.8 KB)
+0065.160 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 3200 files added (on-disk size: 19368.8 KB)
+0065.173 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 3300 files added (on-disk size: 19368.8 KB)
+0065.186 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 3400 files added (on-disk size: 19368.8 KB)
+0065.199 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 3500 files added (on-disk size: 19368.8 KB)
+0065.205 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.8 MB, 8267 files batched, 501 (3507) added so far); re-opening (prior size: 19368.8 KB)
+0072.922 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 3600 files added (on-disk size: 20988.8 KB)
+0072.937 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 3700 files added (on-disk size: 20988.8 KB)
+0072.950 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 3800 files added (on-disk size: 20988.8 KB)
+0072.965 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 3900 files added (on-disk size: 20988.8 KB)
+0072.979 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 4000 files added (on-disk size: 20988.8 KB)
+0072.986 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.2 MB, 8267 files batched, 501 (4008) added so far); re-opening (prior size: 20988.8 KB)
+0078.374 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 4100 files added (on-disk size: 22747.6 KB)
+0078.412 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 4200 files added (on-disk size: 22747.6 KB)
+0078.435 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 4300 files added (on-disk size: 22747.6 KB)
+0078.458 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 4400 files added (on-disk size: 22747.6 KB)
+0078.477 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 4500 files added (on-disk size: 22747.6 KB)
+0078.489 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.1 MB, 8267 files batched, 501 (4509) added so far); re-opening (prior size: 22747.6 KB)
+0079.509 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 4600 files added (on-disk size: 23476.7 KB)
+0079.529 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 4700 files added (on-disk size: 23476.7 KB)
+0079.554 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 4800 files added (on-disk size: 23476.7 KB)
+0079.579 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 4900 files added (on-disk size: 23476.7 KB)
+0079.604 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 5000 files added (on-disk size: 23476.7 KB)
+0079.619 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.3 MB, 8267 files batched, 501 (5010) added so far); re-opening (prior size: 23476.7 KB)
+0086.134 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 5100 files added (on-disk size: 24776.5 KB)
+0086.157 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 5200 files added (on-disk size: 24776.5 KB)
+0086.176 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 5300 files added (on-disk size: 24776.5 KB)
+0086.192 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 5400 files added (on-disk size: 24776.5 KB)
+0086.210 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 5500 files added (on-disk size: 24776.5 KB)
+0086.223 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.6 MB, 8267 files batched, 501 (5511) added so far); re-opening (prior size: 24776.5 KB)
+0088.997 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 5600 files added (on-disk size: 26046.3 KB)
+0089.024 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 5700 files added (on-disk size: 26046.3 KB)
+0089.045 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 5800 files added (on-disk size: 26046.3 KB)
+0089.069 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 5900 files added (on-disk size: 26046.3 KB)
+0089.100 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 6000 files added (on-disk size: 26046.3 KB)
+0089.113 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.2 MB, 8267 files batched, 501 (6012) added so far); re-opening (prior size: 26046.3 KB)
+0095.298 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 6100 files added (on-disk size: 29092.5 KB)
+0095.321 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 6200 files added (on-disk size: 29092.5 KB)
+0095.336 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 6300 files added (on-disk size: 29092.5 KB)
+0095.351 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 6400 files added (on-disk size: 29092.5 KB)
+0095.368 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 6500 files added (on-disk size: 29092.5 KB)
+0095.377 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.3 MB, 8267 files batched, 501 (6513) added so far); re-opening (prior size: 29092.5 KB)
+0101.437 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 6600 files added (on-disk size: 31093.9 KB)
+0101.457 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 6700 files added (on-disk size: 31093.9 KB)
+0101.476 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 6800 files added (on-disk size: 31093.9 KB)
+0101.496 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 6900 files added (on-disk size: 31093.9 KB)
+0101.514 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 7000 files added (on-disk size: 31093.9 KB)
+0101.527 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.8 MB, 8267 files batched, 501 (7014) added so far); re-opening (prior size: 31093.9 KB)
+0103.930 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 7100 files added (on-disk size: 33811.3 KB)
+0103.959 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 7200 files added (on-disk size: 33811.3 KB)
+0103.983 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 7300 files added (on-disk size: 33811.3 KB)
+0104.002 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 7400 files added (on-disk size: 33811.3 KB)
+0104.023 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 7500 files added (on-disk size: 33811.3 KB)
+0104.032 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.3 MB, 8267 files batched, 501 (7515) added so far); re-opening (prior size: 33811.3 KB)
+0117.049 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 7600 files added (on-disk size: 35405.7 KB)
+0117.086 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 7700 files added (on-disk size: 35405.7 KB)
+0117.107 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 7800 files added (on-disk size: 35405.7 KB)
+0117.124 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 7900 files added (on-disk size: 35405.7 KB)
+0117.141 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 8000 files added (on-disk size: 35405.7 KB)
+0117.154 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.3 MB, 8267 files batched, 501 (8016) added so far); re-opening (prior size: 35405.7 KB)
+0123.098 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 8100 files added (on-disk size: 38308.5 KB)
+0123.113 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip.tmp: 8200 files added (on-disk size: 38308.5 KB)
+0128.471 (0) Created plugins zip (0) - 40149.9 KB in 127.6 s (314.7 KB/s) (SHA1 checksum: adc8f7653e2c5e003f510fbeaec6b150d6343020)
+0128.490 (0) Beginning creation of dump of themes (split every: 400 MB)
+0128.639 (0) Total entities for the zip file: 133 directories, 778 files (0 skipped as non-modified), 12.2 MB
+0128.655 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0128.671 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0128.691 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0128.713 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0128.733 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0128.740 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.6 MB, 778 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0129.633 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-themes.zip.tmp: size is now: 2.30 MB
+0129.658 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-themes.zip.tmp: 600 files added (on-disk size: 2313.2 KB)
+0129.672 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-themes.zip.tmp: 700 files added (on-disk size: 2313.2 KB)
+0130.574 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-themes.zip.tmp: size is now: 4.80 MB
+0130.651 (0) Created themes zip (0) - 4906.8 KB in 2.1 s (2320.7 KB/s) (SHA1 checksum: c3e4f3d9b2436ee1242220b1a4d6554aae44339c)
+0130.669 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0130.684 (0) Looking for candidates to back up in: /home12/skasia/public_html/freshjourney.com.au/wp-content/uploads
+0130.694 (0) finding files: 2016: adding to list (1)
+0130.711 (0) finding files: js_composer: adding to list (2)
+0130.720 (0) finding files: siteorigin-widgets: adding to list (3)
+0130.729 (0) finding files: slider2: adding to list (4)
+0130.739 (0) finding files: sucuri: adding to list (5)
+0130.748 (0) finding files: wc-logs: adding to list (6)
+0130.758 (0) finding files: woocommerce_uploads: adding to list (7)
+0130.768 (0) finding files: .htaccess: adding to list (8)
+0130.777 (0) finding files: 2013: adding to list (9)
+0130.785 (0) finding files: resized: adding to list (10)
+0130.794 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0130.995 (0) Total entities for the zip file: 24 directories, 818 files (0 skipped as non-modified), 49.4 MB
+0131.022 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0131.040 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0131.055 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 818 files batched, 260 (260) added so far); re-opening (prior size: 0 KB)
+0135.572 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-uploads.zip.tmp: size is now: 25.10 MB
+0135.592 (0) A useful amount of data was added after this amount of zip processing: 5.6 s (normalised: 5.6 s, rate: 4549.9 KB/s)
+0135.607 (0) Performance is good - will increase the amount of data we attempt to batch (time=5.637589931488, normalised_time=5.6264762329353, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=27954690)
+0135.623 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-uploads.zip.tmp: 300 files added (on-disk size: 25712 KB)
+0135.643 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-uploads.zip.tmp: 400 files added (on-disk size: 25712 KB)
+0135.671 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-uploads.zip.tmp: 500 files added (on-disk size: 25712 KB)
+0135.695 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-uploads.zip.tmp: 600 files added (on-disk size: 25712 KB)
+0135.711 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-uploads.zip.tmp: 700 files added (on-disk size: 25712 KB)
+0135.725 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (22.6 MB, 818 files batched, 501 (761) added so far); re-opening (prior size: 25712 KB)
+0186.504 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-uploads.zip.tmp: size is now: 47.80 MB
+0186.525 (0) Zip: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-uploads.zip.tmp: 800 files added (on-disk size: 48959.6 KB)
+0212.740 (0) Created uploads zip (0) - 50700.8 KB in 81.9 s (619.1 KB/s) (SHA1 checksum: f390dfd0f264ce369aaaeaec592239f8fe381a89)
+0212.753 (0) Beginning backup of other directories found in the content directory (index: 0)
+0212.758 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0212.764 (0) Looking for candidates to back up in: /home12/skasia/public_html/freshjourney.com.au/wp-content
+0212.770 (0) finding files: cache: skipping: excluded by options
+0212.775 (0) finding files: languages: adding to list (1)
+0212.782 (0) finding files: listify170: adding to list (2)
+0212.789 (0) finding files: plugins: skipping: this is the plugins directory
+0212.795 (0) finding files: themes: skipping: this is the themes directory
+0212.805 (0) finding files: updraft: skipping: this is the updraft directory
+0212.810 (0) finding files: upgrade: skipping: excluded by options
+0212.815 (0) finding files: uploads: skipping: this is the uploads directory
+0212.821 (0) finding files: wflogs: adding to list (3)
+0212.827 (0) finding files: .htaccess: adding to list (4)
+0212.832 (0) finding files: index.php: adding to list (5)
+0212.933 (0) Total entities for the zip file: 5 directories, 46 files (0 skipped as non-modified), 10 MB
+0220.255 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-others.zip.tmp: size is now: 5.20 MB
+0220.318 (0) Created others zip (0) - 5324.9 KB in 7.4 s (719.6 KB/s) (SHA1 checksum: 5f7de9f7ecedd1825a02e88684a853b31126bb02)
+0220.353 (0) Saving backup status to database (elements: 8)
+0220.386 (0) Beginning creation of database dump (WordPress DB)
+0220.405 (0) Testing: /usr/bin/mysqldump
+0220.568 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `fj_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1195 bytes total)
+0220.583 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0221.623 (0) Table fj_options: Total expected rows (approximate): 995
+0221.766 (0) Table fj_options: Total rows added: 1047 in 0.13 seconds
+0221.773 (0) Table fj_options: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_options.table.gz - 183.7 KB)
+0221.797 (0) Table fj_users: Total expected rows (approximate): 6
+0221.815 (0) Table fj_users: Total rows added: 6 in 0.01 seconds
+0221.821 (0) Table fj_users: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_users.table.gz - 1 KB)
+0221.855 (0) Table fj_usermeta: Total expected rows (approximate): 261
+0221.926 (0) Table fj_usermeta: Total rows added: 261 in 0.07 seconds
+0221.932 (0) Table fj_usermeta: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_usermeta.table.gz - 6.5 KB)
+0221.957 (0) Table fj_commentmeta: Total expected rows (approximate): 205
+0221.997 (0) Table fj_commentmeta: Total rows added: 205 in 0.03 seconds
+0222.002 (0) Table fj_commentmeta: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_commentmeta.table.gz - 3.2 KB)
+0222.032 (0) Table fj_comments: Total expected rows (approximate): 48
+0222.043 (0) Table fj_comments: Total rows added: 48 in 0.01 seconds
+0222.054 (0) Table fj_comments: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_comments.table.gz - 3.8 KB)
+0222.079 (0) Table fj_links: Total expected rows (approximate): 0
+0222.089 (0) Table fj_links: Total rows added: 0 in 0.01 seconds
+0222.093 (0) Table fj_links: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_links.table.gz - 0.4 KB)
+0222.109 (0) Table fj_postmeta: Total expected rows (approximate): 3395
+0222.198 (0) Table fj_postmeta: Total rows added: 3280 in 0.08 seconds
+0222.203 (0) Table fj_postmeta: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_postmeta.table.gz - 34.9 KB)
+0222.224 (0) Table fj_posts: Total expected rows (approximate): 445
+0222.358 (0) Table fj_posts: Total rows added: 451 in 0.13 seconds
+0222.363 (0) Table fj_posts: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_posts.table.gz - 51.1 KB)
+0222.381 (0) Table fj_term_relationships: Total expected rows (approximate): 543
+0222.412 (0) Table fj_term_relationships: Total rows added: 558 in 0.03 seconds
+0222.418 (0) Table fj_term_relationships: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_term_relationships.table.gz - 1.9 KB)
+0222.445 (0) Table fj_term_taxonomy: Total expected rows (approximate): 166
+0222.472 (0) Table fj_term_taxonomy: Total rows added: 166 in 0.02 seconds
+0222.479 (0) Table fj_term_taxonomy: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_term_taxonomy.table.gz - 2.1 KB)
+0222.511 (0) Table fj_termmeta: Total expected rows (approximate): 142
+0222.530 (0) Table fj_termmeta: Total rows added: 153 in 0.01 seconds
+0222.536 (0) Table fj_termmeta: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_termmeta.table.gz - 1.3 KB)
+0222.568 (0) Table fj_terms: Total expected rows (approximate): 166
+0222.605 (0) Table fj_terms: Total rows added: 166 in 0.03 seconds
+0222.615 (0) Table fj_terms: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_terms.table.gz - 2.9 KB)
+0222.642 (0) Table fj_woocommerce_order_itemmeta: Total expected rows (approximate): 9
+0222.653 (0) Table fj_woocommerce_order_itemmeta: Total rows added: 9 in 0.00 seconds
+0222.661 (0) Table fj_woocommerce_order_itemmeta: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_woocommerce_order_itemmeta.table.gz - 0.5 KB)
+0222.693 (0) Table fj_woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0222.713 (0) Table fj_woocommerce_payment_tokenmeta: Total rows added: 0 in 0.01 seconds
+0222.720 (0) Table fj_woocommerce_payment_tokenmeta: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_woocommerce_payment_tokenmeta.table.gz - 0.4 KB)
+0222.758 (0) Table fj_aws_index: Total expected rows (approximate): 181
+0222.777 (0) Table fj_aws_index: Total rows added: 191 in 0.01 seconds
+0222.783 (0) Table fj_aws_index: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_aws_index.table.gz - 1.5 KB)
+0222.808 (0) Table fj_mltlngg_terms_translate: Total expected rows (approximate): 0
+0222.819 (0) Table fj_mltlngg_terms_translate: Total rows added: 0 in 0.00 seconds
+0222.825 (0) Table fj_mltlngg_terms_translate: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_mltlngg_terms_translate.table.gz - 0.3 KB)
+0222.871 (0) Table fj_mltlngg_translate: Total expected rows (approximate): 12
+0222.883 (0) Table fj_mltlngg_translate: Total rows added: 12 in 0.01 seconds
+0222.888 (0) Table fj_mltlngg_translate: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_mltlngg_translate.table.gz - 3.1 KB)
+0222.906 (0) Table fj_nextend2_image_storage: Total expected rows (approximate): 22
+0222.967 (0) Table fj_nextend2_image_storage: Total rows added: 22 in 0.06 seconds
+0222.972 (0) Table fj_nextend2_image_storage: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_nextend2_image_storage.table.gz - 1.4 KB)
+0222.991 (0) Table fj_nextend2_section_storage: Total expected rows (approximate): 13
+0223.002 (0) Table fj_nextend2_section_storage: Total rows added: 13 in 0.01 seconds
+0223.008 (0) Table fj_nextend2_section_storage: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_nextend2_section_storage.table.gz - 0.6 KB)
+0223.078 (0) Table fj_nextend2_smartslider3_generators: Total expected rows (approximate): 0
+0223.093 (0) Table fj_nextend2_smartslider3_generators: Total rows added: 0 in 0.01 seconds
+0223.098 (0) Table fj_nextend2_smartslider3_generators: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_nextend2_smartslider3_generators.table.gz - 0.3 KB)
+0223.114 (0) Table fj_nextend2_smartslider3_sliders: Total expected rows (approximate): 8
+0223.122 (0) Table fj_nextend2_smartslider3_sliders: Total rows added: 9 in 0.00 seconds
+0223.126 (0) Table fj_nextend2_smartslider3_sliders: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_nextend2_smartslider3_sliders.table.gz - 2.1 KB)
+0223.143 (0) Table fj_nextend2_smartslider3_slides: Total expected rows (approximate): 19
+0223.153 (0) Table fj_nextend2_smartslider3_slides: Total rows added: 19 in 0.01 seconds
+0223.157 (0) Table fj_nextend2_smartslider3_slides: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_nextend2_smartslider3_slides.table.gz - 4.4 KB)
+0223.185 (0) Table fj_nf3_action_meta: Total expected rows (approximate): 162
+0223.207 (0) Table fj_nf3_action_meta: Total rows added: 162 in 0.01 seconds
+0223.213 (0) Table fj_nf3_action_meta: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_nf3_action_meta.table.gz - 1.9 KB)
+0223.242 (0) Table fj_nf3_actions: Total expected rows (approximate): 8
+0223.251 (0) Table fj_nf3_actions: Total rows added: 8 in 0.00 seconds
+0223.256 (0) Table fj_nf3_actions: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_nf3_actions.table.gz - 0.5 KB)
+0223.282 (0) Table fj_nf3_field_meta: Total expected rows (approximate): 387
+0223.322 (0) Table fj_nf3_field_meta: Total rows added: 387 in 0.03 seconds
+0223.328 (0) Table fj_nf3_field_meta: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_nf3_field_meta.table.gz - 4.1 KB)
+0223.351 (0) Table fj_nf3_fields: Total expected rows (approximate): 17
+0223.360 (0) Table fj_nf3_fields: Total rows added: 17 in 0.00 seconds
+0223.366 (0) Table fj_nf3_fields: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_nf3_fields.table.gz - 0.7 KB)
+0223.384 (0) Table fj_nf3_form_meta: Total expected rows (approximate): 112
+0223.405 (0) Table fj_nf3_form_meta: Total rows added: 112 in 0.02 seconds
+0223.411 (0) Table fj_nf3_form_meta: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_nf3_form_meta.table.gz - 1.5 KB)
+0223.435 (0) Table fj_nf3_forms: Total expected rows (approximate): 2
+0223.444 (0) Table fj_nf3_forms: Total rows added: 2 in 0.00 seconds
+0223.450 (0) Table fj_nf3_forms: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_nf3_forms.table.gz - 0.5 KB)
+0223.478 (0) Table fj_nf3_object_meta: Total expected rows (approximate): 0
+0223.489 (0) Table fj_nf3_object_meta: Total rows added: 0 in 0.00 seconds
+0223.497 (0) Table fj_nf3_object_meta: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_nf3_object_meta.table.gz - 0.3 KB)
+0223.527 (0) Table fj_nf3_objects: Total expected rows (approximate): 0
+0223.537 (0) Table fj_nf3_objects: Total rows added: 0 in 0.00 seconds
+0223.545 (0) Table fj_nf3_objects: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_nf3_objects.table.gz - 0.4 KB)
+0223.574 (0) Table fj_nf3_relationships: Total expected rows (approximate): 0
+0223.586 (0) Table fj_nf3_relationships: Total rows added: 0 in 0.00 seconds
+0223.592 (0) Table fj_nf3_relationships: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_nf3_relationships.table.gz - 0.4 KB)
+0223.613 (0) Table fj_wfBadLeechers: Total expected rows (approximate): 0
+0223.627 (0) Table fj_wfBadLeechers: Total rows added: 0 in 0.01 seconds
+0223.633 (0) Table fj_wfBadLeechers: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_wfBadLeechers.table.gz - 0.3 KB)
+0223.653 (0) Table fj_wfBlockedIPLog: Total expected rows (approximate): 0
+0223.659 (0) Table fj_wfBlockedIPLog: Total rows added: 0 in 0.00 seconds
+0223.664 (0) Table fj_wfBlockedIPLog: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_wfBlockedIPLog.table.gz - 0.3 KB)
+0223.683 (0) Table fj_wfBlocks: Total expected rows (approximate): 0
+0223.690 (0) Table fj_wfBlocks: Total rows added: 0 in 0.00 seconds
+0223.695 (0) Table fj_wfBlocks: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_wfBlocks.table.gz - 0.4 KB)
+0223.714 (0) Table fj_wfBlocksAdv: Total expected rows (approximate): 0
+0223.720 (0) Table fj_wfBlocksAdv: Total rows added: 0 in 0.00 seconds
+0223.724 (0) Table fj_wfBlocksAdv: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_wfBlocksAdv.table.gz - 0.3 KB)
+0223.741 (0) Table fj_wfConfig: Total expected rows (approximate): 146
+0223.752 (0) Table fj_wfConfig: Total rows added: 146 in 0.01 seconds
+0223.757 (0) Table fj_wfConfig: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_wfConfig.table.gz - 3 KB)
+0223.775 (0) Table fj_wfCrawlers: Total expected rows (approximate): 288
+0223.791 (0) Table fj_wfCrawlers: Total rows added: 288 in 0.01 seconds
+0223.797 (0) Table fj_wfCrawlers: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_wfCrawlers.table.gz - 3.3 KB)
+0223.815 (0) Table fj_wfFileMods: Total expected rows (approximate): 10348
+0224.562 (0) Table fj_wfFileMods: binary mysqldump finished (writes: 32) in 0.74 seconds
+0224.570 (0) Table fj_wfFileMods: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_wfFileMods.table.gz - 473.7 KB)
+0224.593 (0) Table fj_wfHits: Total expected rows (approximate): 1564
+0224.789 (0) Table fj_wfHits: Total rows added: 1601 in 0.19 seconds
+0224.795 (0) Table fj_wfHits: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_wfHits.table.gz - 41.9 KB)
+0224.823 (0) Table fj_wfHoover: Total expected rows (approximate): 0
+0224.839 (0) Table fj_wfHoover: Total rows added: 0 in 0.01 seconds
+0224.846 (0) Table fj_wfHoover: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_wfHoover.table.gz - 0.3 KB)
+0224.869 (0) Table fj_wfIssues: Total expected rows (approximate): 0
+0224.879 (0) Table fj_wfIssues: Total rows added: 0 in 0.00 seconds
+0224.886 (0) Table fj_wfIssues: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_wfIssues.table.gz - 0.3 KB)
+0224.908 (0) Table fj_wfLeechers: Total expected rows (approximate): 141
+0224.933 (0) Table fj_wfLeechers: Total rows added: 141 in 0.02 seconds
+0224.940 (0) Table fj_wfLeechers: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_wfLeechers.table.gz - 1 KB)
+0224.965 (0) Table fj_wfLockedOut: Total expected rows (approximate): 0
+0224.975 (0) Table fj_wfLockedOut: Total rows added: 0 in 0.00 seconds
+0224.982 (0) Table fj_wfLockedOut: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_wfLockedOut.table.gz - 0.3 KB)
+0225.006 (0) Table fj_wfLocs: Total expected rows (approximate): 0
+0225.075 (0) Table fj_wfLocs: Total rows added: 1 in 0.06 seconds
+0225.082 (0) Table fj_wfLocs: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_wfLocs.table.gz - 0.5 KB)
+0225.109 (0) Table fj_wfLogins: Total expected rows (approximate): 17
+0225.123 (0) Table fj_wfLogins: Total rows added: 20 in 0.01 seconds
+0225.130 (0) Table fj_wfLogins: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_wfLogins.table.gz - 1.1 KB)
+0225.157 (0) Table fj_wfNet404s: Total expected rows (approximate): 0
+0225.167 (0) Table fj_wfNet404s: Total rows added: 0 in 0.00 seconds
+0225.176 (0) Table fj_wfNet404s: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_wfNet404s.table.gz - 0.3 KB)
+0225.214 (0) Table fj_wfReverseCache: Total expected rows (approximate): 12
+0225.228 (0) Table fj_wfReverseCache: Total rows added: 12 in 0.01 seconds
+0225.237 (0) Table fj_wfReverseCache: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_wfReverseCache.table.gz - 0.5 KB)
+0225.311 (0) Table fj_wfSNIPCache: Total expected rows (approximate): 0
+0225.324 (0) Table fj_wfSNIPCache: Total rows added: 0 in 0.00 seconds
+0225.332 (0) Table fj_wfSNIPCache: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_wfSNIPCache.table.gz - 0.4 KB)
+0225.362 (0) Table fj_wfScanners: Total expected rows (approximate): 86
+0225.377 (0) Table fj_wfScanners: Total rows added: 86 in 0.01 seconds
+0225.386 (0) Table fj_wfScanners: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_wfScanners.table.gz - 0.7 KB)
+0225.420 (0) Table fj_wfStatus: Total expected rows (approximate): 916
+0225.472 (0) Table fj_wfStatus: Total rows added: 916 in 0.05 seconds
+0225.478 (0) Table fj_wfStatus: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_wfStatus.table.gz - 15 KB)
+0225.508 (0) Table fj_wfThrottleLog: Total expected rows (approximate): 0
+0225.531 (0) Table fj_wfThrottleLog: Total rows added: 0 in 0.01 seconds
+0225.549 (0) Table fj_wfThrottleLog: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_wfThrottleLog.table.gz - 0.3 KB)
+0225.578 (0) Table fj_wfVulnScanners: Total expected rows (approximate): 0
+0225.593 (0) Table fj_wfVulnScanners: Total rows added: 0 in 0.01 seconds
+0225.602 (0) Table fj_wfVulnScanners: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_wfVulnScanners.table.gz - 0.3 KB)
+0225.675 (0) Table fj_woocommerce_api_keys: Total expected rows (approximate): 0
+0225.690 (0) Table fj_woocommerce_api_keys: Total rows added: 0 in 0.00 seconds
+0225.703 (0) Table fj_woocommerce_api_keys: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_woocommerce_api_keys.table.gz - 0.4 KB)
+0225.766 (0) Table fj_woocommerce_attribute_taxonomies: Total expected rows (approximate): 1
+0225.776 (0) Table fj_woocommerce_attribute_taxonomies: Total rows added: 1 in 0.00 seconds
+0225.792 (0) Table fj_woocommerce_attribute_taxonomies: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_woocommerce_attribute_taxonomies.table.gz - 0.4 KB)
+0225.821 (0) Table fj_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0225.844 (0) Table fj_woocommerce_downloadable_product_permissions: Total rows added: 0 in 0.02 seconds
+0225.853 (0) Table fj_woocommerce_downloadable_product_permissions: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_woocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+0225.888 (0) Table fj_woocommerce_order_items: Total expected rows (approximate): 0
+0225.915 (0) Table fj_woocommerce_order_items: Total rows added: 1 in 0.02 seconds
+0225.924 (0) Table fj_woocommerce_order_items: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_woocommerce_order_items.table.gz - 0.4 KB)
+0225.954 (0) Table fj_woocommerce_payment_tokens: Total expected rows (approximate): 0
+0225.974 (0) Table fj_woocommerce_payment_tokens: Total rows added: 0 in 0.01 seconds
+0225.983 (0) Table fj_woocommerce_payment_tokens: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_woocommerce_payment_tokens.table.gz - 0.4 KB)
+0226.015 (0) Table fj_woocommerce_sessions: Total expected rows (approximate): 1
+0226.029 (0) Table fj_woocommerce_sessions: Total rows added: 1 in 0.00 seconds
+0226.039 (0) Table fj_woocommerce_sessions: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_woocommerce_sessions.table.gz - 0.9 KB)
+0226.085 (0) Table fj_woocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+0226.133 (0) Table fj_woocommerce_shipping_zone_locations: Total rows added: 0 in 0.04 seconds
+0226.141 (0) Table fj_woocommerce_shipping_zone_locations: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_woocommerce_shipping_zone_locations.table.gz - 0.4 KB)
+0226.173 (0) Table fj_woocommerce_shipping_zone_methods: Total expected rows (approximate): 0
+0226.186 (0) Table fj_woocommerce_shipping_zone_methods: Total rows added: 0 in 0.00 seconds
+0226.201 (0) Table fj_woocommerce_shipping_zone_methods: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_woocommerce_shipping_zone_methods.table.gz - 0.4 KB)
+0226.237 (0) Table fj_woocommerce_shipping_zones: Total expected rows (approximate): 0
+0226.249 (0) Table fj_woocommerce_shipping_zones: Total rows added: 0 in 0.01 seconds
+0226.257 (0) Table fj_woocommerce_shipping_zones: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_woocommerce_shipping_zones.table.gz - 0.3 KB)
+0226.313 (0) Table fj_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0226.327 (0) Table fj_woocommerce_tax_rate_locations: Total rows added: 0 in 0.00 seconds
+0226.335 (0) Table fj_woocommerce_tax_rate_locations: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_woocommerce_tax_rate_locations.table.gz - 0.4 KB)
+0226.375 (0) Table fj_woocommerce_tax_rates: Total expected rows (approximate): 0
+0226.387 (0) Table fj_woocommerce_tax_rates: Total rows added: 0 in 0.00 seconds
+0226.397 (0) Table fj_woocommerce_tax_rates: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_woocommerce_tax_rates.table.gz - 0.4 KB)
+0226.456 (0) Table fj_woof_query_cache: Total expected rows (approximate): 0
+0226.467 (0) Table fj_woof_query_cache: Total rows added: 0 in 0.00 seconds
+0226.476 (0) Table fj_woof_query_cache: finishing file (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_woof_query_cache.table.gz - 0.3 KB)
+0226.504 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_options.table.gz (1/64): adding to final database dump
+0226.605 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_users.table.gz (2/64): adding to final database dump
+0226.612 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_usermeta.table.gz (3/64): adding to final database dump
+0226.622 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_commentmeta.table.gz (4/64): adding to final database dump
+0226.634 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_comments.table.gz (5/64): adding to final database dump
+0226.643 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_links.table.gz (6/64): adding to final database dump
+0226.650 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_postmeta.table.gz (7/64): adding to final database dump
+0226.707 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_posts.table.gz (8/64): adding to final database dump
+0226.767 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_term_relationships.table.gz (9/64): adding to final database dump
+0226.778 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_term_taxonomy.table.gz (10/64): adding to final database dump
+0226.787 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_termmeta.table.gz (11/64): adding to final database dump
+0226.795 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_terms.table.gz (12/64): adding to final database dump
+0226.803 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_woocommerce_order_itemmeta.table.gz (13/64): adding to final database dump
+0226.809 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_woocommerce_payment_tokenmeta.table.gz (14/64): adding to final database dump
+0226.815 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_aws_index.table.gz (15/64): adding to final database dump
+0226.824 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_mltlngg_terms_translate.table.gz (16/64): adding to final database dump
+0226.846 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_mltlngg_translate.table.gz (17/64): adding to final database dump
+0226.854 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_nextend2_image_storage.table.gz (18/64): adding to final database dump
+0226.861 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_nextend2_section_storage.table.gz (19/64): adding to final database dump
+0226.867 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_nextend2_smartslider3_generators.table.gz (20/64): adding to final database dump
+0226.873 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_nextend2_smartslider3_sliders.table.gz (21/64): adding to final database dump
+0226.881 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_nextend2_smartslider3_slides.table.gz (22/64): adding to final database dump
+0226.891 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_nf3_action_meta.table.gz (23/64): adding to final database dump
+0226.898 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_nf3_actions.table.gz (24/64): adding to final database dump
+0226.905 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_nf3_field_meta.table.gz (25/64): adding to final database dump
+0226.915 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_nf3_fields.table.gz (26/64): adding to final database dump
+0226.922 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_nf3_form_meta.table.gz (27/64): adding to final database dump
+0226.930 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_nf3_forms.table.gz (28/64): adding to final database dump
+0226.939 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_nf3_object_meta.table.gz (29/64): adding to final database dump
+0226.947 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_nf3_objects.table.gz (30/64): adding to final database dump
+0226.955 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_nf3_relationships.table.gz (31/64): adding to final database dump
+0226.962 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_wfBadLeechers.table.gz (32/64): adding to final database dump
+0226.970 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_wfBlockedIPLog.table.gz (33/64): adding to final database dump
+0226.978 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_wfBlocks.table.gz (34/64): adding to final database dump
+0226.986 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_wfBlocksAdv.table.gz (35/64): adding to final database dump
+0226.992 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_wfConfig.table.gz (36/64): adding to final database dump
+0227.001 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_wfCrawlers.table.gz (37/64): adding to final database dump
+0227.014 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_wfFileMods.table.gz (38/64): adding to final database dump
+0227.148 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_wfHits.table.gz (39/64): adding to final database dump
+0227.188 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_wfHoover.table.gz (40/64): adding to final database dump
+0227.194 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_wfIssues.table.gz (41/64): adding to final database dump
+0227.200 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_wfLeechers.table.gz (42/64): adding to final database dump
+0227.208 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_wfLockedOut.table.gz (43/64): adding to final database dump
+0227.214 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_wfLocs.table.gz (44/64): adding to final database dump
+0227.220 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_wfLogins.table.gz (45/64): adding to final database dump
+0227.228 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_wfNet404s.table.gz (46/64): adding to final database dump
+0227.234 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_wfReverseCache.table.gz (47/64): adding to final database dump
+0227.239 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_wfSNIPCache.table.gz (48/64): adding to final database dump
+0227.245 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_wfScanners.table.gz (49/64): adding to final database dump
+0227.253 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_wfStatus.table.gz (50/64): adding to final database dump
+0227.270 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_wfThrottleLog.table.gz (51/64): adding to final database dump
+0227.277 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_wfVulnScanners.table.gz (52/64): adding to final database dump
+0227.283 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_woocommerce_api_keys.table.gz (53/64): adding to final database dump
+0227.292 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_woocommerce_attribute_taxonomies.table.gz (54/64): adding to final database dump
+0227.300 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_woocommerce_downloadable_product_permissions.table.gz (55/64): adding to final database dump
+0227.306 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_woocommerce_order_items.table.gz (56/64): adding to final database dump
+0227.314 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_woocommerce_payment_tokens.table.gz (57/64): adding to final database dump
+0227.321 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_woocommerce_sessions.table.gz (58/64): adding to final database dump
+0227.328 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_woocommerce_shipping_zone_locations.table.gz (59/64): adding to final database dump
+0227.334 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_woocommerce_shipping_zone_methods.table.gz (60/64): adding to final database dump
+0227.340 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_woocommerce_shipping_zones.table.gz (61/64): adding to final database dump
+0227.351 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_woocommerce_tax_rate_locations.table.gz (62/64): adding to final database dump
+0227.359 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_woocommerce_tax_rates.table.gz (63/64): adding to final database dump
+0227.367 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db-table-fj_woof_query_cache.table.gz (64/64): adding to final database dump
+0227.374 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db.gz: finished writing out complete database file (816 KB)
+0227.403 (0) Total database tables backed up: 64 (backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db.gz, size: 874106, checksum (SHA1): 8071756a0f9961d421e9008a3b85d76928bf5fab)
+0227.448 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0227.454 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0227.459 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0227.464 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-others.zip: others: This file has not yet been successfully uploaded: will queue
+0227.468 (0) backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db.gz: db: This file has not yet been successfully uploaded: will queue
+0227.474 (0) Saving backup history. Total backup size: 99.5 MB
+0227.490 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0227.510 (0) Cloud backup selection (1/1): ftp (last)
+0227.515 (0) Beginning dispatch of backup to remote (ftp)
+0227.976 (0) FTP upload attempt: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip -> ftp://skasia@27.124.120.1//public_html/backup/FreshJourney/backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip
+0228.015 (0) Ftp chunked upload: 1.3 % uploaded
+0228.056 (0) Ftp chunked upload: 2.6 % uploaded
+0228.101 (0) Ftp chunked upload: 3.9 % uploaded
+0228.136 (0) Ftp chunked upload: 5.1 % uploaded
+0228.186 (0) Ftp chunked upload: 7.7 % uploaded
+0228.236 (0) Ftp chunked upload: 10.3 % uploaded
+0228.316 (0) Ftp chunked upload: 15.4 % uploaded
+0228.398 (0) Ftp chunked upload: 20.5 % uploaded
+0228.484 (0) Ftp chunked upload: 25.6 % uploaded
+0228.571 (0) Ftp chunked upload: 30.7 % uploaded
+0228.655 (0) Ftp chunked upload: 35.8 % uploaded
+0228.763 (0) Ftp chunked upload: 40.9 % uploaded
+0228.853 (0) Ftp chunked upload: 46 % uploaded
+0228.937 (0) Ftp chunked upload: 51.1 % uploaded
+0229.025 (0) Ftp chunked upload: 56.2 % uploaded
+0229.108 (0) Ftp chunked upload: 61.4 % uploaded
+0229.197 (0) Ftp chunked upload: 66.5 % uploaded
+0229.274 (0) Ftp chunked upload: 71.6 % uploaded
+0229.335 (0) Ftp chunked upload: 76.7 % uploaded
+0229.396 (0) Ftp chunked upload: 81.8 % uploaded
+0229.483 (0) Ftp chunked upload: 86.9 % uploaded
+0229.542 (0) Ftp chunked upload: 92 % uploaded
+0229.614 (0) Ftp chunked upload: 97.1 % uploaded
+0229.649 (0) FTP upload attempt successful (40149.9KB in 1.66s)
+0229.665 (0) Recording as successfully uploaded: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip (6163c0b2b0721d5e1a482b2683b11a82)
+0229.708 (0) Deleting local file: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-plugins.zip: OK
+0229.716 (0) FTP upload attempt: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-themes.zip -> ftp://skasia@27.124.120.1//public_html/backup/FreshJourney/backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-themes.zip
+0229.750 (0) Ftp chunked upload: 10.5 % uploaded
+0229.792 (0) Ftp chunked upload: 21 % uploaded
+0229.837 (0) Ftp chunked upload: 31.5 % uploaded
+0229.880 (0) Ftp chunked upload: 42.1 % uploaded
+0229.952 (0) Ftp chunked upload: 63 % uploaded
+0230.017 (0) Ftp chunked upload: 83.9 % uploaded
+0230.054 (0) FTP upload attempt successful (4906.8KB in 0.33s)
+0230.068 (0) Recording as successfully uploaded: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-themes.zip (63feec9d5d39dac573080cd13bb5c49a)
+0230.097 (0) Deleting local file: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-themes.zip: OK
+0230.103 (0) FTP upload attempt: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-uploads.zip -> ftp://skasia@27.124.120.1//public_html/backup/FreshJourney/backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-uploads.zip
+0230.140 (0) Ftp chunked upload: 1 % uploaded
+0230.189 (0) Ftp chunked upload: 2 % uploaded
+0230.240 (0) Ftp chunked upload: 3.1 % uploaded
+0230.282 (0) Ftp chunked upload: 4.1 % uploaded
+0230.355 (0) Ftp chunked upload: 6.1 % uploaded
+0230.431 (0) Ftp chunked upload: 8.1 % uploaded
+0230.551 (0) Ftp chunked upload: 12.2 % uploaded
+0230.687 (0) Ftp chunked upload: 16.2 % uploaded
+0230.782 (0) Ftp chunked upload: 20.3 % uploaded
+0230.878 (0) Ftp chunked upload: 24.3 % uploaded
+0230.995 (0) Ftp chunked upload: 28.4 % uploaded
+0231.093 (0) Ftp chunked upload: 32.4 % uploaded
+0231.237 (0) Ftp chunked upload: 36.4 % uploaded
+0231.338 (0) Ftp chunked upload: 40.5 % uploaded
+0231.484 (0) Ftp chunked upload: 44.5 % uploaded
+0231.616 (0) Ftp chunked upload: 48.6 % uploaded
+0231.726 (0) Ftp chunked upload: 52.6 % uploaded
+0231.833 (0) Ftp chunked upload: 56.7 % uploaded
+0231.933 (0) Ftp chunked upload: 60.7 % uploaded
+0232.024 (0) Ftp chunked upload: 64.8 % uploaded
+0232.112 (0) Ftp chunked upload: 68.8 % uploaded
+0232.197 (0) Ftp chunked upload: 72.9 % uploaded
+0232.280 (0) Ftp chunked upload: 76.9 % uploaded
+0232.385 (0) Ftp chunked upload: 81 % uploaded
+0232.453 (0) Ftp chunked upload: 85 % uploaded
+0232.546 (0) Ftp chunked upload: 89 % uploaded
+0232.613 (0) Ftp chunked upload: 93.1 % uploaded
+0232.674 (0) Ftp chunked upload: 97.1 % uploaded
+0232.728 (0) FTP upload attempt successful (50700.8KB in 2.62s)
+0232.739 (0) Recording as successfully uploaded: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-uploads.zip (07c2d988f6962051015e4c74197a2d49)
+0232.786 (0) Deleting local file: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-uploads.zip: OK
+0232.797 (0) FTP upload attempt: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-others.zip -> ftp://skasia@27.124.120.1//public_html/backup/FreshJourney/backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-others.zip
+0232.837 (0) Ftp chunked upload: 9.7 % uploaded
+0232.875 (0) Ftp chunked upload: 19.4 % uploaded
+0232.919 (0) Ftp chunked upload: 29.1 % uploaded
+0232.947 (0) Ftp chunked upload: 38.8 % uploaded
+0232.989 (0) Ftp chunked upload: 58.1 % uploaded
+0233.042 (0) Ftp chunked upload: 77.4 % uploaded
+0233.087 (0) FTP upload attempt successful (5324.9KB in 0.28s)
+0233.105 (0) Recording as successfully uploaded: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-others.zip (0434c96929ebd710add66b10a9b6471c)
+0233.128 (0) Deleting local file: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-others.zip: OK
+0233.133 (0) FTP upload attempt: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db.gz -> ftp://skasia@27.124.120.1//public_html/backup/FreshJourney/backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db.gz
+0233.165 (0) Ftp chunked upload: 60.4 % uploaded
+0233.191 (0) FTP upload attempt successful (853.6KB in 0.05s)
+0233.212 (0) Recording as successfully uploaded: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db.gz (e9172e0c2b2627b89aac67cfe7006e6c)
+0233.238 (0) Deleting local file: backup_2016-10-25-1814_FreshJourney_f2a9942fa2ef-db.gz: OK
+0233.255 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=365, retain_db=365
+0233.266 (0) Number of backup sets in history: 21; groups (db): 1
+0233.272 (0) Examining (for databases) backup set with group_id=0, nonce=f2a9942fa2ef, datestamp=1477383290 (Oct 25 2016 08:14:50)
+0233.281 (0) This backup set is the backup set just made, so will not be deleted.
+0233.291 (0) Examining (for databases) backup set with group_id=0, nonce=6100a11d3186, datestamp=1477295909 (Oct 24 2016 07:58:29)
+0233.299 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0233.315 (0) Examining (for databases) backup set with group_id=0, nonce=dd210713d3fc, datestamp=1477289160 (Oct 24 2016 06:06:00)
+0233.330 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0233.339 (0) Examining (for databases) backup set with group_id=0, nonce=93e0fab682ae, datestamp=1477210056 (Oct 23 2016 08:07:36)
+0233.348 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0233.355 (0) Examining (for databases) backup set with group_id=0, nonce=9d56c3f85e55, datestamp=1477123258 (Oct 22 2016 08:00:58)
+0233.364 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0233.375 (0) Examining (for databases) backup set with group_id=0, nonce=bb2fae0fecfd, datestamp=1477036864 (Oct 21 2016 08:01:04)
+0233.379 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0233.384 (0) Examining (for databases) backup set with group_id=0, nonce=b6ba7547f490, datestamp=1477004349 (Oct 20 2016 22:59:09)
+0233.389 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0233.396 (0) Examining (for databases) backup set with group_id=0, nonce=0f38716e5c10, datestamp=1476864011 (Oct 19 2016 08:00:11)
+0233.404 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0233.412 (0) Examining (for databases) backup set with group_id=0, nonce=1bdcc9a58403, datestamp=1476778315 (Oct 18 2016 08:11:55)
+0233.418 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0233.423 (0) Examining (for databases) backup set with group_id=0, nonce=c0bcfa2e92a9, datestamp=1476693906 (Oct 17 2016 08:45:06)
+0233.428 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0233.434 (0) Examining (for databases) backup set with group_id=0, nonce=a9865271d467, datestamp=1476605166 (Oct 16 2016 08:06:06)
+0233.441 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0233.450 (0) Examining (for databases) backup set with group_id=0, nonce=680071ab9ffc, datestamp=1476521103 (Oct 15 2016 08:45:03)
+0233.460 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0233.466 (0) Examining (for databases) backup set with group_id=0, nonce=9acecc04b064, datestamp=1476432982 (Oct 14 2016 08:16:22)
+0233.526 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0233.531 (0) Examining (for databases) backup set with group_id=0, nonce=c8362f46a0bf, datestamp=1476345484 (Oct 13 2016 07:58:04)
+0233.542 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0233.548 (0) Examining (for databases) backup set with group_id=0, nonce=31eedb556d36, datestamp=1476261239 (Oct 12 2016 08:33:59)
+0233.554 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0233.560 (0) Examining (for databases) backup set with group_id=0, nonce=1f5e35d9b48b, datestamp=1476173070 (Oct 11 2016 08:04:30)
+0233.574 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0233.582 (0) Examining (for databases) backup set with group_id=0, nonce=8ffaf61ca13a, datestamp=1476089632 (Oct 10 2016 08:53:52)
+0233.587 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0233.592 (0) Examining (for databases) backup set with group_id=0, nonce=dd3674a7513c, datestamp=1476076058 (Oct 10 2016 05:07:38)
+0233.599 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0233.605 (0) Examining (for databases) backup set with group_id=0, nonce=9b6b3b335e4a, datestamp=1476039530 (Oct 09 2016 18:58:50)
+0233.612 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0233.617 (0) Examining (for databases) backup set with group_id=0, nonce=7cec616c48e8, datestamp=1475937971 (Oct 08 2016 14:46:11)
+0233.621 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0233.626 (0) Examining (for databases) backup set with group_id=0, nonce=67507dfd9d9b, datestamp=1475826968 (Oct 07 2016 07:56:08)
+0233.630 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0233.635 (0) Number of backup sets in history: 21; groups (files): 1
+0233.639 (0) Examining (for files) backup set with nonce=f2a9942fa2ef, datestamp=1477383290 (Oct 25 2016 08:14:50)
+0233.644 (0) This backup set is the backup set just made, so will not be deleted.
+0233.649 (0) This backup set is the backup set just made, so will not be deleted.
+0233.649 (0) This backup set is the backup set just made, so will not be deleted.
+0233.649 (0) This backup set is the backup set just made, so will not be deleted.
+0233.650 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0233.654 (0) Examining (for files) backup set with nonce=6100a11d3186, datestamp=1477295909 (Oct 24 2016 07:58:29)
+0233.659 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0233.663 (0) Examining (for files) backup set with nonce=dd210713d3fc, datestamp=1477289160 (Oct 24 2016 06:06:00)
+0233.669 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0233.673 (0) Examining (for files) backup set with nonce=93e0fab682ae, datestamp=1477210056 (Oct 23 2016 08:07:36)
+0233.678 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0233.683 (0) Examining (for files) backup set with nonce=9d56c3f85e55, datestamp=1477123258 (Oct 22 2016 08:00:58)
+0233.690 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0233.695 (0) Examining (for files) backup set with nonce=bb2fae0fecfd, datestamp=1477036864 (Oct 21 2016 08:01:04)
+0233.699 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0233.704 (0) Examining (for files) backup set with nonce=b6ba7547f490, datestamp=1477004349 (Oct 20 2016 22:59:09)
+0233.708 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0233.713 (0) Examining (for files) backup set with nonce=0f38716e5c10, datestamp=1476864011 (Oct 19 2016 08:00:11)
+0233.718 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0233.723 (0) Examining (for files) backup set with nonce=1bdcc9a58403, datestamp=1476778315 (Oct 18 2016 08:11:55)
+0233.728 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0233.732 (0) Examining (for files) backup set with nonce=c0bcfa2e92a9, datestamp=1476693906 (Oct 17 2016 08:45:06)
+0233.737 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0233.741 (0) Examining (for files) backup set with nonce=a9865271d467, datestamp=1476605166 (Oct 16 2016 08:06:06)
+0233.746 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0233.751 (0) Examining (for files) backup set with nonce=680071ab9ffc, datestamp=1476521103 (Oct 15 2016 08:45:03)
+0233.756 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0233.761 (0) Examining (for files) backup set with nonce=9acecc04b064, datestamp=1476432982 (Oct 14 2016 08:16:22)
+0233.766 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0233.770 (0) Examining (for files) backup set with nonce=c8362f46a0bf, datestamp=1476345484 (Oct 13 2016 07:58:04)
+0233.777 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0233.781 (0) Examining (for files) backup set with nonce=31eedb556d36, datestamp=1476261239 (Oct 12 2016 08:33:59)
+0233.785 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0233.790 (0) Examining (for files) backup set with nonce=1f5e35d9b48b, datestamp=1476173070 (Oct 11 2016 08:04:30)
+0233.794 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0233.800 (0) Examining (for files) backup set with nonce=8ffaf61ca13a, datestamp=1476089632 (Oct 10 2016 08:53:52)
+0233.805 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0233.811 (0) Examining (for files) backup set with nonce=dd3674a7513c, datestamp=1476076058 (Oct 10 2016 05:07:38)
+0233.817 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0233.822 (0) Examining (for files) backup set with nonce=9b6b3b335e4a, datestamp=1476039530 (Oct 09 2016 18:58:50)
+0233.827 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0233.832 (0) Examining (for files) backup set with nonce=7cec616c48e8, datestamp=1475937971 (Oct 08 2016 14:46:11)
+0233.836 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0233.840 (0) Examining (for files) backup set with nonce=67507dfd9d9b, datestamp=1475826968 (Oct 07 2016 07:56:08)
+0233.847 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0233.852 (0) Retain: saving new backup history (sets now: 21) and finishing retain operation
+0233.875 (0) Resume backup (f2a9942fa2ef, 0): finish run
+0233.891 (0) Decremented the semaphore (fd) by 1
+0233.903 (0) Semaphore (fd) unlocked
+0233.913 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0233.943 (0) No email will/can be sent - the user has not configured an email address.
+0233.951 (0) The backup apparently succeeded and is now complete

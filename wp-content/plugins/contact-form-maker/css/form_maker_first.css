@@ -1,0 +1,174 @@
+.wdform-page-and-images {
+	color: #000000;
+	font-size: 14px;
+	font-weight: normal;
+	width: 100%;
+}
+
+.wdform_table1 {
+	color: #000000;
+	font-size: 14px;
+	font-weight: normal;
+	width: 100%;
+}
+
+.wdform_tbody1 {
+	float: left;
+}
+
+.wdform_table2 {
+	border-collapse: separate !important;
+	border-spacing: 0px;
+	float: left;
+	padding-right: 50px !important;
+}
+
+.time_box {
+	border-width: 1px;
+	margin: 0px;
+	padding: 2px;
+	text-align: right;
+	vertical-align: middle;
+	width: 30px !important;
+}
+
+.wdform-date {
+	width: 100px !important;
+}
+
+.mini_label {
+	font-family: 'Lucida Grande', Tahoma, Arial, Verdana, sans-serif;
+	font-size: 10px;
+}
+
+.label {
+	border: none;
+}
+
+.td_am_pm_select {
+	padding-left: 5px;
+}
+
+.am_pm_select {
+	height: 16px;
+	margin: 0;
+	padding: 0
+}
+
+.input_deactive {
+	border-width: 1px;
+	color: #999999;
+	font-style: italic;
+}
+
+.input_active {
+	border-width: 1px;
+	color: #000000;
+	font-style: normal;
+}
+
+.required {
+	border: none;
+	color: red
+}
+
+.captcha_img {
+	border-width: 0px;
+	cursor: pointer;
+	margin: 0px;
+	padding: 0px;
+}
+
+.captcha_refresh {
+	background-image: url("../images/refresh_black.png");
+	border-width: 0px;
+	cursor: pointer;
+	height: 30px;
+	margin: 0px;
+	padding: 0px;
+	vertical-align: middle;
+	width: 30px;
+}
+
+.captcha_input {
+	border-width: 1px;
+	height: 20px;
+	margin: 0px;
+	padding: 0px;
+	vertical-align: middle;
+}
+
+.arithmetic_captcha_img {
+	border-width: 0px;
+	cursor: pointer;
+	margin: 0px;
+	padding: 0px;
+	vertical-align: middle;
+}
+
+.arithmetic_captcha_input {
+	border-width: 1px;
+	height: 25px;
+	margin-left: 3px;
+	padding: 0px;
+	vertical-align: middle;
+}
+
+.file_upload {
+	border-width: 1px;
+	margin: 0px;
+	padding: 0px;
+}    
+
+.page_deactive {
+	border: 1px solid #BFBEBE;
+	cursor: pointer;
+	border-radius: 15px;
+	padding: 2px 8px;
+}
+
+.page_deactive:hover {
+	background-color: #F0F0F0;
+}
+
+.page_active {
+	background-color: #4EC0D9;
+    cursor: pointer;
+    padding: 2px 8px;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 3px 9px;
+    color: #fff;
+}
+
+.page_percentage_active {
+    background-color: #4EC0D9;
+    border-radius: 30px;
+    border-spacing: 0px;
+    height: 30px;
+    line-height: 29px;
+    float: left;
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+    text-align: right !important;
+    color: #4EC0D9;
+}
+
+.page_percentage_active b{
+    padding: 4px 15px;
+    background: #fff;
+    border-radius: 18px;
+    margin: 3px;
+}	
+
+.page_percentage_deactive {
+	background-color: white;
+	border: 1px solid #ABA8A8;
+	border-radius: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: left !important; 
+	width: 100%;
+}

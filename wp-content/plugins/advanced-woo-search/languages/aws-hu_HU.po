@@ -1,0 +1,284 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Advanced Woo Search\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-22 17:10+0000\n"
+"PO-Revision-Date: 2016-08-22 17:22+0000\n"
+"Last-Translator: Gasparics Sándor <gs@viky.hu>\n"
+"Language-Team: Hungarian\n"
+"Language: hu-HU\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: includes/class-aws-admin.php:129
+msgid "Save Changes"
+msgstr "Beállítások mentése"
+
+#: includes/class-aws-admin.php:351
+msgid "Reindex table"
+msgstr "Táblák újraindexelése"
+
+#: includes/class-aws-admin.php:352
+msgid ""
+"Update all data in plugins index table. Index table - table with products "
+"data where plugin is searching all typed terms.<br>Use this button if you "
+"think that plugin not shows last actual data in its search results.<br>"
+"<strong>CAUTION:</strong> this can take large amount of time.</span>"
+msgstr ""
+"A bővítmény indexének frissítése. Az index tábla tartalmazza az összes "
+"használt keresőszót a hozzá tartozó termék adataival.<br>Akkor használjuk "
+"ezt a gombot, ha érzéseink szerint a keresési eredmények között nem pontos, "
+"aktuális adatok jelennek meg.<br><strong>FIGYELEM:</strong> ez sokáig fog "
+"tartani.</span>"
+
+#: includes/class-aws-admin.php:362
+msgid "Clear cache"
+msgstr "Gyorsítótár törlése"
+
+#: includes/class-aws-admin.php:363
+msgid "Clear cache for all search results."
+msgstr "Az összes keresési eredmény törlése a gyorsítótárból"
+
+#: includes/options.php:111
+msgid ""
+"Smart scrapping sentences with searching terms from product description."
+msgstr ""
+"A keresési kifejezést tartalmazó mondatot jelenítsük meg leírásként a "
+"találat alatt."
+
+#: includes/options.php:112
+msgid ""
+"First N words of product description ( number of words that you choose below."
+" )"
+msgstr ""
+"A termékleírás fix első néhány szavát (a \"Leírás hossza\" beállításnál "
+"adhatjuk meg) jelenítsük meg leírásként a találat alatt."
+
+#: advanced-woo-search.php:127
+msgid "Settings"
+msgstr "Beállítások"
+
+#: advanced-woo-search.php:130 includes/class-aws-admin.php:63
+msgid "Get Premium"
+msgstr "Frissítés prémium verzióra"
+
+#: advanced-woo-search.php:166
+msgid ""
+"Advanced Woo Search plugin is enabled but not effective. It requires "
+"WooCommerce in order to work."
+msgstr ""
+"Az Advanced Woo Search bővítmény be van kapcsolva, de nem használható. "
+"Működéséhez a WooCommerce is szükséges."
+
+#: includes/widget.php:15
+msgid "Advanced WooCommerce search widget"
+msgstr "Advanced WooCommerce kereső widget"
+
+#: includes/widget.php:17
+msgid "&raquo; AWS Widget"
+msgstr "&raquo; AWS Widget"
+
+#: includes/widget.php:56
+msgid "Search..."
+msgstr "Keresés..."
+
+#: includes/widget.php:62
+msgid "Title:"
+msgstr "Cím:"
+
+#: includes/class-aws-admin.php:38 includes/class-aws-admin.php:38
+msgid "Adv. Woo Search"
+msgstr "Adv. Woo Search"
+
+#: includes/class-aws-admin.php:49
+msgid "General"
+msgstr "Általános"
+
+#: includes/class-aws-admin.php:295
+msgid "Available fields"
+msgstr "Elérhető mezők"
+
+#: includes/class-aws-admin.php:311
+msgid "Drag&drop to enable"
+msgstr "Az engedélyezni kívánt mezőket ide kell húzni"
+
+#: includes/options.php:9
+msgid "Cache results"
+msgstr "Gyorsítótárazás"
+
+#: includes/options.php:10
+msgid ""
+"Turn off if you have old data in the search results after content of "
+"products was changed.<br><strong>CAUTION:</strong> can dramatically increase "
+"search speed"
+msgstr ""
+"Ki kell kapcsolni, ha a keresési találatokban régi adatok vannak "
+"termékmódosítás után.<br><strong>FIGYELEM:</strong> drámaian megnöveli "
+"keresési időt"
+
+#: includes/options.php:15 includes/options.php:43 includes/options.php:55 
+#: includes/options.php:67 includes/options.php:99 includes/options.php:123 
+#: includes/options.php:135 includes/options.php:147 includes/options.php:159
+msgid "On"
+msgstr "Be"
+
+#: includes/options.php:16 includes/options.php:44 includes/options.php:56 
+#: includes/options.php:68 includes/options.php:100 includes/options.php:124 
+#: includes/options.php:136 includes/options.php:148 includes/options.php:160
+msgid "Off"
+msgstr "Ki"
+
+#: includes/options.php:21
+msgid "Text for search field"
+msgstr "Keresőmező szövege"
+
+#: includes/options.php:22
+msgid "Text for search field placeholder."
+msgstr "Keresőmező helyőrző szövege"
+
+#: includes/options.php:29
+msgid "Minimum number of characters"
+msgstr "Karakterek minimális száma"
+
+#: includes/options.php:30
+msgid "Minimum number of characters required to run ajax search."
+msgstr ""
+"Minimum hány karaktert kell a felhasználónak beírni, hogy az AWS működésbe "
+"lépjen."
+
+#: includes/options.php:37
+msgid "Show loader"
+msgstr "Betöltő animáció"
+
+#: includes/options.php:38
+msgid "Show loader animation while searching."
+msgstr "Betöltő animáció mutatása keresés közben"
+
+#: includes/options.php:49
+msgid "Show image"
+msgstr "Termékkép mutatása"
+
+#: includes/options.php:50
+msgid "Show product image for each search result."
+msgstr "Minden keresési találathoz mutatja a termék képet is."
+
+#: includes/options.php:61
+msgid "Show description"
+msgstr "Leírás mutatása"
+
+#: includes/options.php:62
+msgid "Show product description for each search result."
+msgstr "Minden keresési találathoz mutatja a termék leírását is."
+
+#: includes/options.php:73
+msgid "Description source"
+msgstr "Leírás forrása"
+
+#: includes/options.php:74
+msgid ""
+"From where to take product description.<br>If first source is empty data "
+"will be taken from other sources."
+msgstr ""
+"Honnan jelenjen meg a termékleírás.<br>Ha a választott mezőben nincs adat, "
+"akkor másik mezőből próbálja kivenni."
+
+#: includes/options.php:79
+msgid "Content"
+msgstr "Teljes leírás"
+
+#: includes/options.php:80
+msgid "Excerpt"
+msgstr "Rövid leírás"
+
+#: includes/options.php:85
+msgid "Description length"
+msgstr "Leírás hossza"
+
+#: includes/options.php:86
+msgid "Maximal allowed number of words for product description."
+msgstr "A maximálisan megengedett szó szám amit a termékleírásból megjelenít."
+
+#: includes/options.php:93
+msgid "Show price"
+msgstr "Ár mutatása"
+
+#: includes/options.php:94
+msgid "Show product price for each search result."
+msgstr "Minden keresési találathoz mutatja a termék árát is."
+
+#: includes/options.php:105
+msgid "Description content"
+msgstr "Leírás tartalma"
+
+#: includes/options.php:106
+msgid "What to show in product description?"
+msgstr "Mit mutassunk a termék leírásnál?"
+
+#: includes/options.php:117
+msgid "Show categories"
+msgstr "Kategóriák mutatása"
+
+#: includes/options.php:118
+msgid "Include categories in search result."
+msgstr "Minden keresési találathoz mutatja a termék kategóriáit is."
+
+#: includes/options.php:129
+msgid "Show tags"
+msgstr "Címkék mutatása"
+
+#: includes/options.php:130
+msgid "Include tags in search result."
+msgstr "Minden keresési találathoz mutatja a termék címkéit is."
+
+#: includes/options.php:141
+msgid "Show sale badge"
+msgstr "Akciós matrica mutatása"
+
+#: includes/options.php:142
+msgid "Show sale badge for products in search results."
+msgstr "Minden keresési találathoz mutatja a termék akciós matricáját is."
+
+#: includes/options.php:153
+msgid "Show product SKU"
+msgstr "Cikkszám mutatása"
+
+#: includes/options.php:154
+msgid "Show product SKU in search results."
+msgstr "Minden keresési találathoz mutatja a termék cikkszámát is."
+
+#: includes/options.php:167
+msgid "Max number of results"
+msgstr "Találatok maximális száma"
+
+#: includes/options.php:168
+msgid "Maximum number of displayed search results."
+msgstr "A maximálisan megjelenítendő keresési találatok száma"
+
+#: includes/options.php:175
+msgid "Search in"
+msgstr "Miben keressek?"
+
+#: includes/options.php:176
+msgid ""
+"Source of searching. Set the source of searching by drag&drop needed fields "
+"to the right area."
+msgstr ""
+"Az alábbi termék mezőkben van lehetőség keresni, engedélyezéshez csupán a "
+"bal oldalról a jobb oldalra kell a mezőt áthúzni."
+
+#. Name of the plugin
+msgid "Advanced Woo Search"
+msgstr "Advanced Woo Search"
+
+#. Description of the plugin
+msgid "Advance ajax WooCommerce product search."
+msgstr ""
+"Ajax alapú, keresőszó gépelése közben működésbe lépő (prediktív) termék "
+"kereső WooCommerce áruházhoz."
+
+#. Author of the plugin
+msgid "ILLID"
+msgstr "ILLID - Magyar fordítás: DuraSoft"

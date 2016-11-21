@@ -1,0 +1,64 @@
+<root>
+  <params name="slide-settings" type="tabbed" active="1" underlined="1">
+    <params name="details" type="groupped" label="Details">
+      <params name="details-top" label="" hidetitle="1">
+        <param name="title" type="text" label="Name" default="Slide 1" style="width: 400px;"/>
+        <param name="description" type="textarea" label="Description" default="" style="display: block;" style2="width:100%; resize: vertical; height: 50px;"/>
+        <param type="mixed" name="link" label="Link" default="|*|_self">
+          <param type="url" label="Link"/>
+          <param type="list" label="Target" translateable="1">
+            <option value="_self">Self</option>
+            <option value="_blank">Blank</option>
+          </param>
+        </param>
+        <param name="slide" type="hidden" label="Slide" default="W10=" class="n2-hidden"/>
+      </params>
+    </params>
+    <params name="background" type="groupped" label="Background">
+      <params name="background-top" label="" hidetitle="1">
+        <param type="group" label="Thumbnail">
+          <param name="thumbnail" type="image" label="Image" default=""/>
+          <param name="thumbnailType" type="list" label="Type" default="default" translateable="1">
+            <option value="default">Default</option>
+            <option value="videoDark">Video</option>
+          </param>
+        </param>
+        <param type="group" label="Background">
+          <param name="backgroundImage" type="imagemanager" label="Image" default=""/>
+          <param name="backgroundFocusX" type="text" label="Focus X" default="50" max="100" min="0" style="width: 22px;">
+            <unit value="%">%</unit>
+          </param>
+          <param name="backgroundFocusY" type="text" label="Focus Y" default="50" max="100" min="0" style="width: 22px;" post="break">
+            <unit value="%">%</unit>
+          </param>
+          <param name="backgroundColor" type="color" alpha="1" label="Color" default="ffffff00"/>
+          <param name="backgroundImageOpacity" label="Opacity" type="numberautocomplete" default="100" style="width: 22px;" min="0" max="100" values="100,80,60,40,20,0">
+            <unit value="%">%</unit>
+          </param>
+          <param name="backgroundAlt" type="text" label="Alt tag" default=""/></param>
+        <param name="backgroundMode" type="imagelistlabel" label="Fill mode" default="default" translateable="1">
+          <option value="default" image="$ss$/images/fillmode/default.png">Slider&apos;s default</option>
+          <option value="fill" image="$ss$/images/fillmode/fill.png">Fill</option>
+          <option value="fit" image="$ss$/images/fillmode/fit.png">Fit</option>
+          <option value="stretch" image="$ss$/images/fillmode/stretch.png">Stretch</option>
+          <option value="center" image="$ss$/images/fillmode/center.png">Center</option>
+          <option value="tile" image="$ss$/images/fillmode/tile.png">Tile</option>
+        </param>
+      </params>
+    </params>
+    <params name="other" type="groupped" label="Other">
+      <params name="other-top" label="" hidetitle="1">
+        <param type="group" name="Properties" class="n2-expert">
+          <param name="published" type="onoff" label="Published" default="1"/>
+          <param name="first" type="onoff" label="First" default="0" class="n2-hidden"/>
+          <param type="onoff" name="static-slide" label="Static slide" default="0" class="n2-expert"/></param>
+        <param name="publishdates" type="mixed" label="Published between" class="n2-expert" default="0000-00-00 00:00:00|*|0000-00-00 00:00:00">
+          <param type="date" label="Publish up"/>
+          <param type="date" label="Publish down"/></param>
+        <param name="slide-duration" type="text" label="Slide duration" style="width:40px;" default="0">
+          <unit value="ms">ms</unit>
+        </param>
+      </params>
+    </params>
+  </params>
+</root>
